@@ -74,6 +74,10 @@ function startTest(chatId) {
   const book = state.book;
   const unit = state.unit;
   const questionIndex = state.currentQuestion;
+  if (!book || !unit || !TestsBank[book]?.units[unit]) {
+    return bot.sendMessage(chatId, " Iltimos avval kitob va unitni tanlang!");
+  }
+
   const questions = TestsBank[book].units[unit];
   if (questionIndex >= questions.length) {
     if (state.lastMessageId) {
@@ -117,8 +121,9 @@ function startTest(chatId) {
 bot.on("callback_query", async (query) => {
   const chatId = query.message.chat.id;
   const queryData = query.data;
-  const state = userState[chatId];
 
+  if (!userState[chatId]) userState[chatId] = {};
+  const state = userState[chatId];
   if (queryData.startsWith("answer_") && state?.mode === "test") {
     const answerIndex = parseInt(queryData.replace("answer_", ""));
     const questions = TestsBank[state.book].units[state.unit];
@@ -149,7 +154,7 @@ bot.on("callback_query", async (query) => {
     queryData === "book5" ||
     queryData === "book6"
   ) {
-    userState[chatId].book = queryData;
+    state.book = queryData;
 
     bot.sendMessage(
       chatId,
@@ -177,11 +182,10 @@ bot.on("callback_query", async (query) => {
   }
 
   // Testni boshlash qismi
-  if (queryData.startsWith("unit_") && userState[chatId]?.mode === "test") {
-    userState[chatId].unit = queryData;
-    userState[chatId].currentQuestion = 0;
-    userState[chatId].score = 0;
-
+  if (queryData.startsWith("unit_") && state.mode === "test") {
+    state.unit = queryData;
+    state.currentQuestion = 0;
+    state.score = 0;
     startTest(chatId);
   }
   if (queryData === "words") {
@@ -203,7 +207,7 @@ bot.on("callback_query", async (query) => {
     queryData === "word5" ||
     queryData === "word6"
   ) {
-    userState[chatId].book = queryData;
+    state.book = queryData;
     bot.sendMessage(
       chatId,
       `Quyidagi mavzulardan birini tanlang : \n ${
@@ -240,8 +244,10 @@ bot.on("callback_query", async (query) => {
   }
 
   // Sozlarni tayyorlanish qismi
-  if (queryData.startsWith("unit_") && userState[chatId]?.mode === "words") {
-    const book = userState[chatId].book;
+  if (queryData.startsWith("unit_") && state.mode === "words") {
+    if (!state.book)
+      return bot.sendMessage(chatId, " Iltimos avval kitobni tanlang!");
+    const book = state.book;
     const unitWords = WordsBank1[book].units[queryData];
 
     const text = unitWords
@@ -265,8 +271,13 @@ bot.on("callback_query", async (query) => {
 
   // Statistika qismi
   if (queryData === "stat") {
-    const count = await User.countDocuments();
-    bot.sendMessage(chatId, `👥 Jami foydalanuvchilar: ${count} ta`);
+    try {
+      const count = await User.countDocuments();
+      bot.sendMessage(chatId, `👥 Jami foydalanuvchilar: ${count} ta`);
+    } catch (err) {
+      console.error(err);
+      bot.sendMessage(chatId, " Statistika olishda xatolik yuz berdi");
+    }
   }
 
   bot.answerCallbackQuery(query.id);

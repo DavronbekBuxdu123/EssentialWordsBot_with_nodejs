@@ -13025,3341 +13025,3458 @@ const TestsBank = {
     },
   },
   book4: {
-    unit_1: [
-      {
-        question: "aroma",
-        options: ["rang", "yoqimli hid", "shovqin", "mazza"],
-        correctIndex: 1,
-      },
-      {
-        question: "beverage",
-        options: ["ovqat", "ichimlik", "meva", "sabzavot"],
-        correctIndex: 1,
-      },
-      {
-        question: "cluster",
-        options: ["yakka", "to'da, g'uj", "bo'shliq", "tartib"],
-        correctIndex: 1,
-      },
-      {
-        question: "combine",
-        options: ["bo'lmoq", "birlashtirmoq", "ayirmoq", "yo'qotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "condensed",
-        options: ["suyuq", "quyuqlashtirilgan", "issiq", "muzlagan"],
-        correctIndex: 1,
-      },
-      {
-        question: "contemporary",
-        options: ["qadimiy", "zamonaviy", "eski", "kelajakdagi"],
-        correctIndex: 1,
-      },
-      {
-        question: "cultivate",
-        options: [
-          "yo'q qilmoq",
-          "yetishtirmoq, parvarishlamoq",
-          "sotmoq",
-          "tashlamoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "divine",
-        options: ["oddiy", "ilohiy", "yomon", "insoniy"],
-        correctIndex: 1,
-      },
-      {
-        question: "humid",
-        options: ["quruq", "nam, dim", "sovuq", "issiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "odor",
-        options: ["nur", "hid", "tovush", "shakl"],
-        correctIndex: 1,
-      },
-      {
-        question: "palate",
-        options: ["tana", "tanglay", "qo'l", "oyoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "paradise",
-        options: ["do'zax", "jannat", "yer", "osmon"],
-        correctIndex: 1,
-      },
-      {
-        question: "plantation",
-        options: ["shahar", "plantatsiya", "bog'", "uydagi maydon"],
-        correctIndex: 1,
-      },
-      {
-        question: "rapid",
-        options: ["sekin", "tezkor", "og'ir", "yengil"],
-        correctIndex: 1,
-      },
-      {
-        question: "rate",
-        options: ["narx", "tezlik, sur'at", "vazn", "bo'y"],
-        correctIndex: 1,
-      },
-      {
-        question: "soothing",
-        options: ["qo'rqinchli", "tinchlantiruvchi", "baland", "achchiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "subtle",
-        options: ["yaqqol", "nozik, bilinmas", "kuchli", "dag'al"],
-        correctIndex: 1,
-      },
-      {
-        question: "texture",
-        options: ["rang", "sirt tuzilishi", "vazn", "harorat"],
-        correctIndex: 1,
-      },
-      {
-        question: "toxic",
-        options: ["foydali", "zaharli", "shirin", "toza"],
-        correctIndex: 1,
-      },
-      {
-        question: "vary",
-        options: [
-          "bir xil bo'lmoq",
-          "farq qilmoq, o'zgarmoq",
-          "to'xtamoq",
-          "qolmoq",
-        ],
-        correctIndex: 1,
-      },
-    ],
-    unit_2: [
-      {
-        question: "accident",
-        options: ["reja", "baxtsiz hodisa", "bayram", "sovg'a"],
-        correctIndex: 1,
-      },
-      {
-        question: "admiral",
-        options: ["askar", "admiral", "oshpaz", "haydovchi"],
-        correctIndex: 1,
-      },
-      {
-        question: "arc",
-        options: ["to'g'ri chiziq", "yoy, egri chiziq", "nuqta", "kvadrat"],
-        correctIndex: 1,
-      },
-      {
-        question: "character",
-        options: ["ism", "xarakter", "yosh", "manzil"],
-        correctIndex: 1,
-      },
-      {
-        question: "conscience",
-        options: ["yovuzlik", "vijdon", "qo'rquv", "uyqu"],
-        correctIndex: 1,
-      },
-      {
-        question: "fiery",
-        options: ["muzdek", "olovli, qizg'in", "tinch", "nam"],
-        correctIndex: 1,
-      },
-      {
-        question: "flesh",
-        options: ["suyak", "tana, go'sht", "kiyim", "soch"],
-        correctIndex: 1,
-      },
-      {
-        question: "grapefruit",
-        options: ["olma", "greypfrut", "banan", "nok"],
-        correctIndex: 1,
-      },
-      {
-        question: "hay",
-        options: ["meva", "pichan", "suv", "tosh"],
-        correctIndex: 1,
-      },
-      {
-        question: "horrified",
-        options: ["xursand", "dahshatga tushgan", "uyquli", "tinch"],
-        correctIndex: 1,
-      },
-      {
-        question: "kerosene",
-        options: ["suv", "kerosin", "sut", "sharbat"],
-        correctIndex: 1,
-      },
-      {
-        question: "loop",
-        options: ["chiziq", "halqa, sirtmoq", "pichoq", "qoshiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "paddle",
-        options: ["miltiq", "eshkak", "to'p", "arqon"],
-        correctIndex: 1,
-      },
-      {
-        question: "raft",
-        options: ["kema", "sal", "samolyot", "mashina"],
-        correctIndex: 1,
-      },
-      {
-        question: "sour",
-        options: ["shirin", "nordon", "achchiq", "tuzli"],
-        correctIndex: 1,
-      },
-      {
-        question: "stake",
-        options: ["gilam", "tirgak, sutun", "parda", "deraza"],
-        correctIndex: 1,
-      },
-      {
-        question: "steward",
-        options: ["rahbar", "styuart, xizmatchi", "o'qituvchi", "shifokor"],
-        correctIndex: 1,
-      },
-      {
-        question: "string",
-        options: ["temir", "ip, kanop", "tosh", "shisha"],
-        correctIndex: 1,
-      },
-      {
-        question: "thorn",
-        options: ["gul", "tikan", "barg", "ildiz"],
-        correctIndex: 1,
-      },
-      {
-        question: "wreck",
-        options: ["qurmoq", "vayron qilmoq", "tuzatmoq", "bo'yamoq"],
-        correctIndex: 1,
-      },
-    ],
-    unit_3: [
-      {
-        question: "admonish",
-        options: ["maqtamoq", "ogohlantirmoq", "kuldurmoq", "yordam bermoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "audible",
-        options: ["ko'rinadigan", "eshitiladigan", "mazali", "issiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "awesome",
-        options: ["zerikarli", "hayajonli, ulkan", "yomon", "kichik"],
-        correctIndex: 1,
-      },
-      {
-        question: "beware",
-        options: ["shoshilmoq", "ehtiyot bo'lmoq", "uxlamoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "brag",
-        options: ["yig'lamoq", "maqtanmoq", "ishlamoq", "o'qimoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "conscious",
-        options: ["hushsiz", "ongli, sezadigan", "uyqudagi", "mast"],
-        correctIndex: 1,
-      },
-      {
-        question: "disagree",
-        options: [
-          "rozi bo'lmoq",
-          "kelishmovchilik, qarshi bo'lish",
-          "yordam bermoq",
-          "kulmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "echo",
-        options: ["shovqin", "aks sado", "qo'shiq", "musiqa"],
-        correctIndex: 1,
-      },
-      {
-        question: "eventual",
-        options: ["birinchi", "yakuniy, oxirgi", "tezkor", "doimiy"],
-        correctIndex: 1,
-      },
-      {
-        question: "hint",
-        options: ["javob", "ishora, shama", "baqiriq", "buyruq"],
-        correctIndex: 1,
-      },
-      {
-        question: "idiot",
-        options: ["daho", "ahmoq, tentak", "olim", "usta"],
-        correctIndex: 1,
-      },
-      {
-        question: "immense",
-        options: ["mitti", "juda katta", "yengil", "nozik"],
-        correctIndex: 1,
-      },
-      {
-        question: "indirect",
-        options: ["to'g'ridan-to'g'ri", "bilvosita", "aniq", "tezda"],
-        correctIndex: 1,
-      },
-      {
-        question: "option",
-        options: ["majburiyat", "tanlov, imkoniyat", "xato", "taqiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "pastime",
-        options: ["ish", "ovunchoq, mashg'ulot", "dars", "uyqu"],
-        correctIndex: 1,
-      },
-      {
-        question: "perfect",
-        options: ["nuqsonli", "mukammal", "eski", "yomon"],
-        correctIndex: 1,
-      },
-      {
-        question: "pinpoint",
-        options: [
-          "yo'qotmoq",
-          "aniq joyini ko'rsatmoq",
-          "taxmin qilmoq",
-          "yashirmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "switch",
-        options: [
-          "to'xtatmoq",
-          "o'zgartirmoq, almashtirmoq",
-          "sindirmoq",
-          "tashlamoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "thorough",
-        options: ["yuzaki", "puxta, to'liq", "tezkor", "notog'ri"],
-        correctIndex: 1,
-      },
-      {
-        question: "torment",
-        options: [
-          "xursand qilmoq",
-          "azob bermoq",
-          "yordam bermoq",
-          "davolamoq",
-        ],
-        correctIndex: 1,
-      },
-    ],
-    unit_4: [
-      {
-        question: "beak",
-        options: ["oyoq", "tumshuq", "qanot", "quyruq"],
-        correctIndex: 1,
-      },
-      {
-        question: "damp",
-        options: ["quruq", "nam, ho'l", "issiq", "chang"],
-        correctIndex: 1,
-      },
-      {
-        question: "disapprove",
-        options: ["ma'qullamoq", "rad etmoq", "yordam bermoq", "olqishlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "except",
-        options: ["bilan birga", "...dan tashqari", "ichida", "oldida"],
-        correctIndex: 1,
-      },
-      {
-        question: "flight",
-        options: ["yugurish", "parvoz", "suvda suzish", "o'tirish"],
-        correctIndex: 1,
-      },
-      {
-        question: "fond",
-        options: ["nafratlanish", "yoqtirish", "qo'rqish", "zerikish"],
-        correctIndex: 1,
-      },
-      {
-        question: "immoral",
-        options: ["axloqli", "axloqsiz", "aqlli", "vazmin"],
-        correctIndex: 1,
-      },
-      {
-        question: "ivy",
-        options: ["terak", "pechak (o'simlik)", "gul", "meva"],
-        correctIndex: 1,
-      },
-      {
-        question: "moan",
-        options: ["kulish", "injiqlik qilish, nola", "yugurish", "uxlash"],
-        correctIndex: 1,
-      },
-      {
-        question: "oblivious",
-        options: ["e'tiborli", "beandisha, xabarsiz", "aqlli", "tezkor"],
-        correctIndex: 1,
-      },
-      {
-        question: "perish",
-        options: [
-          "tug'ilmoq",
-          "halok bo'lmoq, o'lib ketmoq",
-          "o'smoq",
-          "yashamoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "pit",
-        options: ["tepalik", "chuqur", "tog'", "tekislik"],
-        correctIndex: 1,
-      },
-      {
-        question: "rim",
-        options: ["markaz", "chekka, hoshiya", "ichkarida", "pastda"],
-        correctIndex: 1,
-      },
-      {
-        question: "roost",
-        options: [
-          "yugurish yo'li",
-          "qo'noq joy (qushlar uchun)",
-          "suv havzasi",
-          "uy",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "slippery",
-        options: ["dag'al", "sirpanchiq", "quruq", "qattiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "soar",
-        options: ["yerda yurmoq", "baland uchmoq", "cho'kmoq", "to'xtamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "trivial",
-        options: ["muhim", "arzimagan, mayda-chuyda", "katta", "qimmat"],
-        correctIndex: 1,
-      },
-      {
-        question: "typical",
-        options: ["g'alati", "odatiy", "yangi", "kamyob"],
-        correctIndex: 1,
-      },
-      {
-        question: "utterly",
-        options: ["biroz", "butunlay", "qisman", "hech qachon"],
-        correctIndex: 1,
-      },
-      {
-        question: "weep",
-        options: ["kulmoq", "yig'lamoq", "baqirmoq", "sakramoq"],
-        correctIndex: 1,
-      },
-    ],
-    unit_5: [
-      {
-        question: "awhile",
-        options: ["doimo", "bir muncha vaqt", "hech qachon", "tezda"],
-        correctIndex: 1,
-      },
-      {
-        question: "cyberspace",
-        options: ["o'rmon", "kiberfazo (internet olami)", "shahar", "maktab"],
-        correctIndex: 1,
-      },
-      {
-        question: "edit",
-        options: ["o'chirmoq", "tahrirlamoq", "chizmoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "essay",
-        options: ["rasm", "insho", "hisob", "xarita"],
-        correctIndex: 1,
-      },
-      {
-        question: "evaluate",
-        options: ["buzmoq", "baholamoq", "sotib olmoq", "tashlab yubormoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "faint",
-        options: ["yugurmoq", "hushidan ketmoq", "uyg'onmoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "global",
-        options: ["mahalliy", "global, dunyoviy", "kichik", "shaxsiy"],
-        correctIndex: 1,
-      },
-      {
-        question: "gymnasium",
-        options: ["oshxona", "gimnaziya (sport zal)", "yotoqxona", "bozor"],
-        correctIndex: 1,
-      },
-      {
-        question: "highlight",
-        options: ["berkitmoq", "ajratib ko'rsatish", "o'chirmoq", "unutmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "ignorant",
-        options: ["aqlli", "bilimsiz, johil", "tirishqoq", "mashhur"],
-        correctIndex: 1,
-      },
-      {
-        question: "index",
-        options: ["sarlavha", "indeks, ko'rsatkich", "xat", "kitob"],
-        correctIndex: 1,
-      },
-      {
-        question: "lecture",
-        options: ["suhbat", "ma'ruza", "o'yin", "sayohat"],
-        correctIndex: 1,
-      },
-      {
-        question: "moral",
-        options: ["jismoniy", "axloqiy", "texnik", "moddiy"],
-        correctIndex: 1,
-      },
-      {
-        question: "operate",
-        options: ["to'xtatmoq", "ishlatmoq, boshqarmoq", "buzmoq", "yashirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "private",
-        options: ["umumiy", "shaxsiy, xususiy", "ochiq", "davlatniki"],
-        correctIndex: 1,
-      },
-      {
-        question: "recent",
-        options: ["qadimiy", "yaqindagi", "kelajakdagi", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "resolution",
-        options: ["savol", "qaror", "xato", "shubha"],
-        correctIndex: 1,
-      },
-      {
-        question: "semester",
-        options: ["yil", "semestr", "hafta", "kun"],
-        correctIndex: 1,
-      },
-      {
-        question: "typewritten",
-        options: [
-          "qo'lyozma",
-          "mashinkada yozilgan/bosma",
-          "chizilgan",
-          "og'zaki",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "weird",
-        options: ["oddiy", "g'alati", "chiroyli", "tanish"],
-        correctIndex: 1,
-      },
-    ],
-    unit_6: [
-      {
-        question: "absolute",
-        options: ["nisbiy", "mutlaq", "shubhali", "kichik"],
-        correctIndex: 1,
-      },
-      {
-        question: "alas",
-        options: ["xayriyat", "afsus", "tabriklayman", "rahmat"],
-        correctIndex: 1,
-      },
-      {
-        question: "attentive",
-        options: ["e'tiborsiz", "diqqatli", "dangasa", "yomon"],
-        correctIndex: 1,
-      },
-      {
-        question: "cape",
-        options: ["shim", "yoping'ich (yoki burun)", "etik", "ko'ylak"],
-        correctIndex: 1,
-      },
-      {
-        question: "envision",
-        options: ["unutmoq", "tasavvur qilmoq", "ko'rmoq", "qochmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "evenly",
-        options: ["notekis", "tekis, bir xilda", "tezda", "sekin"],
-        correctIndex: 1,
-      },
-      {
-        question: "folk",
-        options: ["hayvonlar", "odamlar, xalq", "o'simliklar", "binolar"],
-        correctIndex: 1,
-      },
-      {
-        question: "melt",
-        options: ["muzlamoq", "erimoq", "qotmoq", "sindirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "patch",
-        options: ["teshik", "yamoq", "yangi kiyim", "tugma"],
-        correctIndex: 1,
-      },
-      {
-        question: "pleasure",
-        options: ["azob", "mamnuniyat, zavq", "g'azab", "qo'rquv"],
-        correctIndex: 1,
-      },
-      {
-        question: "pop",
-        options: ["jimlik", "portlash ovozi", "qo'shiq", "uyqu"],
-        correctIndex: 1,
-      },
-      {
-        question: "pudding",
-        options: ["sho'rva", "puding (shirinlik)", "go'sht", "non"],
-        correctIndex: 1,
-      },
-      {
-        question: "rail",
-        options: ["deraza", "panjara, zinapoya tutqichi", "eshik", "tom"],
-        correctIndex: 1,
-      },
-      {
-        question: "recipe",
-        options: ["xat", "retsept", "kitob", "gazeta"],
-        correctIndex: 1,
-      },
-      {
-        question: "role",
-        options: ["ism", "rol", "manzil", "yosh"],
-        correctIndex: 1,
-      },
-      {
-        question: "shrink",
-        options: ["kattalashmoq", "kichraymoq", "o'smoq", "yoqmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "soak",
-        options: ["quritmoq", "namlamoq, ivitmoq", "to'kmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "spark",
-        options: ["suv", "uchqun", "muz", "tosh"],
-        correctIndex: 1,
-      },
-      {
-        question: "spirit",
-        options: ["tana", "ruh", "kiyim", "ovqat"],
-        correctIndex: 1,
-      },
-      {
-        question: "suit",
-        options: ["shim", "kostyum", "etik", "qalpoq"],
-        correctIndex: 1,
-      },
-    ],
-    unit_7: [
-      {
-        question: "account",
-        options: ["reja", "hisob", "sovg'a", "xato"],
-        correctIndex: 1,
-      },
-      {
-        question: "architect",
-        options: ["shifokor", "me'mor", "haydovchi", "oshpaz"],
-        correctIndex: 1,
-      },
-      {
-        question: "conceal",
-        options: ["ko'rsatmoq", "yashirmoq", "sotmoq", "baqirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "crime",
-        options: ["yaxshilik", "jinoyat", "yordam", "ish"],
-        correctIndex: 1,
-      },
-      {
-        question: "deed",
-        options: ["so'z", "hujjat, ish-amal", "o'yin", "uyqu"],
-        correctIndex: 1,
-      },
-      {
-        question: "gratitude",
-        options: ["nafrat", "minnatdorchilik", "hasad", "g'azab"],
-        correctIndex: 1,
-      },
-      {
-        question: "habitat",
-        options: ["ishxona", "yashash joyi (muhiti)", "bozor", "maktab"],
-        correctIndex: 1,
-      },
-      {
-        question: "intervene",
-        options: ["chetda turmoq", "aralashmoq", "yordam bermoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "landmark",
-        options: ["nomsiz joy", "belgi, orientir", "pastlik", "ichkari"],
-        correctIndex: 1,
-      },
-      {
-        question: "legal",
-        options: ["noqonuniy", "qonuniy", "yashirin", "yomon"],
-        correctIndex: 1,
-      },
-      {
-        question: "memorable",
-        options: ["oddiy", "esda qolarli", "zerikarli", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "oblige",
-        options: [
-          "ozod qilmoq",
-          "majbur qilmoq",
-          "ruxsat bermoq",
-          "sovg'a bermoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "offence",
-        options: ["mukofot", "jinoyat, xafa qilish", "tabrik", "yordam"],
-        correctIndex: 1,
-      },
-      {
-        question: "proclaim",
-        options: ["pichirlamoq", "e'lon qilmoq", "yashirmoq", "unutmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "rally",
-        options: ["yolg'iz o'tirish", "miting, yig'ilish", "uyqu", "dars"],
-        correctIndex: 1,
-      },
-      {
-        question: "resolve",
-        options: ["chalkashtirmoq", "hal qilmoq", "buzmoq", "tashlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "resource",
-        options: ["chiqindi", "manba", "yo'qotish", "xato"],
-        correctIndex: 1,
-      },
-      {
-        question: "sentence",
-        options: ["maqtov", "jazo (hukm)", "mukofot", "yordam"],
-        correctIndex: 1,
-      },
-      {
-        question: "volunteer",
-        options: ["majburiy ishchi", "ko'ngilli", "askar", "rahbar"],
-        correctIndex: 1,
-      },
-      {
-        question: "witness",
-        options: ["jinoyatchi", "guvoh", "sudya", "advokat"],
-        correctIndex: 1,
-      },
-    ],
-    unit_8: [
-      {
-        question: "access",
-        options: ["chiqish", "kirish", "to'siq", "yopiq yo'l"],
-        correctIndex: 1,
-      },
-      {
-        question: "conduct",
-        options: ["kiyim", "xulq-atvor", "ovqat", "ism"],
-        correctIndex: 1,
-      },
-      {
-        question: "constant",
-        options: ["o'zgaruvchan", "doimiy", "kamdan-kam", "to'xtagan"],
-        correctIndex: 1,
-      },
-      {
-        question: "crack",
-        options: ["tekislik", "yoriq", "devor", "tom"],
-        correctIndex: 1,
-      },
-      {
-        question: "device",
-        options: ["tosh", "qurilma", "o'simlik", "hayvon"],
-        correctIndex: 1,
-      },
-      {
-        question: "enclose",
-        options: ["ochmoq", "o'ramoq, ichiga olmoq", "tashlamoq", "sindirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "grip",
-        options: [
-          "tushirib yubormoq",
-          "mahkam ushlab olmoq",
-          "itarmog",
-          "tepmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "halt",
-        options: ["yugurmoq", "to'xtamoq", "yurmoq", "sakramoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "impending",
-        options: ["o'tib ketgan", "yaqinlashayotgan", "uzoqdagi", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "influence",
-        options: ["yordam", "ta'sir", "to'siq", "javob"],
-        correctIndex: 1,
-      },
-      {
-        question: "law",
-        options: ["o'yin", "qonun", "xat", "hikoya"],
-        correctIndex: 1,
-      },
-      {
-        question: "mode",
-        options: ["joy", "rejim, usul", "vaqt", "ism"],
-        correctIndex: 1,
-      },
-      {
-        question: "perspire",
-        options: ["muzlamoq", "terlamoq", "titramoq", "uxlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "replace",
-        options: [
-          "yo'qotmoq",
-          "almashmoq, o'rniga qo'ymoq",
-          "sindirmoq",
-          "tashlamoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "snap",
-        options: ["egilmoq", "sinmoq (qarsillab)", "tuzalmoq", "o'smoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "sly",
-        options: ["sodda", "ayyor", "mehribon", "aqlli"],
-        correctIndex: 1,
-      },
-      {
-        question: "tend",
-        options: ["qochmoq", "intilmoq, moyil bo'lmoq", "to'xtamoq", "unutmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "valid",
-        options: ["yaroqsiz", "yaroqli, haqiqiy", "eski", "buzuq"],
-        correctIndex: 1,
-      },
-      {
-        question: "version",
-        options: ["asli", "versiya, nusxa", "xato", "kitob"],
-        correctIndex: 1,
-      },
-      {
-        question: "whatsoever",
-        options: ["biroz", "umuman", "ba'zan", "tezda"],
-        correctIndex: 1,
-      },
-    ],
-    unit_9: [
-      {
-        question: "alongside",
-        options: ["qarshisida", "yonma-yon", "ustida", "ichida"],
-        correctIndex: 1,
-      },
-      {
-        question: "appetite",
-        options: ["uyqu", "ishtaha", "charchoq", "tashnalik"],
-        correctIndex: 1,
-      },
-      {
-        question: "assist",
-        options: ["xalaqit bermoq", "yordam bermoq", "baqirmoq", "urmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "breeze",
-        options: ["bo'ron", "shabada", "yomg'ir", "qor"],
-        correctIndex: 1,
-      },
-      {
-        question: "defy",
-        options: ["bo'ysunmoq", "qarshi turmoq", "yordam bermoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "display",
-        options: ["yashirmoq", "namoyish qilmoq", "sindirmoq", "unutmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "efficient",
-        options: ["sust", "samarali", "yomon", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "feeble",
-        options: ["kuchli", "kuchsiz, nimjon", "katta", "tezkor"],
-        correctIndex: 1,
-      },
-      {
-        question: "forgive",
-        options: ["jazolamoq", "kechirmoq", "urmoq", "so'kmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "lively",
-        options: ["zerikarli", "jonli, quvnoq", "uyquchi", "yomon"],
-        correctIndex: 1,
-      },
-      {
-        question: "majestic",
-        options: ["oddiy", "dabdabali, muhtasham", "kichik", "xunuk"],
-        correctIndex: 1,
-      },
-      {
-        question: "nor",
-        options: ["ham", "na ... na", "lekin", "chunki"],
-        correctIndex: 1,
-      },
-      {
-        question: "outraged",
-        options: ["xursand", "g'azablangan", "tinch", "baxtli"],
-        correctIndex: 1,
-      },
-      {
-        question: "pessimistic",
-        options: ["optmistik", "pessimistik", "xursand", "yaxshi"],
-        correctIndex: 1,
-      },
-      {
-        question: "rumor",
-        options: ["haqiqat", "mish-mish", "xabar", "kitob"],
-        correctIndex: 1,
-      },
-      {
-        question: "slap",
-        options: ["silamoq", "tarsaki tushirmoq", "itarmog", "ushlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "smash",
-        options: ["tuzatmoq", "maydalamoq, sindirmoq", "qurmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "subject",
-        options: ["ism", "mavzu", "joy", "vaqt"],
-        correctIndex: 1,
-      },
-      {
-        question: "wage",
-        options: ["sovg'a", "maosh", "jarima", "qarz"],
-        correctIndex: 1,
-      },
-      {
-        question: "whereas",
-        options: ["va", "modomiki, holbuki", "shuning uchun", "keyin"],
-        correctIndex: 1,
-      },
-    ],
-    unit_10: [
-      {
-        question: "animate",
-        options: ["o'lik", "jonlantirilgan", "jim", "rangsiz"],
-        correctIndex: 1,
-      },
-      {
-        question: "classify",
-        options: ["chalkashtirmoq", "tasniflamoq", "yo'qotmoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "concede",
-        options: ["rad etmoq", "tan olmoq", "baqirmoq", "yugurmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "concept",
-        options: ["narsa", "tushuncha, g'oya", "xato", "shovqin"],
-        correctIndex: 1,
-      },
-      {
-        question: "construct",
-        options: ["buzmoq", "qurmoq", "sotmoq", "tashlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "decade",
-        options: ["yil", "o'n yillik", "asr", "hafta"],
-        correctIndex: 1,
-      },
-      {
-        question: "diagram",
-        options: ["hikoya", "diagramma, chizma", "kitob", "xat"],
-        correctIndex: 1,
-      },
-      {
-        question: "ferry",
-        options: ["mashina", "parom", "samolyot", "velosiped"],
-        correctIndex: 1,
-      },
-      {
-        question: "handy",
-        options: ["noqulay", "qulay", "og'ir", "qiyin"],
-        correctIndex: 1,
-      },
-      {
-        question: "isolate",
-        options: ["birlashtirmoq", "ajratmoq", "yordam bermoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "longing",
-        options: ["nafrat", "intizorlik, sog'inch", "uyqu", "g'azab"],
-        correctIndex: 1,
-      },
-      {
-        question: "numerous",
-        options: ["bitta", "ko'p sonli", "yo'q", "ozgina"],
-        correctIndex: 1,
-      },
-      {
-        question: "particle",
-        options: ["tog'", "zarra, bo'lakcha", "dengiz", "osmon"],
-        correctIndex: 1,
-      },
-      {
-        question: "plea",
-        options: ["buyruq", "iltimos, o'tinch", "javob", "so'kish"],
-        correctIndex: 1,
-      },
-      {
-        question: "refrain",
-        options: ["davom etmoq", "o'zini tiymoq", "yugurmoq", "baqirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "review",
-        options: ["unutmoq", "ko'rib chiqish", "berkitmoq", "tashlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "sophisticated",
-        options: ["oddiy", "murakkab, ilg'or", "yomon", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "surrender",
-        options: [
-          "hujum qilmoq",
-          "tashlim bo'lmoq",
-          "g'alaba qozonmoq",
-          "yugurmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "upright",
-        options: ["yotiq", "tik", "egilgan", "pastki"],
-        correctIndex: 1,
-      },
-      {
-        question: "worthwhile",
-        options: ["foydasiz", "foydali, arziydigan", "yomon", "qimmat"],
-        correctIndex: 1,
-      },
-    ],
-    unit_11: [
-      {
-        question: "alliance",
-        options: ["urush", "ittifoq", "dushmanlik", "ayrilish"],
-        correctIndex: 1,
-      },
-      {
-        question: "applause",
-        options: ["baqiriq", "olqish, qarsaklar", "hushtak", "jimlik"],
-        correctIndex: 1,
-      },
-      {
-        question: "armed",
-        options: ["qurolsiz", "qurollangan", "kuchsiz", "tinch"],
-        correctIndex: 1,
-      },
-      {
-        question: "authoritative",
-        options: ["shubhali", "ishonchli, nufuzli", "yolg'on", "zaif"],
-        correctIndex: 1,
-      },
-      {
-        question: "ceremony",
-        options: ["o'yin", "marosim", "uyqu", "ish"],
-        correctIndex: 1,
-      },
-      {
-        question: "culture",
-        options: ["tabiat", "madaniyat", "shahar", "bino"],
-        correctIndex: 1,
-      },
-      {
-        question: "defense",
-        options: ["hujum", "himoya", "qochish", "yutqazish"],
-        correctIndex: 1,
-      },
-      {
-        question: "detail",
-        options: ["umumiy", "tafsilot, detal", "xato", "reja"],
-        correctIndex: 1,
-      },
-      {
-        question: "diverse",
-        options: ["bir xil", "xilma-xil", "oddiy", "yangi"],
-        correctIndex: 1,
-      },
-      {
-        question: "enchant",
-        options: ["qo'rqitmoq", "maftun qilmoq", "xafa qilmoq", "unutmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "equip",
-        options: ["yo'qotmoq", "jihozlamoq", "sindirmoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "exception",
-        options: ["qoida", "istisno", "odatiy hol", "reja"],
-        correctIndex: 1,
-      },
-      {
-        question: "genre",
-        options: ["kitob", "janr", "muallif", "sahifa"],
-        correctIndex: 1,
-      },
-      {
-        question: "impact",
-        options: ["sabab", "ta'sir", "natijasizlik", "xotira"],
-        correctIndex: 1,
-      },
-      {
-        question: "lure",
-        options: [
-          "haydamoq",
-          "vasvasa qilmoq, jalb etmoq",
-          "to'xtatmoq",
-          "qo'rqitmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "obstacle",
-        options: ["yordamchi", "to'siq", "yo'lak", "imkoniyat"],
-        correctIndex: 1,
-      },
-      {
-        question: "shelter",
-        options: ["ochiq maydon", "pana, boshpana", "yo'l", "cho'l"],
-        correctIndex: 1,
-      },
-      {
-        question: "sort",
-        options: ["aralashtirmoq", "saralamoq", "yo'qotmoq", "buzmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "supply",
-        options: ["ehtiyoj", "ta'minot, zaxira", "chiqindi", "kamchilik"],
-        correctIndex: 1,
-      },
-      {
-        question: "vain",
-        options: ["foydali", "behuda, o'ziga bino qo'ygan", "muhim", "tezkor"],
-        correctIndex: 1,
-      },
-    ],
-    unit_12: [
-      {
-        question: "alternative",
-        options: ["yagona yo'l", "muqobil, alternativa", "xato", "taqiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "avenue",
-        options: ["ko'cha", "shoh ko'cha, xiyobon", "uy", "bog'"],
-        correctIndex: 1,
-      },
-      {
-        question: "belly",
-        options: ["bosh", "qorin", "qo'l", "oyoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "bid",
-        options: ["qochish", "urinish, narx taklif qilish", "uyqu", "baqiriq"],
-        correctIndex: 1,
-      },
-      {
-        question: "blow",
-        options: ["to'xtamoq", "esmoq (shamol)", "yonmoq", "suv ichmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "conflict",
-        options: ["kelishuv", "mojaro, nizo", "do'stlik", "tinchlik"],
-        correctIndex: 1,
-      },
-      {
-        question: "continent",
-        options: ["shahar", "qit'a", "davlat", "okean"],
-        correctIndex: 1,
-      },
-      {
-        question: "current",
-        options: ["to'xtagan", "oqim, hozirgi", "eski", "kelajakdagi"],
-        correctIndex: 1,
-      },
-      {
-        question: "disrespect",
-        options: ["hurmat", "hurmatsizlik", "sevgi", "yordam"],
-        correctIndex: 1,
-      },
-      {
-        question: "enthusiasm",
-        options: ["zerikish", "ishtiyoq, g'ayrat", "qo'rquv", "g'azab"],
-        correctIndex: 1,
-      },
-      {
-        question: "harsh",
-        options: ["yumshoq", "qattiq, yoqimsiz", "shirin", "mayin"],
-        correctIndex: 1,
-      },
-      {
-        question: "lean",
-        options: ["tik turmoq", "egilmoq, suyanmoq", "yugurmoq", "sakramoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "meantime",
-        options: ["avval", "shu orada", "keyin", "hech qachon"],
-        correctIndex: 1,
-      },
-      {
-        question: "mischief",
-        options: ["yaxshilik", "sho'xlik, yomonlik", "yordam", "ish"],
-        correctIndex: 1,
-      },
-      {
-        question: "muscle",
-        options: ["suyak", "muskul", "teri", "soch"],
-        correctIndex: 1,
-      },
-      {
-        question: "rescue",
-        options: ["tark etmoq", "qutqarmoq", "tashlab ketmoq", "urmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "succession",
-        options: ["tartibsizlik", "ketma-ketlik", "to'xtash", "ayrilish"],
-        correctIndex: 1,
-      },
-      {
-        question: "terrain",
-        options: ["osmon", "relyef, yer maydoni", "suv", "bulut"],
-        correctIndex: 1,
-      },
-      {
-        question: "timid",
-        options: ["botir", "qo'rqoq, tortinchoq", "baqiroq", "shoshqaloq"],
-        correctIndex: 1,
-      },
-      {
-        question: "violence",
-        options: ["tinchlik", "zo'ravonlik", "mehribonlik", "yordam"],
-        correctIndex: 1,
-      },
-    ],
-    unit_13: [
-      {
-        question: "affect",
-        options: ["unutmoq", "ta'sir qilmoq", "yashirmoq", "to'xtatmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "autograph",
-        options: ["rasm", "imzo (dastxat)", "kitob", "xat"],
-        correctIndex: 1,
-      },
-      {
-        question: "bead",
-        options: ["tosh", "munchoq", "suv", "qum"],
-        correctIndex: 1,
-      },
-      {
-        question: "brew",
-        options: ["yeyish", "damlamoq", "sotmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "charm",
-        options: ["xunuklik", "jozibadorlik", "qo'rquv", "shovqin"],
-        correctIndex: 1,
-      },
-      {
-        question: "destiny",
-        options: ["o'tmish", "taqdir", "tasodif", "reja"],
-        correctIndex: 1,
-      },
-      {
-        question: "horn",
-        options: ["quyruq", "shox", "oyoq", "quloq"],
-        correctIndex: 1,
-      },
-      {
-        question: "irritable",
-        options: [
-          "vazmin",
-          "jizzaki, tez achchiqlanadigan",
-          "quvnoq",
-          "uyquchi",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "lag",
-        options: ["o'zib ketmoq", "orqada qolmoq", "yugurmoq", "sakramoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "maximize",
-        options: [
-          "kamaytirmoq",
-          "maksimal darajaga ko'tarmoq",
-          "to'xtatmoq",
-          "sindirmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "nightmare",
-        options: ["shirin tush", "qo'rqinchli tush", "uyqu", "uyg'onish"],
-        correctIndex: 1,
-      },
-      {
-        question: "nutritious",
-        options: ["zararli", "to'yimli, ozuqaviy", "achchiq", "mazasiz"],
-        correctIndex: 1,
-      },
-      {
-        question: "protein",
-        options: ["yog'", "oqsil", "shakar", "tuz"],
-        correctIndex: 1,
-      },
-      {
-        question: "signature",
-        options: ["rasm", "imzo", "muhr", "belgi"],
-        correctIndex: 1,
-      },
-      {
-        question: "stuff",
-        options: ["odam", "narsa, ashyo", "shahar", "davlat"],
-        correctIndex: 1,
-      },
-      {
-        question: "subconscious",
-        options: ["ongli", "ong osti", "hushsiz", "uyquchi"],
-        correctIndex: 1,
-      },
-      {
-        question: "van",
-        options: ["velosiped", "furgon (mashina)", "kema", "qayiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "warn",
-        options: ["maqtamoq", "ogohlantirmoq", "yordam bermoq", "kuldurmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "workout",
-        options: ["uyqu", "mashq (mashg'ulot)", "ovqat", "dam olish"],
-        correctIndex: 1,
-      },
-      {
-        question: "zoom",
-        options: [
-          "to'xtamoq",
-          "tezlashmoq, yaqinlashtirmoq",
-          "sekinlashmoq",
-          "uxlamoq",
-        ],
-        correctIndex: 1,
-      },
-    ],
-    unit_14: [
-      {
-        question: "brick",
-        options: ["yog'och", "g'isht", "temir", "shisha"],
-        correctIndex: 1,
-      },
-      {
-        question: "crumble",
-        options: [
-          "qurmoq",
-          "parchalanish, uvalanmoq",
-          "yopishtirmoq",
-          "tozalash",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "dough",
-        options: ["non", "xamir", "sut", "tuxum"],
-        correctIndex: 1,
-      },
-      {
-        question: "express",
-        options: ["yashirmoq", "ifoda qilmoq", "unutmoq", "to'xtatmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "fist",
-        options: ["barmoq", "musht", "tirsak", "tizza"],
-        correctIndex: 1,
-      },
-      {
-        question: "flexible",
-        options: ["qattiq", "moslashuvchan, egiluvchan", "mo'rt", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "flush",
-        options: ["muzlamoq", "qizarib ketmoq", "uxlamoq", "yugurmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "injure",
-        options: ["davolamoq", "jarohatlamoq", "yordam bermoq", "maqtamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "lump",
-        options: ["teshik", "bo'lak, parcha", "suv", "havo"],
-        correctIndex: 1,
-      },
-      {
-        question: "mixture",
-        options: ["alohida", "aralashma", "toza", "yangi"],
-        correctIndex: 1,
-      },
-      {
-        question: "reconcile",
-        options: [
-          "urushmoq",
-          "tinchlashtirmoq, kelishtirmoq",
-          "baqirmoq",
-          "ayirmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "ruin",
-        options: ["tuzatmoq", "vayron qilmoq", "qurmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "shatter",
-        options: ["yig'moq", "chil-chil qilmoq", "saqlamoq", "tuzatmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "shutter",
-        options: ["devor", "darvoza, tabaqa", "tom", "pol"],
-        correctIndex: 1,
-      },
-      {
-        question: "sift",
-        options: ["to'kmoq", "elamoq", "ichmoq", "chaynamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "slight",
-        options: ["katta", "kichik, mayda", "og'ir", "kuchli"],
-        correctIndex: 1,
-      },
-      {
-        question: "sparkle",
-        options: ["qorong'ulashmoq", "porlamoq", "so'nmoq", "yo'qolmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "sprinkle",
-        options: ["yig'moq", "sepmoq", "yuvmoq", "quritmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "stale",
-        options: ["yangi", "eskigan, aynigan", "shirin", "issiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "utter",
-        options: [
-          "jim turmoq",
-          "aytmoq, talaffuz qilmoq",
-          "eshitmoq",
-          "uxlamoq",
-        ],
-        correctIndex: 1,
-      },
-    ],
-    unit_15: [
-      {
-        question: "although",
-        options: ["chunki", "...ga qaramay", "lekin", "shuning uchun"],
-        correctIndex: 1,
-      },
-      {
-        question: "apply",
-        options: [
-          "olmoq",
-          "qo'llamoq, murojaat qilmoq",
-          "yo'qotmoq",
-          "uxlamoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "await",
-        options: ["ketmoq", "kutmoq", "kechikmoq", "topmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "beloved",
-        options: ["yoqimsiz", "sevimli, qadrli", "begona", "yomon"],
-        correctIndex: 1,
-      },
-      {
-        question: "bury",
-        options: ["topmoq", "ko'mmoq", "tashlab ketmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "climate",
-        options: ["havo", "iqlim", "yer", "suv"],
-        correctIndex: 1,
-      },
-      {
-        question: "complain",
-        options: [
-          "maqtamoq",
-          "shikoyat qilmoq",
-          "yordam bermoq",
-          "shod bo'lmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "confuse",
-        options: [
-          "tushuntirmoq",
-          "chalg'itmoq, adashtirmoq",
-          "yordam bermoq",
-          "eslamoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "due",
-        options: [
-          "o'tib ketgan",
-          "kutilayotgan, muddati kelgan",
-          "kutilmagan",
-          "eski",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "entire",
-        options: ["yarim", "butun, barcha", "kichik", "bo'lak"],
-        correctIndex: 1,
-      },
-      {
-        question: "establish",
-        options: ["buzmoq", "asos solmoq, o'rnatmoq", "yo'qotmoq", "kechikmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "furnace",
-        options: ["muzlatgich", "pechka, o'choq", "deraza", "gilam"],
-        correctIndex: 1,
-      },
-      {
-        question: "leash",
-        options: ["zanjir", "tasma (itlar uchun)", "oyoq kiyim", "tayoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "mature",
-        options: ["yosh", "yetilgan, voyaga yetgan", "kichik", "tajribasiz"],
-        correctIndex: 1,
-      },
-      {
-        question: "measure",
-        options: ["taxmin qilmoq", "o'lchamoq", "yo'qotmoq", "sindirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "midst",
-        options: ["chetida", "o'rtasi", "tepasida", "tagida"],
-        correctIndex: 1,
-      },
-      {
-        question: "misery",
-        options: ["baxt", "baxtsizlik, azob", "boylik", "shodlik"],
-        correctIndex: 1,
-      },
-      {
-        question: "prior",
-        options: ["keyingi", "avvalgi, oldin", "hozirgi", "doimiy"],
-        correctIndex: 1,
-      },
-      {
-        question: "research",
-        options: ["o'yin", "tadqiqot", "suhbat", "xat"],
-        correctIndex: 1,
-      },
-      {
-        question: "variety",
-        options: ["bir xillik", "xilma-xillik", "kamchilik", "oddiylik"],
-        correctIndex: 1,
-      },
-    ],
-    unit_16: [
-      {
-        question: "altogether",
-        options: ["ba'zan", "umuman, butunlay", "hech qachon", "biroz"],
-        correctIndex: 1,
-      },
-      {
-        question: "bind",
-        options: ["yechmoq", "bog'lamoq", "sindirmoq", "tashlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "bruise",
-        options: ["chandiq", "ko'karish (shilinish)", "dog'", "toshma"],
-        correctIndex: 1,
-      },
-      {
-        question: "custom",
-        options: ["yangi narsa", "odat, rasm-rusum", "qonun", "o'yin"],
-        correctIndex: 1,
-      },
-      {
-        question: "disobedient",
-        options: ["itoatkor", "itoatsiz, gapga kirmaydigan", "aqlli", "vazmin"],
-        correctIndex: 1,
-      },
-      {
-        question: "foresee",
-        options: ["unutmoq", "oldindan bilmoq", "kechikmoq", "eslamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "glimpse",
-        options: ["uzoq tikilish", "ko'z tashlamoq", "yashirmoq", "ko'rmaslik"],
-        correctIndex: 1,
-      },
-      {
-        question: "hoop",
-        options: ["chiziq", "halqa", "tayoq", "tosh"],
-        correctIndex: 1,
-      },
-      {
-        question: "misfortune",
-        options: ["omad", "baxtsizlik, omadsizlik", "baxt", "boylik"],
-        correctIndex: 1,
-      },
-      {
-        question: "negative",
-        options: ["ijobiy", "salbiy", "yaxshi", "to'g'ri"],
-        correctIndex: 1,
-      },
-      {
-        question: "per",
-        options: ["uchun", "har bir", "bilan", "orqali"],
-        correctIndex: 1,
-      },
-      {
-        question: "plead",
-        options: ["buyurmoq", "yalinmoq, iltimos qilmoq", "baqirmoq", "urmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "rip",
-        options: ["tuzatmoq", "yirtmoq", "yopishtirmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "sake",
-        options: ["qarshi", "uchun (manfaati uchun)", "o'rniga", "tashqari"],
-        correctIndex: 1,
-      },
-      {
-        question: "scrape",
-        options: ["silamoq", "qirtishlamoq, qirmoq", "bo'yamoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "source",
-        options: ["natija", "manba", "yakun", "xato"],
-        correctIndex: 1,
-      },
-      {
-        question: "stern",
-        options: ["mehribon", "qattiqqo'l", "quvnoq", "yumshoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "stitch",
-        options: ["yirtmoq", "tikmoq (chok)", "sindirmoq", "yoqmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "thump",
-        options: [
-          "pichirlash",
-          "gursillatish (zarba ovozi)",
-          "musiqa",
-          "jimlik",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "vehement",
-        options: ["sust", "shiddatli, kuchli", "tinch", "sekin"],
-        correctIndex: 1,
-      },
-    ],
-    unit_17: [
-      {
-        question: "civilization",
-        options: ["yovvoyilik", "sivilizatsiya", "qishloq", "o'rmon"],
-        correctIndex: 1,
-      },
-      {
-        question: "convenient",
-        options: ["noqulay", "qulay", "uzoq", "qiyin"],
-        correctIndex: 1,
-      },
-      {
-        question: "den",
-        options: ["uy", "in (hayvonlar yashaydigan joy)", "maktab", "bozor"],
-        correctIndex: 1,
-      },
-      {
-        question: "dew",
-        options: ["yomg'ir", "shabnam", "qor", "tuman"],
-        correctIndex: 1,
-      },
-      {
-        question: "drastic",
-        options: ["yumshoq", "keskin, jiddiy", "sekin", "kichik"],
-        correctIndex: 1,
-      },
-      {
-        question: "exit",
-        options: ["kirish", "chiqish", "to'siq", "yo'l"],
-        correctIndex: 1,
-      },
-      {
-        question: "flock",
-        options: ["bitta", "poda, to'da", "shahar", "bino"],
-        correctIndex: 1,
-      },
-      {
-        question: "fold",
-        options: ["yirtmoq", "qatlamoq", "yoqmoq", "sindirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "lid",
-        options: ["tovoq", "qopqoq", "qoshiq", "pichoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "loom",
-        options: [
-          "yo'qolmoq",
-          "ko'zga tashlanmoq, paydo bo'lmoq",
-          "unutmoq",
-          "yashirinmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "mighty",
-        options: ["kuchsiz", "kuchli, qudratli", "mitti", "yengil"],
-        correctIndex: 1,
-      },
-      {
-        question: "mushroom",
-        options: ["olma", "qo'ziqorin", "sabzi", "piyoz"],
-        correctIndex: 1,
-      },
-      {
-        question: "native",
-        options: ["xorijiy", "mahalliy, tub", "notanish", "yangi"],
-        correctIndex: 1,
-      },
-      {
-        question: "poison",
-        options: ["dori", "zahar", "suv", "ovqat"],
-        correctIndex: 1,
-      },
-      {
-        question: "reed",
-        options: ["daraxt", "qamish", "gul", "maysa"],
-        correctIndex: 1,
-      },
-      {
-        question: "shield",
-        options: ["miltiq", "qalqon", "pichoq", "o'q"],
-        correctIndex: 1,
-      },
-      {
-        question: "stormy",
-        options: ["tinch", "bo'ronli", "issiq", "quyoshli"],
-        correctIndex: 1,
-      },
-      {
-        question: "sway",
-        options: ["tik turmoq", "tebranmoq", "yugurmoq", "uxlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "urban",
-        options: ["qishloq", "shahar", "yovvoyi", "uzoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "wade",
-        options: ["uchmoq", "suvni kechib o'tmoq", "yugurmoq", "sakramoq"],
-        correctIndex: 1,
-      },
-    ],
-    unit_18: [
-      {
-        question: "accent",
-        options: ["rang", "aksent (talaffuz)", "ism", "yosh"],
-        correctIndex: 1,
-      },
-      {
-        question: "barber",
-        options: ["o'qituvchi", "sartarosh", "shifokor", "haydovchi"],
-        correctIndex: 1,
-      },
-      {
-        question: "basement",
-        options: ["tom", "podval (yerto'la)", "oshxona", "balkon"],
-        correctIndex: 1,
-      },
-      {
-        question: "blank",
-        options: ["to'la", "bo'sh", "rangli", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "blink",
-        options: ["tikilmoq", "ko'z qismoq, miltillamoq", "uxlamoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "choir",
-        options: ["guruh", "xor (qo'shiqchilar)", "o'yin", "dars"],
-        correctIndex: 1,
-      },
-      {
-        question: "comic",
-        options: ["dahshatli", "kulgili, komik", "zerikarli", "jiddiy"],
-        correctIndex: 1,
-      },
-      {
-        question: "complicate",
-        options: ["osonlashtirmoq", "murakkablashtirmoq", "tuzatmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "decline",
-        options: [
-          "qabul qilmoq",
-          "rad etmoq, pasaymoq",
-          "yordam bermoq",
-          "kulmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "errand",
-        options: ["dam olish", "topshiriq, vazifa", "o'yin", "uyqu"],
-        correctIndex: 1,
-      },
-      {
-        question: "glove",
-        options: ["paypoq", "qo'lqop", "shim", "ko'ylak"],
-        correctIndex: 1,
-      },
-      {
-        question: "hermit",
-        options: ["podshoh", "zohid (yolg'iz yashovchi)", "ishchi", "bola"],
-        correctIndex: 1,
-      },
-      {
-        question: "justly",
-        options: ["nohaq", "adolat bilan", "tezda", "yomon"],
-        correctIndex: 1,
-      },
-      {
-        question: "leather",
-        options: ["latta", "charm, teri", "temir", "shisha"],
-        correctIndex: 1,
-      },
-      {
-        question: "ponder",
-        options: ["shoshilmoq", "chuqur o'ylamoq", "unutmoq", "baqirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "reserve",
-        options: [
-          "sotmoq",
-          "bron qilmoq, olib qo'ymoq",
-          "tashlamoq",
-          "yo'qotmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "script",
-        options: ["rasm", "ssenariy, qo'lyozma", "kitob", "gazeta"],
-        correctIndex: 1,
-      },
-      {
-        question: "search",
-        options: ["yo'qotmoq", "qidirmoq", "yashirmoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "slam",
-        options: [
-          "asta yopmoq",
-          "qattiq yopmoq (shang'illatib)",
-          "ochmoq",
-          "urmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "staircase",
-        options: ["deraza", "zinapoya", "eshik", "devor"],
-        correctIndex: 1,
-      },
-    ],
-    unit_19: [
-      {
-        question: "afflicted",
-        options: ["baxtli", "azoblanayotgan", "sog'lom", "quvnoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "aisle",
-        options: ["devor", "yo'lak (qatorlar orasi)", "eshik", "deraza"],
-        correctIndex: 1,
-      },
-      {
-        question: "atmosphere",
-        options: ["yer", "atmosfera", "suv", "tosh"],
-        correctIndex: 1,
-      },
-      {
-        question: "author",
-        options: ["o'quvchi", "muallif", "sotuvchi", "haydovchi"],
-        correctIndex: 1,
-      },
-      {
-        question: "breakdown",
-        options: ["tuzalish", "ishdan chiqish, buzilish", "qurilish", "yutuq"],
-        correctIndex: 1,
-      },
-      {
-        question: "cargo",
-        options: ["yo'lovchi", "yuk", "haydovchi", "kema"],
-        correctIndex: 1,
-      },
-      {
-        question: "chapter",
-        options: ["kitob", "bob", "sahifa", "muqova"],
-        correctIndex: 1,
-      },
-      {
-        question: "connect",
-        options: ["uzmoq", "ulamoq, bog'lamoq", "sindirmoq", "ayirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "etc.",
-        options: ["va boshqalar", "va hokazo", "shuningdek", "faqat"],
-        correctIndex: 1,
-      },
-      {
-        question: "flip",
-        options: ["to'xtatmoq", "ag'darmoq, aylantirmoq", "yuvmoq", "chizmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "idle",
-        options: ["ishchan", "ishsiz, bekorchi", "tezkor", "aqlli"],
-        correctIndex: 1,
-      },
-      {
-        question: "notify",
-        options: ["yashirmoq", "xabar bermoq", "unutmoq", "baqirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "pea",
-        options: ["olma", "no'xat", "sabzi", "piyoz"],
-        correctIndex: 1,
-      },
-      {
-        question: "raisin",
-        options: ["o'rik", "mayiz", "yong'oq", "olma"],
-        correctIndex: 1,
-      },
-      {
-        question: "retain",
-        options: ["yo'qotmoq", "saqlab qolmoq", "sotmoq", "tashlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "state",
-        options: ["jim turmoq", "bayon qilmoq, aytmoq", "tinglamoq", "uxlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "tray",
-        options: ["tovoq", "patnis", "qoshiq", "pichoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "unfortunate",
-        options: ["omadli", "baxtsiz, omadsiz", "yaxshi", "quvnoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "vivid",
-        options: ["xira", "yorqin", "qorong'i", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "vomit",
-        options: ["ovqatlanmoq", "qusmoq", "ichmoq", "uxlamoq"],
-        correctIndex: 1,
-      },
-    ],
-    unit_20: [
-      {
-        question: "betray",
-        options: ["yordam bermoq", "xiyonat qilmoq", "sodiq qolmoq", "sevmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "blast",
-        options: ["tinchlik", "portlash", "shovqin", "uyqu"],
-        correctIndex: 1,
-      },
-      {
-        question: "bracelet",
-        options: ["uzuk", "bilaguzuk", "zirak", "marjon"],
-        correctIndex: 1,
-      },
-      {
-        question: "cease",
-        options: ["boshlamoq", "to'xtamoq", "davom etmoq", "yugurmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "choke",
-        options: ["nafas olmoq", "bo'g'ilmoq", "gapirmoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "civil",
-        options: ["harbiy", "fuqarolik", "yovvoyi", "qishloq"],
-        correctIndex: 1,
-      },
-      {
-        question: "comment",
-        options: ["jim turmoq", "fikr bildirmoq", "eshitmoq", "o'qimoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "cross",
-        options: ["to'xtamoq", "kesib o'tmoq", "qolmoq", "yugurmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "dent",
-        options: [
-          "tepalik",
-          "pachoqlangan joy, chuqurcha",
-          "tekislik",
-          "devor",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "distrust",
-        options: ["ishonch", "ishonmaslik", "sevgi", "yordam"],
-        correctIndex: 1,
-      },
-      {
-        question: "fort",
-        options: ["uy", "qal'a", "bog'", "bozor"],
-        correctIndex: 1,
-      },
-      {
-        question: "found",
-        options: ["yo'qotmoq", "asos solmoq", "sindirmoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "lining",
-        options: ["ustki qism", "astar", "tugma", "yeng"],
-        correctIndex: 1,
-      },
-      {
-        question: "mass",
-        options: ["kichik", "yirik, ommaviy", "ozgina", "nozik"],
-        correctIndex: 1,
-      },
-      {
-        question: "pray",
-        options: ["urishmoq", "ibodat qilmoq", "o'ynamoq", "ishlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "rife",
-        options: ["kamyob", "keng tarqalgan", "yashirin", "yangi"],
-        correctIndex: 1,
-      },
-      {
-        question: "sole",
-        options: ["ko'p", "yagona", "arzon", "yaxshi"],
-        correctIndex: 1,
-      },
-      {
-        question: "sweep",
-        options: ["iflos qilmoq", "supurmoq", "yuvmoq", "yoqmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "treachery",
-        options: ["sadoqat", "xiyonat", "yaxshilik", "yordam"],
-        correctIndex: 1,
-      },
-      {
-        question: "tuck",
-        options: ["chiqarmoq", "tiqmoq, joylamoq", "sotmoq", "tashlamoq"],
-        correctIndex: 1,
-      },
-    ],
-    unit_21: [
-      {
-        question: "background",
-        options: ["old tomon", "fon, kelib chiqish", "shovqin", "reja"],
-        correctIndex: 1,
-      },
-      {
-        question: "bait",
-        options: ["tuzoq", "xo'rak, yem", "baliq", "suv"],
-        correctIndex: 1,
-      },
-      {
-        question: "chronicle",
-        options: ["ertak", "yilnoma, xronika", "rasm", "xat"],
-        correctIndex: 1,
-      },
-      {
-        question: "copper",
-        options: ["oltin", "mis", "kumush", "temir"],
-        correctIndex: 1,
-      },
-      {
-        question: "disease",
-        options: ["sog'lik", "kasallik", "davo", "shifokor"],
-        correctIndex: 1,
-      },
-      {
-        question: "folklore",
-        options: [
-          "zamonaviy musiqa",
-          "folklor, xalq og'zaki ijodi",
-          "kitob",
-          "sport",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "infect",
-        options: ["davolamoq", "yuqtirmoq (infeksiya)", "tozalash", "yuvish"],
-        correctIndex: 1,
-      },
-      {
-        question: "itch",
-        options: ["og'rimoq", "qichimoq", "kuymoq", "shishmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "literature",
-        options: ["matematika", "adabiyot", "tarix", "kimyo"],
-        correctIndex: 1,
-      },
-      {
-        question: "millennium",
-        options: ["yuz yillik", "ming yillik", "o'n yillik", "asrlik"],
-        correctIndex: 1,
-      },
-      {
-        question: "myth",
-        options: ["haqiqat", "afsona, mif", "xabar", "qonun"],
-        correctIndex: 1,
-      },
-      {
-        question: "promote",
-        options: [
-          "tushirmoq",
-          "lavozimini ko'tarmoq, targ'ib qilmoq",
-          "to'xtatmoq",
-          "yashirmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "relate",
-        options: ["ayirmoq", "aloqador bo'lmoq", "unutmoq", "qochmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "religion",
-        options: ["fan", "din", "siyosat", "sport"],
-        correctIndex: 1,
-      },
-      {
-        question: "sum",
-        options: ["ayirma", "summa, miqdor", "bo'linma", "xato"],
-        correctIndex: 1,
-      },
-      {
-        question: "teller",
-        options: ["haydovchi", "kassir (bankda)", "oshpaz", "o'qituvchi"],
-        correctIndex: 1,
-      },
-      {
-        question: "trustworthy",
-        options: ["yolg'onchi", "ishonchli", "qo'rqoq", "shubhali"],
-        correctIndex: 1,
-      },
-      {
-        question: "update",
-        options: ["eskirtirmoq", "yangilamoq", "o'chirmoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "vein",
-        options: ["suyak", "tomir (qon tomiri)", "teri", "mushak"],
-        correctIndex: 1,
-      },
-      {
-        question: "venom",
-        options: ["suv", "zahar (ilon/hasharotniki)", "asal", "sut"],
-        correctIndex: 1,
-      },
-    ],
-    unit_22: [
-      {
-        question: "charity",
-        options: ["biznes", "xayriya", "o'g'irlik", "sotuv"],
-        correctIndex: 1,
-      },
-      {
-        question: "commerce",
-        options: ["o'yin", "tijorat, savdo", "urush", "dam olish"],
-        correctIndex: 1,
-      },
-      {
-        question: "condemn",
-        options: [
-          "maqtamoq",
-          "hukm qilmoq, ayblamoq",
-          "yordam bermoq",
-          "ruxsat bermoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "cozy",
-        options: ["noqulay", "shinam, qulay", "sovuq", "keng"],
-        correctIndex: 1,
-      },
-      {
-        question: "deplete",
-        options: ["to'ldirmoq", "tugatmoq, kamaytirmoq", "qurmoq", "saqlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "economy",
-        options: ["tabiat", "iqtisodiyot", "tarix", "til"],
-        correctIndex: 1,
-      },
-      {
-        question: "empire",
-        options: ["qishloq", "imperiya", "shahar", "mahalla"],
-        correctIndex: 1,
-      },
-      {
-        question: "goods",
-        options: ["xizmatlar", "tovarlar, buyumlar", "odamlar", "hayvonlar"],
-        correctIndex: 1,
-      },
-      {
-        question: "heed",
-        options: [
-          "e'tiborsiz qoldirmoq",
-          "diqqat qilmoq, amal qilmoq",
-          "unutmoq",
-          "kulmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "hitchhike",
-        options: [
-          "yugurish",
-          "yo'lovchi mashinada tekinga yurish",
-          "uchish",
-          "suzish",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "mock",
-        options: ["hurmat qilmoq", "masxara qilmoq", "maqtamoq", "o'rgatmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "neutral",
-        options: ["tarafdor", "betaraf", "qarshi", "shoshqaloq"],
-        correctIndex: 1,
-      },
-      {
-        question: "persecute",
-        options: [
-          "himoya qilmoq",
-          "ta'qib qilmoq, zulm qilmoq",
-          "yordam bermoq",
-          "sevmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "pity",
-        options: ["g'azab", "achinish, rahm qilish", "xursandchilik", "hasad"],
-        correctIndex: 1,
-      },
-      {
-        question: "reduce",
-        options: ["ko'paytirmoq", "kamaytirmoq", "o'stirmoq", "to'xtatmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "scribe",
-        options: ["o'quvchi", "kotib, xattot", "haydovchi", "askar"],
-        correctIndex: 1,
-      },
-      {
-        question: "temper",
-        options: ["bo'y", "fe'l-atvor, xarakter", "vazn", "ism"],
-        correctIndex: 1,
-      },
-      {
-        question: "throne",
-        options: ["kursi", "taxt", "gilam", "stul"],
-        correctIndex: 1,
-      },
-      {
-        question: "unity",
-        options: ["ayrilish", "birdamlik", "urush", "nizo"],
-        correctIndex: 1,
-      },
-      {
-        question: "victor",
-        options: ["mag'lub", "g'olib", "hakam", "tomoshabin"],
-        correctIndex: 1,
-      },
-    ],
-    unit_23: [
-      {
-        question: "accurate",
-        options: ["noto'g'ri", "aniq, xatosiz", "taxminiy", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "analyze",
-        options: ["shunchaki ko'rmoq", "tahlil qilmoq", "unutmoq", "yashirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "asteroid",
-        options: ["sayyora", "asteroid", "yulduz", "quyosh"],
-        correctIndex: 1,
-      },
-      {
-        question: "controversy",
-        options: ["kelishuv", "bahs-munozara", "tinchlik", "suhbat"],
-        correctIndex: 1,
-      },
-      {
-        question: "evolve",
-        options: [
-          "to'xtab qolmoq",
-          "rivojlanmoq, o'zgarmoq",
-          "yo'qolmoq",
-          "eskirmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "factor",
-        options: ["natija", "omil, sabab", "xato", "javob"],
-        correctIndex: 1,
-      },
-      {
-        question: "genetic",
-        options: ["jismoniy", "genetik", "tarixiy", "ijtimoiy"],
-        correctIndex: 1,
-      },
-      {
-        question: "genome",
-        options: ["hujayra", "genom", "tana", "qon"],
-        correctIndex: 1,
-      },
-      {
-        question: "identical",
-        options: ["har xil", "bir xil, aynan o'zi", "yangi", "notanish"],
-        correctIndex: 1,
-      },
-      {
-        question: "intellectual",
-        options: ["jismoniy", "aqlli, intellektual", "dangasa", "kuchsiz"],
-        correctIndex: 1,
-      },
-      {
-        question: "majority",
-        options: ["ozchilik", "ko'pchilik", "yarmi", "hammasi"],
-        correctIndex: 1,
-      },
-      {
-        question: "mammal",
-        options: ["qush", "sut emizuvchi", "baliq", "hasharot"],
-        correctIndex: 1,
-      },
-      {
-        question: "multiply",
-        options: ["kamaymoq", "ko'paymoq", "to'xtamoq", "bo'linmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "offspring",
-        options: ["ajdod", "avlod, farzand", "o'tmish", "dushman"],
-        correctIndex: 1,
-      },
-      {
-        question: "pesticide",
-        options: ["o'g'it", "pestitsid (zahar)", "suv", "dori"],
-        correctIndex: 1,
-      },
-      {
-        question: "regulate",
-        options: ["buzmoq", "tartibga solmoq", "aralashmoq", "yo'qotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "reinforce",
-        options: [
-          "kuchsizlantirmoq",
-          "mustahkamlamoq",
-          "sindirmoq",
-          "yo'qotmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "stricken",
-        options: ["baxtli", "musibatga uchragan", "boy", "sog'lom"],
-        correctIndex: 1,
-      },
-      {
-        question: "vast",
-        options: ["tor", "keng, juda katta", "kichik", "cheklangan"],
-        correctIndex: 1,
-      },
-      {
-        question: "vegetarian",
-        options: ["go'shtxo'r", "vegetarian", "oshpaz", "sotuvchi"],
-        correctIndex: 1,
-      },
-    ],
-    unit_24: [
-      {
-        question: "cherish",
-        options: [
-          "nafratlanmoq",
-          "ardoqlamoq, qadrlamoq",
-          "unutmoq",
-          "tashlamoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "compassion",
-        options: ["shafqatsizlik", "rahm-shafqat", "g'azab", "nafrat"],
-        correctIndex: 1,
-      },
-      {
-        question: "consent",
-        options: ["qarshilik", "rozilik", "taqiq", "buyruq"],
-        correctIndex: 1,
-      },
-      {
-        question: "core",
-        options: ["sirt", "yadro, markaz", "qobiq", "chekka"],
-        correctIndex: 1,
-      },
-      {
-        question: "cunning",
-        options: ["sodda", "ayyor, makkor", "mehribon", "aqlli"],
-        correctIndex: 1,
-      },
-      {
-        question: "dizzy",
-        options: ["sergak", "boshi aylangan", "uyquchi", "quvnoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "equilibrium",
-        options: ["tartibsizlik", "muvozanat", "shovqin", "harakat"],
-        correctIndex: 1,
-      },
-      {
-        question: "foster",
-        options: [
-          "to'xtatmoq",
-          "tarbiyalamoq, rivojlantirmoq",
-          "yomonlamoq",
-          "haydamoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "grind",
-        options: ["yopishtirmoq", "maydalamoq, yanchmoq", "qurmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "growl",
-        options: ["sayramoq", "irillamoq", "pichirlamoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "moderation",
-        options: ["haddidan oshish", "me'yor", "ortiqchalik", "kamchilik"],
-        correctIndex: 1,
-      },
-      {
-        question: "predator",
-        options: ["o'txo'r", "yirtqich", "uy hayvoni", "baliq"],
-        correctIndex: 1,
-      },
-      {
-        question: "sane",
-        options: ["telba", "aqli raso", "kasal", "uyquchi"],
-        correctIndex: 1,
-      },
-      {
-        question: "saucer",
-        options: ["tovoq", "likopcha", "piyola", "qoshiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "snatch",
-        options: ["bermoq", "yulib olmoq, ushlab olmoq", "tashlamoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "stagger",
-        options: ["to'g'ri yurmoq", "gandiraklamoq", "yugurmoq", "sakramoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "stumble",
-        options: ["yugurmoq", "qoqilmoq, adashmoq", "uchmoq", "o'tirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "tense",
-        options: ["erkin", "tarang, keskin", "xursand", "tinch"],
-        correctIndex: 1,
-      },
-      {
-        question: "tumble",
-        options: ["sakramoq", "yumalab ketmoq", "uchmoq", "tik turmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "withhold",
-        options: [
-          "bermoq",
-          "bermaslik, ushlab qolmoq",
-          "yordam bermoq",
-          "sotmoq",
-        ],
-        correctIndex: 1,
-      },
-    ],
-    unit_25: [
-      {
-        question: "aircraft",
-        options: ["mashina", "samolyot", "kema", "poyezd"],
-        correctIndex: 1,
-      },
-      {
-        question: "celebrity",
-        options: ["oddiy odam", "mashhur shaxs", "ishchi", "talaba"],
-        correctIndex: 1,
-      },
-      {
-        question: "concrete",
-        options: ["qum", "beton", "yog'och", "shisha"],
-        correctIndex: 1,
-      },
-      {
-        question: "decisive",
-        options: ["ikkilanuvchi", "qat'iy", "sust", "qo'rqoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "esteemed",
-        options: ["past", "hurmatli, e'zozli", "noma'lum", "yomon"],
-        correctIndex: 1,
-      },
-      {
-        question: "ethical",
-        options: ["axloqsiz", "axloqiy", "noqonuniy", "yomon"],
-        correctIndex: 1,
-      },
-      {
-        question: "extinct",
-        options: ["yashayotgan", "yo'q bo'lib ketgan", "ko'p", "yangi"],
-        correctIndex: 1,
-      },
-      {
-        question: "hardy",
-        options: ["nozik", "chidamli, baquvvat", "kuchsiz", "tezkor"],
-        correctIndex: 1,
-      },
-      {
-        question: "institute",
-        options: ["uy", "institut, muassasa", "bog'", "bozor"],
-        correctIndex: 1,
-      },
-      {
-        question: "jealousy",
-        options: ["mehribonlik", "hasad, rashk", "shodlik", "yordam"],
-        correctIndex: 1,
-      },
-      {
-        question: "migrate",
-        options: ["qolmoq", "ko'chmoq (qush/hayvonlar)", "uxlamoq", "o'ynamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "nurture",
-        options: ["zarar bermoq", "parvarish qilmoq", "unutmoq", "haydamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "overhead",
-        options: ["pastda", "tepada, bosh uzra", "yon tomonda", "ichkarida"],
-        correctIndex: 1,
-      },
-      {
-        question: "principle",
-        options: ["xato", "tamoyil, prinsip", "reja", "o'yin"],
-        correctIndex: 1,
-      },
-      {
-        question: "rural",
-        options: ["shahar", "qishloq", "markaziy", "yovvoyi"],
-        correctIndex: 1,
-      },
-      {
-        question: "secluded",
-        options: ["gavjum", "ayrim, xoli", "shovqinli", "ochiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "species",
-        options: ["shahar", "turlar (biologik)", "davlat", "shaxs"],
-        correctIndex: 1,
-      },
-      {
-        question: "swamp",
-        options: ["tog'", "botqoqlik", "cho'l", "daryo"],
-        correctIndex: 1,
-      },
-      {
-        question: "traverse",
-        options: ["to'xtamoq", "kesib o'tmoq", "qolmoq", "yashirinmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "zoology",
-        options: ["tarix", "zoologiya", "fizika", "ona tili"],
-        correctIndex: 1,
-      },
-    ],
-    unit_26: [
-      {
-        question: "assumption",
-        options: ["isbot", "faraz, taxmin", "javob", "savol"],
-        correctIndex: 1,
-      },
-      {
-        question: "barley",
-        options: ["bug'doy", "arpa", "sholi", "makkajo'xori"],
-        correctIndex: 1,
-      },
-      {
-        question: "beast",
-        options: ["o'simlik", "yovvoyi hayvon", "odam", "qush"],
-        correctIndex: 1,
-      },
-      {
-        question: "colonel",
-        options: ["askar", "polkovnik", "oshpaz", "haydovchi"],
-        correctIndex: 1,
-      },
-      {
-        question: "contagious",
-        options: ["xavfsiz", "yuqumli", "toza", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "corpse",
-        options: ["tirik", "jasad", "bola", "shifokor"],
-        correctIndex: 1,
-      },
-      {
-        question: "crisis",
-        options: ["tinchlik", "inqiroz", "bayram", "yutuq"],
-        correctIndex: 1,
-      },
-      {
-        question: "cure",
-        options: ["kasal qilmoq", "davolamoq", "urmoq", "so'kmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "deformed",
-        options: ["chiroyli", "shakli o'zgargan", "tekis", "yangi"],
-        correctIndex: 1,
-      },
-      {
-        question: "discriminate",
-        options: ["teng ko'rmoq", "kamsitmoq", "yordam bermoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "embassy",
-        options: ["maktab", "elchixona", "bozor", "shifoxona"],
-        correctIndex: 1,
-      },
-      {
-        question: "extinguish",
-        options: ["yoqmoq", "o'chirmoq (olovni)", "qurmoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "flint",
-        options: ["shisha", "chaqmoqtosh", "yog'och", "latta"],
-        correctIndex: 1,
-      },
-      {
-        question: "harass",
-        options: ["yordam bermoq", "bezovta qilmoq", "kuldirmoq", "maqtamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "integrate",
-        options: [
-          "ayirmoq",
-          "birlashtirmoq, integratsiya",
-          "yo'qotmoq",
-          "sindirmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "miniature",
-        options: ["ulkan", "mitti, miniaturali", "og'ir", "tezkor"],
-        correctIndex: 1,
-      },
-      {
-        question: "nutrition",
-        options: ["uyqu", "oziqlanish", "ish", "o'yin"],
-        correctIndex: 1,
-      },
-      {
-        question: "promptly",
-        options: ["sekin", "darhol, tezda", "ba'zan", "kech"],
-        correctIndex: 1,
-      },
-      {
-        question: "technician",
-        options: ["o'qituvchi", "texnik xodim", "shifokor", "rassom"],
-        correctIndex: 1,
-      },
-      {
-        question: "tropics",
-        options: ["sovuq joy", "tropiklar", "shimol", "cho'l"],
-        correctIndex: 1,
-      },
-    ],
-    unit_27: [
-      {
-        question: "abundant",
-        options: ["kam", "mo'l-ko'l, ko'p", "yo'q", "qimmat"],
-        correctIndex: 1,
-      },
-      {
-        question: "anchor",
-        options: ["yelkan", "langar", "qayiq", "eshkak"],
-        correctIndex: 1,
-      },
-      {
-        question: "brace",
-        options: [
-          "buzmoq",
-          "qo'llab-quvvatlash, bog'lam",
-          "tashlamoq",
-          "kulmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "concrete",
-        options: ["yumshoq", "beton", "suv", "havo"],
-        correctIndex: 1,
-      },
-      {
-        question: "content",
-        options: ["bo'sh", "tarkib, mundarija", "tashqarisi", "xato"],
-        correctIndex: 1,
-      },
-      {
-        question: "distort",
-        options: ["to'g'rilamoq", "buzib ko'rsatmoq", "tuzatmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "drought",
-        options: ["yomg'ir", "qurg'oqchilik", "toshqin", "sovuq"],
-        correctIndex: 1,
-      },
-      {
-        question: "famine",
-        options: ["to'qchilik", "ocharchilik", "bayram", "ish"],
-        correctIndex: 1,
-      },
-      {
-        question: "fertile",
-        options: ["unummas", "hosildor", "quruq", "toshloq"],
-        correctIndex: 1,
-      },
-      {
-        question: "finite",
-        options: ["cheksiz", "cheklangan", "katta", "uzoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "fracture",
-        options: ["tuzalish", "sinish, yoriq", "qurilish", "o'sish"],
-        correctIndex: 1,
-      },
-      {
-        question: "immune",
-        options: ["zaif", "immunitetga ega", "kasal", "qo'rqoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "impulse",
-        options: ["reja", "impuls, turtki", "xotira", "uyqu"],
-        correctIndex: 1,
-      },
-      {
-        question: "infinite",
-        options: ["cheklangan", "cheksiz", "kichik", "yaqin"],
-        correctIndex: 1,
-      },
-      {
-        question: "insane",
-        options: ["sog'lom", "telba, jinni", "aqlli", "vazmin"],
-        correctIndex: 1,
-      },
-      {
-        question: "inward",
-        options: ["tashqariga", "ichkariga", "yuqoriga", "pastga"],
-        correctIndex: 1,
-      },
-      {
-        question: "manual",
-        options: ["avtomatik", "qo'llanma / qo'l mehnati", "xato", "o'yin"],
-        correctIndex: 1,
-      },
-      {
-        question: "outward",
-        options: ["ichkariga", "tashqariga", "pastga", "yuqoriga"],
-        correctIndex: 1,
-      },
-      {
-        question: "patriot",
-        options: ["xoin", "vatanparvar", "askar", "bola"],
-        correctIndex: 1,
-      },
-      {
-        question: "propel",
-        options: [
-          "to'xtatmoq",
-          "harakatga keltirmoq",
-          "tushirmoq",
-          "yashirmoq",
-        ],
-        correctIndex: 1,
-      },
-    ],
-    unit_28: [
-      {
-        question: "affection",
-        options: ["nafrat", "mehr-muhabbat", "g'azab", "qo'rquv"],
-        correctIndex: 1,
-      },
-      {
-        question: "allege",
-        options: ["isbotlamoq", "da'vo qilmoq", "unutmoq", "kulmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "auditorium",
-        options: ["bog'", "auditoriya, zal", "bozor", "ko'cha"],
-        correctIndex: 1,
-      },
-      {
-        question: "bizarre",
-        options: ["oddiy", "g'alati, g'ayritabiiy", "chiroyli", "tanish"],
-        correctIndex: 1,
-      },
-      {
-        question: "bulletin",
-        options: ["kitob", "byulleten, xabarnoma", "rasm", "hikoya"],
-        correctIndex: 1,
-      },
-      {
-        question: "bump",
-        options: ["silash", "urilib ketish", "yugurish", "uchish"],
-        correctIndex: 1,
-      },
-      {
-        question: "casualty",
-        options: ["g'olib", "qurbon, talafot", "askar", "rahbar"],
-        correctIndex: 1,
-      },
-      {
-        question: "coincide",
-        options: [
-          "ayrilmoq",
-          "mos kelmoq, to'g'ri kelmoq",
-          "kechikmoq",
-          "xato bo'lmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "commonplace",
-        options: ["kamyob", "oddiy, odatiy", "qimmat", "yangi"],
-        correctIndex: 1,
-      },
-      {
-        question: "compensate",
-        options: ["ayblamoq", "kompensatsiya to'lamoq", "urmoq", "yo'qotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "comprise",
-        options: ["chiqarmoq", "o'z ichiga olmoq", "bo'lmoq", "yo'qotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "contradict",
-        options: [
-          "tasdiqlamoq",
-          "zid bo'lmoq, qarshi chiqmoq",
-          "yordam bermoq",
-          "kulmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "deter",
-        options: [
-          "undaymoq",
-          "qaytarmoq, to'xtatmoq",
-          "yordam bermoq",
-          "tezlatmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "disguise",
-        options: [
-          "ko'rsatmoq",
-          "niqoblanmoq, yashirinmoq",
-          "sotmoq",
-          "baqirmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "disperse",
-        options: ["yig'moq", "tarqatmoq", "ushlamoq", "to'xtatmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "fake",
-        options: ["haqiqiy", "soxta", "eski", "yangi"],
-        correctIndex: 1,
-      },
-      {
-        question: "glare",
-        options: ["kulish", "o'qlab qarash / porlash", "uxlash", "gapirish"],
-        correctIndex: 1,
-      },
-      {
-        question: "glimpse",
-        options: ["tikilish", "ko'z tashlash", "yashirish", "unutish"],
-        correctIndex: 1,
-      },
-      {
-        question: "outbreak",
-        options: ["tugash", "boshlanish (kasallik/urush)", "tinchlik", "reja"],
-        correctIndex: 1,
-      },
-      {
-        question: "redundant",
-        options: ["kerakli", "ortiqcha", "muhim", "kamyob"],
-        correctIndex: 1,
-      },
-    ],
-    unit_29: [
-      {
-        question: "abolish",
-        options: ["o'rnatmoq", "bekor qilmoq", "qurmoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "ambiguous",
-        options: ["aniq", "noaniq, ikki ma'noli", "yaxshi", "tezkor"],
-        correctIndex: 1,
-      },
-      {
-        question: "append",
-        options: [
-          "ayirmoq",
-          "ilova qilmoq, qo'shmoq",
-          "yo'qotmoq",
-          "sindirmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "awaken",
-        options: ["uxlatmoq", "uyg'otmoq", "yig'latmoq", "kuldirmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "bleak",
-        options: ["yorqin", "ma'yus, qorong'u", "quvnoq", "boy"],
-        correctIndex: 1,
-      },
-      {
-        question: "blunt",
-        options: ["o'tkir", "o'tmas", "yangi", "toza"],
-        correctIndex: 1,
-      },
-      {
-        question: "brutal",
-        options: ["mehribon", "shafqatsiz", "aqlli", "sekin"],
-        correctIndex: 1,
-      },
-      {
-        question: "caption",
-        options: ["rasm", "sarlavha, tagso'z", "kitob", "xat"],
-        correctIndex: 1,
-      },
-      {
-        question: "caution",
-        options: ["shoshqaloqlik", "ehtiyotkorlik", "qo'rquv", "g'azab"],
-        correctIndex: 1,
-      },
-      {
-        question: "comply",
-        options: [
-          "rad etmoq",
-          "bo'ysunmoq, amal qilmoq",
-          "baqirmoq",
-          "urishmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "decree",
-        options: ["iltimos", "farmon, qaror", "savol", "xato"],
-        correctIndex: 1,
-      },
-      {
-        question: "dense",
-        options: ["siyrak", "zich, qalin", "yengil", "nozik"],
-        correctIndex: 1,
-      },
-      {
-        question: "deprive",
-        options: ["bermoq", "mahrum qilmoq", "yordam bermoq", "maqtamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "diminish",
-        options: ["ko'paytirmoq", "kamaytirmoq", "o'stirmoq", "to'xtatmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "enforce",
-        options: ["buzmoq", "majburan joriy etmoq", "ruxsat bermoq", "unutmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "era",
-        options: ["kun", "davr, era", "soat", "daqiqa"],
-        correctIndex: 1,
-      },
-      {
-        question: "evoke",
-        options: [
-          "unutmoq",
-          "uyg'otmoq (xotira/hissiyot)",
-          "yashirmoq",
-          "to'xtatmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "exempt",
-        options: ["majbur", "ozod qilingan", "aybdor", "ishchi"],
-        correctIndex: 1,
-      },
-      {
-        question: "ignite",
-        options: ["o'chirmoq", "yoqmoq (o't qo'ymoq)", "yuvmoq", "quritmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "persist",
-        options: [
-          "taslim bo'lmoq",
-          "qat'iyat ko'rsatmoq",
-          "to'xtamoq",
-          "qochmoq",
-        ],
-        correctIndex: 1,
-      },
-    ],
-    unit_30: [
-      {
-        question: "adjacent",
-        options: ["uzoqda", "yonma-yon, tutash", "pastda", "tepada"],
-        correctIndex: 1,
-      },
-      {
-        question: "adjoin",
-        options: ["ayrilmoq", "tutashmoq", "yo'qotmoq", "sotmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "compress",
-        options: ["kengaytirmoq", "siqmoq", "sindirmoq", "tashlamoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "cone",
-        options: ["kvadrat", "konus", "aylana", "uchburchak"],
-        correctIndex: 1,
-      },
-      {
-        question: "dense",
-        options: ["yumshoq", "zich", "suyuq", "issiq"],
-        correctIndex: 1,
-      },
-      {
-        question: "depict",
-        options: ["yashirmoq", "tasvirlamoq", "baqirmoq", "unutmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "designate",
-        options: [
-          "tasodifan tanlamoq",
-          "belgilamoq, tayinlamoq",
-          "xato qilmoq",
-          "unutmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "displace",
-        options: ["joyiga qo'ymoq", "joyidan siljitmoq", "qurmoq", "tuzatmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "distinct",
-        options: ["o'xshash", "farqli, aniq", "yashirin", "eski"],
-        correctIndex: 1,
-      },
-      {
-        question: "exceed",
-        options: ["kamaytirmoq", "oshirib yubormoq", "to'xtatmoq", "qolmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "excavate",
-        options: ["ko'mmoq", "qazimoq", "qurmoq", "yuvmoq"],
-        correctIndex: 1,
-      },
-      {
-        question: "federal",
-        options: ["mahalliy", "federal, markaziy", "shaxsiy", "kichik"],
-        correctIndex: 1,
-      },
-      {
-        question: "fee",
-        options: ["sovg'a", "to'lov, haq", "jarima", "mukofot"],
-        correctIndex: 1,
-      },
-      {
-        question: "ignite",
-        options: ["suv sepmoq", "yoqmoq", "tozalash", "yopish"],
-        correctIndex: 1,
-      },
-      {
-        question: "impose",
-        options: [
-          "ozod qilmoq",
-          "yuklamoq, joriy qilmoq",
-          "yordam bermoq",
-          "kulmoq",
-        ],
-        correctIndex: 1,
-      },
-      {
-        question: "inferior",
-        options: ["yaxshiroq", "pastroq, sifatsiz", "yuqori", "zo'r"],
-        correctIndex: 1,
-      },
-      {
-        question: "inherent",
-        options: ["orttirilgan", "tabiiy, ajralmas", "yangi", "notanish"],
-        correctIndex: 1,
-      },
-      {
-        question: "municipal",
-        options: ["shaxsiy", "munitsipal, shahar", "davlatlararo", "qishloq"],
-        correctIndex: 1,
-      },
-      {
-        question: "preliminary",
-        options: ["yakuniy", "dastlabki", "oxirgi", "doimiy"],
-        correctIndex: 1,
-      },
-      {
-        question: "restrain",
-        options: [
-          "erkin qo'ymoq",
-          "cheklamoq, tiymoq",
-          "yordam bermoq",
-          "baqirmoq",
-        ],
-        correctIndex: 1,
-      },
-    ],
+    units: {
+      unit_1: [
+        {
+          question: "aroma",
+          options: ["rang", "yoqimli hid", "shovqin", "mazza"],
+          correctIndex: 1,
+        },
+        {
+          question: "beverage",
+          options: ["ovqat", "ichimlik", "meva", "sabzavot"],
+          correctIndex: 1,
+        },
+        {
+          question: "cluster",
+          options: ["yakka", "to'da, g'uj", "bo'shliq", "tartib"],
+          correctIndex: 1,
+        },
+        {
+          question: "combine",
+          options: ["bo'lmoq", "birlashtirmoq", "ayirmoq", "yo'qotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "condensed",
+          options: ["suyuq", "quyuqlashtirilgan", "issiq", "muzlagan"],
+          correctIndex: 1,
+        },
+        {
+          question: "contemporary",
+          options: ["qadimiy", "zamonaviy", "eski", "kelajakdagi"],
+          correctIndex: 1,
+        },
+        {
+          question: "cultivate",
+          options: [
+            "yo'q qilmoq",
+            "yetishtirmoq, parvarishlamoq",
+            "sotmoq",
+            "tashlamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "divine",
+          options: ["oddiy", "ilohiy", "yomon", "insoniy"],
+          correctIndex: 1,
+        },
+        {
+          question: "humid",
+          options: ["quruq", "nam, dim", "sovuq", "issiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "odor",
+          options: ["nur", "hid", "tovush", "shakl"],
+          correctIndex: 1,
+        },
+        {
+          question: "palate",
+          options: ["tana", "tanglay", "qo'l", "oyoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "paradise",
+          options: ["do'zax", "jannat", "yer", "osmon"],
+          correctIndex: 1,
+        },
+        {
+          question: "plantation",
+          options: ["shahar", "plantatsiya", "bog'", "uydagi maydon"],
+          correctIndex: 1,
+        },
+        {
+          question: "rapid",
+          options: ["sekin", "tezkor", "og'ir", "yengil"],
+          correctIndex: 1,
+        },
+        {
+          question: "rate",
+          options: ["narx", "tezlik, sur'at", "vazn", "bo'y"],
+          correctIndex: 1,
+        },
+        {
+          question: "soothing",
+          options: ["qo'rqinchli", "tinchlantiruvchi", "baland", "achchiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "subtle",
+          options: ["yaqqol", "nozik, bilinmas", "kuchli", "dag'al"],
+          correctIndex: 1,
+        },
+        {
+          question: "texture",
+          options: ["rang", "sirt tuzilishi", "vazn", "harorat"],
+          correctIndex: 1,
+        },
+        {
+          question: "toxic",
+          options: ["foydali", "zaharli", "shirin", "toza"],
+          correctIndex: 1,
+        },
+        {
+          question: "vary",
+          options: [
+            "bir xil bo'lmoq",
+            "farq qilmoq, o'zgarmoq",
+            "to'xtamoq",
+            "qolmoq",
+          ],
+          correctIndex: 1,
+        },
+      ],
+      unit_2: [
+        {
+          question: "accident",
+          options: ["reja", "baxtsiz hodisa", "bayram", "sovg'a"],
+          correctIndex: 1,
+        },
+        {
+          question: "admiral",
+          options: ["askar", "admiral", "oshpaz", "haydovchi"],
+          correctIndex: 1,
+        },
+        {
+          question: "arc",
+          options: ["to'g'ri chiziq", "yoy, egri chiziq", "nuqta", "kvadrat"],
+          correctIndex: 1,
+        },
+        {
+          question: "character",
+          options: ["ism", "xarakter", "yosh", "manzil"],
+          correctIndex: 1,
+        },
+        {
+          question: "conscience",
+          options: ["yovuzlik", "vijdon", "qo'rquv", "uyqu"],
+          correctIndex: 1,
+        },
+        {
+          question: "fiery",
+          options: ["muzdek", "olovli, qizg'in", "tinch", "nam"],
+          correctIndex: 1,
+        },
+        {
+          question: "flesh",
+          options: ["suyak", "tana, go'sht", "kiyim", "soch"],
+          correctIndex: 1,
+        },
+        {
+          question: "grapefruit",
+          options: ["olma", "greypfrut", "banan", "nok"],
+          correctIndex: 1,
+        },
+        {
+          question: "hay",
+          options: ["meva", "pichan", "suv", "tosh"],
+          correctIndex: 1,
+        },
+        {
+          question: "horrified",
+          options: ["xursand", "dahshatga tushgan", "uyquli", "tinch"],
+          correctIndex: 1,
+        },
+        {
+          question: "kerosene",
+          options: ["suv", "kerosin", "sut", "sharbat"],
+          correctIndex: 1,
+        },
+        {
+          question: "loop",
+          options: ["chiziq", "halqa, sirtmoq", "pichoq", "qoshiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "paddle",
+          options: ["miltiq", "eshkak", "to'p", "arqon"],
+          correctIndex: 1,
+        },
+        {
+          question: "raft",
+          options: ["kema", "sal", "samolyot", "mashina"],
+          correctIndex: 1,
+        },
+        {
+          question: "sour",
+          options: ["shirin", "nordon", "achchiq", "tuzli"],
+          correctIndex: 1,
+        },
+        {
+          question: "stake",
+          options: ["gilam", "tirgak, sutun", "parda", "deraza"],
+          correctIndex: 1,
+        },
+        {
+          question: "steward",
+          options: ["rahbar", "styuart, xizmatchi", "o'qituvchi", "shifokor"],
+          correctIndex: 1,
+        },
+        {
+          question: "string",
+          options: ["temir", "ip, kanop", "tosh", "shisha"],
+          correctIndex: 1,
+        },
+        {
+          question: "thorn",
+          options: ["gul", "tikan", "barg", "ildiz"],
+          correctIndex: 1,
+        },
+        {
+          question: "wreck",
+          options: ["qurmoq", "vayron qilmoq", "tuzatmoq", "bo'yamoq"],
+          correctIndex: 1,
+        },
+      ],
+      unit_3: [
+        {
+          question: "admonish",
+          options: ["maqtamoq", "ogohlantirmoq", "kuldurmoq", "yordam bermoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "audible",
+          options: ["ko'rinadigan", "eshitiladigan", "mazali", "issiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "awesome",
+          options: ["zerikarli", "hayajonli, ulkan", "yomon", "kichik"],
+          correctIndex: 1,
+        },
+        {
+          question: "beware",
+          options: ["shoshilmoq", "ehtiyot bo'lmoq", "uxlamoq", "kulmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "brag",
+          options: ["yig'lamoq", "maqtanmoq", "ishlamoq", "o'qimoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "conscious",
+          options: ["hushsiz", "ongli, sezadigan", "uyqudagi", "mast"],
+          correctIndex: 1,
+        },
+        {
+          question: "disagree",
+          options: [
+            "rozi bo'lmoq",
+            "kelishmovchilik, qarshi bo'lish",
+            "yordam bermoq",
+            "kulmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "echo",
+          options: ["shovqin", "aks sado", "qo'shiq", "musiqa"],
+          correctIndex: 1,
+        },
+        {
+          question: "eventual",
+          options: ["birinchi", "yakuniy, oxirgi", "tezkor", "doimiy"],
+          correctIndex: 1,
+        },
+        {
+          question: "hint",
+          options: ["javob", "ishora, shama", "baqiriq", "buyruq"],
+          correctIndex: 1,
+        },
+        {
+          question: "idiot",
+          options: ["daho", "ahmoq, tentak", "olim", "usta"],
+          correctIndex: 1,
+        },
+        {
+          question: "immense",
+          options: ["mitti", "juda katta", "yengil", "nozik"],
+          correctIndex: 1,
+        },
+        {
+          question: "indirect",
+          options: ["to'g'ridan-to'g'ri", "bilvosita", "aniq", "tezda"],
+          correctIndex: 1,
+        },
+        {
+          question: "option",
+          options: ["majburiyat", "tanlov, imkoniyat", "xato", "taqiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "pastime",
+          options: ["ish", "ovunchoq, mashg'ulot", "dars", "uyqu"],
+          correctIndex: 1,
+        },
+        {
+          question: "perfect",
+          options: ["nuqsonli", "mukammal", "eski", "yomon"],
+          correctIndex: 1,
+        },
+        {
+          question: "pinpoint",
+          options: [
+            "yo'qotmoq",
+            "aniq joyini ko'rsatmoq",
+            "taxmin qilmoq",
+            "yashirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "switch",
+          options: [
+            "to'xtatmoq",
+            "o'zgartirmoq, almashtirmoq",
+            "sindirmoq",
+            "tashlamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "thorough",
+          options: ["yuzaki", "puxta, to'liq", "tezkor", "notog'ri"],
+          correctIndex: 1,
+        },
+        {
+          question: "torment",
+          options: [
+            "xursand qilmoq",
+            "azob bermoq",
+            "yordam bermoq",
+            "davolamoq",
+          ],
+          correctIndex: 1,
+        },
+      ],
+      unit_4: [
+        {
+          question: "beak",
+          options: ["oyoq", "tumshuq", "qanot", "quyruq"],
+          correctIndex: 1,
+        },
+        {
+          question: "damp",
+          options: ["quruq", "nam, ho'l", "issiq", "chang"],
+          correctIndex: 1,
+        },
+        {
+          question: "disapprove",
+          options: ["ma'qullamoq", "rad etmoq", "yordam bermoq", "olqishlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "except",
+          options: ["bilan birga", "...dan tashqari", "ichida", "oldida"],
+          correctIndex: 1,
+        },
+        {
+          question: "flight",
+          options: ["yugurish", "parvoz", "suvda suzish", "o'tirish"],
+          correctIndex: 1,
+        },
+        {
+          question: "fond",
+          options: ["nafratlanish", "yoqtirish", "qo'rqish", "zerikish"],
+          correctIndex: 1,
+        },
+        {
+          question: "immoral",
+          options: ["axloqli", "axloqsiz", "aqlli", "vazmin"],
+          correctIndex: 1,
+        },
+        {
+          question: "ivy",
+          options: ["terak", "pechak (o'simlik)", "gul", "meva"],
+          correctIndex: 1,
+        },
+        {
+          question: "moan",
+          options: ["kulish", "injiqlik qilish, nola", "yugurish", "uxlash"],
+          correctIndex: 1,
+        },
+        {
+          question: "oblivious",
+          options: ["e'tiborli", "beandisha, xabarsiz", "aqlli", "tezkor"],
+          correctIndex: 1,
+        },
+        {
+          question: "perish",
+          options: [
+            "tug'ilmoq",
+            "halok bo'lmoq, o'lib ketmoq",
+            "o'smoq",
+            "yashamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "pit",
+          options: ["tepalik", "chuqur", "tog'", "tekislik"],
+          correctIndex: 1,
+        },
+        {
+          question: "rim",
+          options: ["markaz", "chekka, hoshiya", "ichkarida", "pastda"],
+          correctIndex: 1,
+        },
+        {
+          question: "roost",
+          options: [
+            "yugurish yo'li",
+            "qo'noq joy (qushlar uchun)",
+            "suv havzasi",
+            "uy",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "slippery",
+          options: ["dag'al", "sirpanchiq", "quruq", "qattiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "soar",
+          options: ["yerda yurmoq", "baland uchmoq", "cho'kmoq", "to'xtamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "trivial",
+          options: ["muhim", "arzimagan, mayda-chuyda", "katta", "qimmat"],
+          correctIndex: 1,
+        },
+        {
+          question: "typical",
+          options: ["g'alati", "odatiy", "yangi", "kamyob"],
+          correctIndex: 1,
+        },
+        {
+          question: "utterly",
+          options: ["biroz", "butunlay", "qisman", "hech qachon"],
+          correctIndex: 1,
+        },
+        {
+          question: "weep",
+          options: ["kulmoq", "yig'lamoq", "baqirmoq", "sakramoq"],
+          correctIndex: 1,
+        },
+      ],
+      unit_5: [
+        {
+          question: "awhile",
+          options: ["doimo", "bir muncha vaqt", "hech qachon", "tezda"],
+          correctIndex: 1,
+        },
+        {
+          question: "cyberspace",
+          options: ["o'rmon", "kiberfazo (internet olami)", "shahar", "maktab"],
+          correctIndex: 1,
+        },
+        {
+          question: "edit",
+          options: ["o'chirmoq", "tahrirlamoq", "chizmoq", "sotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "essay",
+          options: ["rasm", "insho", "hisob", "xarita"],
+          correctIndex: 1,
+        },
+        {
+          question: "evaluate",
+          options: ["buzmoq", "baholamoq", "sotib olmoq", "tashlab yubormoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "faint",
+          options: ["yugurmoq", "hushidan ketmoq", "uyg'onmoq", "kulmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "global",
+          options: ["mahalliy", "global, dunyoviy", "kichik", "shaxsiy"],
+          correctIndex: 1,
+        },
+        {
+          question: "gymnasium",
+          options: ["oshxona", "gimnaziya (sport zal)", "yotoqxona", "bozor"],
+          correctIndex: 1,
+        },
+        {
+          question: "highlight",
+          options: ["berkitmoq", "ajratib ko'rsatish", "o'chirmoq", "unutmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "ignorant",
+          options: ["aqlli", "bilimsiz, johil", "tirishqoq", "mashhur"],
+          correctIndex: 1,
+        },
+        {
+          question: "index",
+          options: ["sarlavha", "indeks, ko'rsatkich", "xat", "kitob"],
+          correctIndex: 1,
+        },
+        {
+          question: "lecture",
+          options: ["suhbat", "ma'ruza", "o'yin", "sayohat"],
+          correctIndex: 1,
+        },
+        {
+          question: "moral",
+          options: ["jismoniy", "axloqiy", "texnik", "moddiy"],
+          correctIndex: 1,
+        },
+        {
+          question: "operate",
+          options: [
+            "to'xtatmoq",
+            "ishlatmoq, boshqarmoq",
+            "buzmoq",
+            "yashirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "private",
+          options: ["umumiy", "shaxsiy, xususiy", "ochiq", "davlatniki"],
+          correctIndex: 1,
+        },
+        {
+          question: "recent",
+          options: ["qadimiy", "yaqindagi", "kelajakdagi", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "resolution",
+          options: ["savol", "qaror", "xato", "shubha"],
+          correctIndex: 1,
+        },
+        {
+          question: "semester",
+          options: ["yil", "semestr", "hafta", "kun"],
+          correctIndex: 1,
+        },
+        {
+          question: "typewritten",
+          options: [
+            "qo'lyozma",
+            "mashinkada yozilgan/bosma",
+            "chizilgan",
+            "og'zaki",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "weird",
+          options: ["oddiy", "g'alati", "chiroyli", "tanish"],
+          correctIndex: 1,
+        },
+      ],
+      unit_6: [
+        {
+          question: "absolute",
+          options: ["nisbiy", "mutlaq", "shubhali", "kichik"],
+          correctIndex: 1,
+        },
+        {
+          question: "alas",
+          options: ["xayriyat", "afsus", "tabriklayman", "rahmat"],
+          correctIndex: 1,
+        },
+        {
+          question: "attentive",
+          options: ["e'tiborsiz", "diqqatli", "dangasa", "yomon"],
+          correctIndex: 1,
+        },
+        {
+          question: "cape",
+          options: ["shim", "yoping'ich (yoki burun)", "etik", "ko'ylak"],
+          correctIndex: 1,
+        },
+        {
+          question: "envision",
+          options: ["unutmoq", "tasavvur qilmoq", "ko'rmoq", "qochmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "evenly",
+          options: ["notekis", "tekis, bir xilda", "tezda", "sekin"],
+          correctIndex: 1,
+        },
+        {
+          question: "folk",
+          options: ["hayvonlar", "odamlar, xalq", "o'simliklar", "binolar"],
+          correctIndex: 1,
+        },
+        {
+          question: "melt",
+          options: ["muzlamoq", "erimoq", "qotmoq", "sindirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "patch",
+          options: ["teshik", "yamoq", "yangi kiyim", "tugma"],
+          correctIndex: 1,
+        },
+        {
+          question: "pleasure",
+          options: ["azob", "mamnuniyat, zavq", "g'azab", "qo'rquv"],
+          correctIndex: 1,
+        },
+        {
+          question: "pop",
+          options: ["jimlik", "portlash ovozi", "qo'shiq", "uyqu"],
+          correctIndex: 1,
+        },
+        {
+          question: "pudding",
+          options: ["sho'rva", "puding (shirinlik)", "go'sht", "non"],
+          correctIndex: 1,
+        },
+        {
+          question: "rail",
+          options: ["deraza", "panjara, zinapoya tutqichi", "eshik", "tom"],
+          correctIndex: 1,
+        },
+        {
+          question: "recipe",
+          options: ["xat", "retsept", "kitob", "gazeta"],
+          correctIndex: 1,
+        },
+        {
+          question: "role",
+          options: ["ism", "rol", "manzil", "yosh"],
+          correctIndex: 1,
+        },
+        {
+          question: "shrink",
+          options: ["kattalashmoq", "kichraymoq", "o'smoq", "yoqmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "soak",
+          options: ["quritmoq", "namlamoq, ivitmoq", "to'kmoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "spark",
+          options: ["suv", "uchqun", "muz", "tosh"],
+          correctIndex: 1,
+        },
+        {
+          question: "spirit",
+          options: ["tana", "ruh", "kiyim", "ovqat"],
+          correctIndex: 1,
+        },
+        {
+          question: "suit",
+          options: ["shim", "kostyum", "etik", "qalpoq"],
+          correctIndex: 1,
+        },
+      ],
+      unit_7: [
+        {
+          question: "account",
+          options: ["reja", "hisob", "sovg'a", "xato"],
+          correctIndex: 1,
+        },
+        {
+          question: "architect",
+          options: ["shifokor", "me'mor", "haydovchi", "oshpaz"],
+          correctIndex: 1,
+        },
+        {
+          question: "conceal",
+          options: ["ko'rsatmoq", "yashirmoq", "sotmoq", "baqirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "crime",
+          options: ["yaxshilik", "jinoyat", "yordam", "ish"],
+          correctIndex: 1,
+        },
+        {
+          question: "deed",
+          options: ["so'z", "hujjat, ish-amal", "o'yin", "uyqu"],
+          correctIndex: 1,
+        },
+        {
+          question: "gratitude",
+          options: ["nafrat", "minnatdorchilik", "hasad", "g'azab"],
+          correctIndex: 1,
+        },
+        {
+          question: "habitat",
+          options: ["ishxona", "yashash joyi (muhiti)", "bozor", "maktab"],
+          correctIndex: 1,
+        },
+        {
+          question: "intervene",
+          options: ["chetda turmoq", "aralashmoq", "yordam bermoq", "kulmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "landmark",
+          options: ["nomsiz joy", "belgi, orientir", "pastlik", "ichkari"],
+          correctIndex: 1,
+        },
+        {
+          question: "legal",
+          options: ["noqonuniy", "qonuniy", "yashirin", "yomon"],
+          correctIndex: 1,
+        },
+        {
+          question: "memorable",
+          options: ["oddiy", "esda qolarli", "zerikarli", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "oblige",
+          options: [
+            "ozod qilmoq",
+            "majbur qilmoq",
+            "ruxsat bermoq",
+            "sovg'a bermoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "offence",
+          options: ["mukofot", "jinoyat, xafa qilish", "tabrik", "yordam"],
+          correctIndex: 1,
+        },
+        {
+          question: "proclaim",
+          options: ["pichirlamoq", "e'lon qilmoq", "yashirmoq", "unutmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "rally",
+          options: ["yolg'iz o'tirish", "miting, yig'ilish", "uyqu", "dars"],
+          correctIndex: 1,
+        },
+        {
+          question: "resolve",
+          options: ["chalkashtirmoq", "hal qilmoq", "buzmoq", "tashlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "resource",
+          options: ["chiqindi", "manba", "yo'qotish", "xato"],
+          correctIndex: 1,
+        },
+        {
+          question: "sentence",
+          options: ["maqtov", "jazo (hukm)", "mukofot", "yordam"],
+          correctIndex: 1,
+        },
+        {
+          question: "volunteer",
+          options: ["majburiy ishchi", "ko'ngilli", "askar", "rahbar"],
+          correctIndex: 1,
+        },
+        {
+          question: "witness",
+          options: ["jinoyatchi", "guvoh", "sudya", "advokat"],
+          correctIndex: 1,
+        },
+      ],
+      unit_8: [
+        {
+          question: "access",
+          options: ["chiqish", "kirish", "to'siq", "yopiq yo'l"],
+          correctIndex: 1,
+        },
+        {
+          question: "conduct",
+          options: ["kiyim", "xulq-atvor", "ovqat", "ism"],
+          correctIndex: 1,
+        },
+        {
+          question: "constant",
+          options: ["o'zgaruvchan", "doimiy", "kamdan-kam", "to'xtagan"],
+          correctIndex: 1,
+        },
+        {
+          question: "crack",
+          options: ["tekislik", "yoriq", "devor", "tom"],
+          correctIndex: 1,
+        },
+        {
+          question: "device",
+          options: ["tosh", "qurilma", "o'simlik", "hayvon"],
+          correctIndex: 1,
+        },
+        {
+          question: "enclose",
+          options: [
+            "ochmoq",
+            "o'ramoq, ichiga olmoq",
+            "tashlamoq",
+            "sindirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "grip",
+          options: [
+            "tushirib yubormoq",
+            "mahkam ushlab olmoq",
+            "itarmog",
+            "tepmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "halt",
+          options: ["yugurmoq", "to'xtamoq", "yurmoq", "sakramoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "impending",
+          options: ["o'tib ketgan", "yaqinlashayotgan", "uzoqdagi", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "influence",
+          options: ["yordam", "ta'sir", "to'siq", "javob"],
+          correctIndex: 1,
+        },
+        {
+          question: "law",
+          options: ["o'yin", "qonun", "xat", "hikoya"],
+          correctIndex: 1,
+        },
+        {
+          question: "mode",
+          options: ["joy", "rejim, usul", "vaqt", "ism"],
+          correctIndex: 1,
+        },
+        {
+          question: "perspire",
+          options: ["muzlamoq", "terlamoq", "titramoq", "uxlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "replace",
+          options: [
+            "yo'qotmoq",
+            "almashmoq, o'rniga qo'ymoq",
+            "sindirmoq",
+            "tashlamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "snap",
+          options: ["egilmoq", "sinmoq (qarsillab)", "tuzalmoq", "o'smoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "sly",
+          options: ["sodda", "ayyor", "mehribon", "aqlli"],
+          correctIndex: 1,
+        },
+        {
+          question: "tend",
+          options: [
+            "qochmoq",
+            "intilmoq, moyil bo'lmoq",
+            "to'xtamoq",
+            "unutmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "valid",
+          options: ["yaroqsiz", "yaroqli, haqiqiy", "eski", "buzuq"],
+          correctIndex: 1,
+        },
+        {
+          question: "version",
+          options: ["asli", "versiya, nusxa", "xato", "kitob"],
+          correctIndex: 1,
+        },
+        {
+          question: "whatsoever",
+          options: ["biroz", "umuman", "ba'zan", "tezda"],
+          correctIndex: 1,
+        },
+      ],
+      unit_9: [
+        {
+          question: "alongside",
+          options: ["qarshisida", "yonma-yon", "ustida", "ichida"],
+          correctIndex: 1,
+        },
+        {
+          question: "appetite",
+          options: ["uyqu", "ishtaha", "charchoq", "tashnalik"],
+          correctIndex: 1,
+        },
+        {
+          question: "assist",
+          options: ["xalaqit bermoq", "yordam bermoq", "baqirmoq", "urmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "breeze",
+          options: ["bo'ron", "shabada", "yomg'ir", "qor"],
+          correctIndex: 1,
+        },
+        {
+          question: "defy",
+          options: ["bo'ysunmoq", "qarshi turmoq", "yordam bermoq", "kulmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "display",
+          options: ["yashirmoq", "namoyish qilmoq", "sindirmoq", "unutmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "efficient",
+          options: ["sust", "samarali", "yomon", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "feeble",
+          options: ["kuchli", "kuchsiz, nimjon", "katta", "tezkor"],
+          correctIndex: 1,
+        },
+        {
+          question: "forgive",
+          options: ["jazolamoq", "kechirmoq", "urmoq", "so'kmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "lively",
+          options: ["zerikarli", "jonli, quvnoq", "uyquchi", "yomon"],
+          correctIndex: 1,
+        },
+        {
+          question: "majestic",
+          options: ["oddiy", "dabdabali, muhtasham", "kichik", "xunuk"],
+          correctIndex: 1,
+        },
+        {
+          question: "nor",
+          options: ["ham", "na ... na", "lekin", "chunki"],
+          correctIndex: 1,
+        },
+        {
+          question: "outraged",
+          options: ["xursand", "g'azablangan", "tinch", "baxtli"],
+          correctIndex: 1,
+        },
+        {
+          question: "pessimistic",
+          options: ["optmistik", "pessimistik", "xursand", "yaxshi"],
+          correctIndex: 1,
+        },
+        {
+          question: "rumor",
+          options: ["haqiqat", "mish-mish", "xabar", "kitob"],
+          correctIndex: 1,
+        },
+        {
+          question: "slap",
+          options: ["silamoq", "tarsaki tushirmoq", "itarmog", "ushlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "smash",
+          options: ["tuzatmoq", "maydalamoq, sindirmoq", "qurmoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "subject",
+          options: ["ism", "mavzu", "joy", "vaqt"],
+          correctIndex: 1,
+        },
+        {
+          question: "wage",
+          options: ["sovg'a", "maosh", "jarima", "qarz"],
+          correctIndex: 1,
+        },
+        {
+          question: "whereas",
+          options: ["va", "modomiki, holbuki", "shuning uchun", "keyin"],
+          correctIndex: 1,
+        },
+      ],
+      unit_10: [
+        {
+          question: "animate",
+          options: ["o'lik", "jonlantirilgan", "jim", "rangsiz"],
+          correctIndex: 1,
+        },
+        {
+          question: "classify",
+          options: ["chalkashtirmoq", "tasniflamoq", "yo'qotmoq", "sotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "concede",
+          options: ["rad etmoq", "tan olmoq", "baqirmoq", "yugurmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "concept",
+          options: ["narsa", "tushuncha, g'oya", "xato", "shovqin"],
+          correctIndex: 1,
+        },
+        {
+          question: "construct",
+          options: ["buzmoq", "qurmoq", "sotmoq", "tashlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "decade",
+          options: ["yil", "o'n yillik", "asr", "hafta"],
+          correctIndex: 1,
+        },
+        {
+          question: "diagram",
+          options: ["hikoya", "diagramma, chizma", "kitob", "xat"],
+          correctIndex: 1,
+        },
+        {
+          question: "ferry",
+          options: ["mashina", "parom", "samolyot", "velosiped"],
+          correctIndex: 1,
+        },
+        {
+          question: "handy",
+          options: ["noqulay", "qulay", "og'ir", "qiyin"],
+          correctIndex: 1,
+        },
+        {
+          question: "isolate",
+          options: ["birlashtirmoq", "ajratmoq", "yordam bermoq", "kulmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "longing",
+          options: ["nafrat", "intizorlik, sog'inch", "uyqu", "g'azab"],
+          correctIndex: 1,
+        },
+        {
+          question: "numerous",
+          options: ["bitta", "ko'p sonli", "yo'q", "ozgina"],
+          correctIndex: 1,
+        },
+        {
+          question: "particle",
+          options: ["tog'", "zarra, bo'lakcha", "dengiz", "osmon"],
+          correctIndex: 1,
+        },
+        {
+          question: "plea",
+          options: ["buyruq", "iltimos, o'tinch", "javob", "so'kish"],
+          correctIndex: 1,
+        },
+        {
+          question: "refrain",
+          options: ["davom etmoq", "o'zini tiymoq", "yugurmoq", "baqirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "review",
+          options: ["unutmoq", "ko'rib chiqish", "berkitmoq", "tashlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "sophisticated",
+          options: ["oddiy", "murakkab, ilg'or", "yomon", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "surrender",
+          options: [
+            "hujum qilmoq",
+            "tashlim bo'lmoq",
+            "g'alaba qozonmoq",
+            "yugurmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "upright",
+          options: ["yotiq", "tik", "egilgan", "pastki"],
+          correctIndex: 1,
+        },
+        {
+          question: "worthwhile",
+          options: ["foydasiz", "foydali, arziydigan", "yomon", "qimmat"],
+          correctIndex: 1,
+        },
+      ],
+      unit_11: [
+        {
+          question: "alliance",
+          options: ["urush", "ittifoq", "dushmanlik", "ayrilish"],
+          correctIndex: 1,
+        },
+        {
+          question: "applause",
+          options: ["baqiriq", "olqish, qarsaklar", "hushtak", "jimlik"],
+          correctIndex: 1,
+        },
+        {
+          question: "armed",
+          options: ["qurolsiz", "qurollangan", "kuchsiz", "tinch"],
+          correctIndex: 1,
+        },
+        {
+          question: "authoritative",
+          options: ["shubhali", "ishonchli, nufuzli", "yolg'on", "zaif"],
+          correctIndex: 1,
+        },
+        {
+          question: "ceremony",
+          options: ["o'yin", "marosim", "uyqu", "ish"],
+          correctIndex: 1,
+        },
+        {
+          question: "culture",
+          options: ["tabiat", "madaniyat", "shahar", "bino"],
+          correctIndex: 1,
+        },
+        {
+          question: "defense",
+          options: ["hujum", "himoya", "qochish", "yutqazish"],
+          correctIndex: 1,
+        },
+        {
+          question: "detail",
+          options: ["umumiy", "tafsilot, detal", "xato", "reja"],
+          correctIndex: 1,
+        },
+        {
+          question: "diverse",
+          options: ["bir xil", "xilma-xil", "oddiy", "yangi"],
+          correctIndex: 1,
+        },
+        {
+          question: "enchant",
+          options: ["qo'rqitmoq", "maftun qilmoq", "xafa qilmoq", "unutmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "equip",
+          options: ["yo'qotmoq", "jihozlamoq", "sindirmoq", "sotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "exception",
+          options: ["qoida", "istisno", "odatiy hol", "reja"],
+          correctIndex: 1,
+        },
+        {
+          question: "genre",
+          options: ["kitob", "janr", "muallif", "sahifa"],
+          correctIndex: 1,
+        },
+        {
+          question: "impact",
+          options: ["sabab", "ta'sir", "natijasizlik", "xotira"],
+          correctIndex: 1,
+        },
+        {
+          question: "lure",
+          options: [
+            "haydamoq",
+            "vasvasa qilmoq, jalb etmoq",
+            "to'xtatmoq",
+            "qo'rqitmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "obstacle",
+          options: ["yordamchi", "to'siq", "yo'lak", "imkoniyat"],
+          correctIndex: 1,
+        },
+        {
+          question: "shelter",
+          options: ["ochiq maydon", "pana, boshpana", "yo'l", "cho'l"],
+          correctIndex: 1,
+        },
+        {
+          question: "sort",
+          options: ["aralashtirmoq", "saralamoq", "yo'qotmoq", "buzmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "supply",
+          options: ["ehtiyoj", "ta'minot, zaxira", "chiqindi", "kamchilik"],
+          correctIndex: 1,
+        },
+        {
+          question: "vain",
+          options: [
+            "foydali",
+            "behuda, o'ziga bino qo'ygan",
+            "muhim",
+            "tezkor",
+          ],
+          correctIndex: 1,
+        },
+      ],
+      unit_12: [
+        {
+          question: "alternative",
+          options: ["yagona yo'l", "muqobil, alternativa", "xato", "taqiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "avenue",
+          options: ["ko'cha", "shoh ko'cha, xiyobon", "uy", "bog'"],
+          correctIndex: 1,
+        },
+        {
+          question: "belly",
+          options: ["bosh", "qorin", "qo'l", "oyoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "bid",
+          options: [
+            "qochish",
+            "urinish, narx taklif qilish",
+            "uyqu",
+            "baqiriq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "blow",
+          options: ["to'xtamoq", "esmoq (shamol)", "yonmoq", "suv ichmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "conflict",
+          options: ["kelishuv", "mojaro, nizo", "do'stlik", "tinchlik"],
+          correctIndex: 1,
+        },
+        {
+          question: "continent",
+          options: ["shahar", "qit'a", "davlat", "okean"],
+          correctIndex: 1,
+        },
+        {
+          question: "current",
+          options: ["to'xtagan", "oqim, hozirgi", "eski", "kelajakdagi"],
+          correctIndex: 1,
+        },
+        {
+          question: "disrespect",
+          options: ["hurmat", "hurmatsizlik", "sevgi", "yordam"],
+          correctIndex: 1,
+        },
+        {
+          question: "enthusiasm",
+          options: ["zerikish", "ishtiyoq, g'ayrat", "qo'rquv", "g'azab"],
+          correctIndex: 1,
+        },
+        {
+          question: "harsh",
+          options: ["yumshoq", "qattiq, yoqimsiz", "shirin", "mayin"],
+          correctIndex: 1,
+        },
+        {
+          question: "lean",
+          options: ["tik turmoq", "egilmoq, suyanmoq", "yugurmoq", "sakramoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "meantime",
+          options: ["avval", "shu orada", "keyin", "hech qachon"],
+          correctIndex: 1,
+        },
+        {
+          question: "mischief",
+          options: ["yaxshilik", "sho'xlik, yomonlik", "yordam", "ish"],
+          correctIndex: 1,
+        },
+        {
+          question: "muscle",
+          options: ["suyak", "muskul", "teri", "soch"],
+          correctIndex: 1,
+        },
+        {
+          question: "rescue",
+          options: ["tark etmoq", "qutqarmoq", "tashlab ketmoq", "urmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "succession",
+          options: ["tartibsizlik", "ketma-ketlik", "to'xtash", "ayrilish"],
+          correctIndex: 1,
+        },
+        {
+          question: "terrain",
+          options: ["osmon", "relyef, yer maydoni", "suv", "bulut"],
+          correctIndex: 1,
+        },
+        {
+          question: "timid",
+          options: ["botir", "qo'rqoq, tortinchoq", "baqiroq", "shoshqaloq"],
+          correctIndex: 1,
+        },
+        {
+          question: "violence",
+          options: ["tinchlik", "zo'ravonlik", "mehribonlik", "yordam"],
+          correctIndex: 1,
+        },
+      ],
+      unit_13: [
+        {
+          question: "affect",
+          options: ["unutmoq", "ta'sir qilmoq", "yashirmoq", "to'xtatmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "autograph",
+          options: ["rasm", "imzo (dastxat)", "kitob", "xat"],
+          correctIndex: 1,
+        },
+        {
+          question: "bead",
+          options: ["tosh", "munchoq", "suv", "qum"],
+          correctIndex: 1,
+        },
+        {
+          question: "brew",
+          options: ["yeyish", "damlamoq", "sotmoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "charm",
+          options: ["xunuklik", "jozibadorlik", "qo'rquv", "shovqin"],
+          correctIndex: 1,
+        },
+        {
+          question: "destiny",
+          options: ["o'tmish", "taqdir", "tasodif", "reja"],
+          correctIndex: 1,
+        },
+        {
+          question: "horn",
+          options: ["quyruq", "shox", "oyoq", "quloq"],
+          correctIndex: 1,
+        },
+        {
+          question: "irritable",
+          options: [
+            "vazmin",
+            "jizzaki, tez achchiqlanadigan",
+            "quvnoq",
+            "uyquchi",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "lag",
+          options: ["o'zib ketmoq", "orqada qolmoq", "yugurmoq", "sakramoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "maximize",
+          options: [
+            "kamaytirmoq",
+            "maksimal darajaga ko'tarmoq",
+            "to'xtatmoq",
+            "sindirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "nightmare",
+          options: ["shirin tush", "qo'rqinchli tush", "uyqu", "uyg'onish"],
+          correctIndex: 1,
+        },
+        {
+          question: "nutritious",
+          options: ["zararli", "to'yimli, ozuqaviy", "achchiq", "mazasiz"],
+          correctIndex: 1,
+        },
+        {
+          question: "protein",
+          options: ["yog'", "oqsil", "shakar", "tuz"],
+          correctIndex: 1,
+        },
+        {
+          question: "signature",
+          options: ["rasm", "imzo", "muhr", "belgi"],
+          correctIndex: 1,
+        },
+        {
+          question: "stuff",
+          options: ["odam", "narsa, ashyo", "shahar", "davlat"],
+          correctIndex: 1,
+        },
+        {
+          question: "subconscious",
+          options: ["ongli", "ong osti", "hushsiz", "uyquchi"],
+          correctIndex: 1,
+        },
+        {
+          question: "van",
+          options: ["velosiped", "furgon (mashina)", "kema", "qayiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "warn",
+          options: ["maqtamoq", "ogohlantirmoq", "yordam bermoq", "kuldurmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "workout",
+          options: ["uyqu", "mashq (mashg'ulot)", "ovqat", "dam olish"],
+          correctIndex: 1,
+        },
+        {
+          question: "zoom",
+          options: [
+            "to'xtamoq",
+            "tezlashmoq, yaqinlashtirmoq",
+            "sekinlashmoq",
+            "uxlamoq",
+          ],
+          correctIndex: 1,
+        },
+      ],
+      unit_14: [
+        {
+          question: "brick",
+          options: ["yog'och", "g'isht", "temir", "shisha"],
+          correctIndex: 1,
+        },
+        {
+          question: "crumble",
+          options: [
+            "qurmoq",
+            "parchalanish, uvalanmoq",
+            "yopishtirmoq",
+            "tozalash",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "dough",
+          options: ["non", "xamir", "sut", "tuxum"],
+          correctIndex: 1,
+        },
+        {
+          question: "express",
+          options: ["yashirmoq", "ifoda qilmoq", "unutmoq", "to'xtatmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "fist",
+          options: ["barmoq", "musht", "tirsak", "tizza"],
+          correctIndex: 1,
+        },
+        {
+          question: "flexible",
+          options: ["qattiq", "moslashuvchan, egiluvchan", "mo'rt", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "flush",
+          options: ["muzlamoq", "qizarib ketmoq", "uxlamoq", "yugurmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "injure",
+          options: ["davolamoq", "jarohatlamoq", "yordam bermoq", "maqtamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "lump",
+          options: ["teshik", "bo'lak, parcha", "suv", "havo"],
+          correctIndex: 1,
+        },
+        {
+          question: "mixture",
+          options: ["alohida", "aralashma", "toza", "yangi"],
+          correctIndex: 1,
+        },
+        {
+          question: "reconcile",
+          options: [
+            "urushmoq",
+            "tinchlashtirmoq, kelishtirmoq",
+            "baqirmoq",
+            "ayirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "ruin",
+          options: ["tuzatmoq", "vayron qilmoq", "qurmoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "shatter",
+          options: ["yig'moq", "chil-chil qilmoq", "saqlamoq", "tuzatmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "shutter",
+          options: ["devor", "darvoza, tabaqa", "tom", "pol"],
+          correctIndex: 1,
+        },
+        {
+          question: "sift",
+          options: ["to'kmoq", "elamoq", "ichmoq", "chaynamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "slight",
+          options: ["katta", "kichik, mayda", "og'ir", "kuchli"],
+          correctIndex: 1,
+        },
+        {
+          question: "sparkle",
+          options: ["qorong'ulashmoq", "porlamoq", "so'nmoq", "yo'qolmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "sprinkle",
+          options: ["yig'moq", "sepmoq", "yuvmoq", "quritmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "stale",
+          options: ["yangi", "eskigan, aynigan", "shirin", "issiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "utter",
+          options: [
+            "jim turmoq",
+            "aytmoq, talaffuz qilmoq",
+            "eshitmoq",
+            "uxlamoq",
+          ],
+          correctIndex: 1,
+        },
+      ],
+      unit_15: [
+        {
+          question: "although",
+          options: ["chunki", "...ga qaramay", "lekin", "shuning uchun"],
+          correctIndex: 1,
+        },
+        {
+          question: "apply",
+          options: [
+            "olmoq",
+            "qo'llamoq, murojaat qilmoq",
+            "yo'qotmoq",
+            "uxlamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "await",
+          options: ["ketmoq", "kutmoq", "kechikmoq", "topmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "beloved",
+          options: ["yoqimsiz", "sevimli, qadrli", "begona", "yomon"],
+          correctIndex: 1,
+        },
+        {
+          question: "bury",
+          options: ["topmoq", "ko'mmoq", "tashlab ketmoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "climate",
+          options: ["havo", "iqlim", "yer", "suv"],
+          correctIndex: 1,
+        },
+        {
+          question: "complain",
+          options: [
+            "maqtamoq",
+            "shikoyat qilmoq",
+            "yordam bermoq",
+            "shod bo'lmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "confuse",
+          options: [
+            "tushuntirmoq",
+            "chalg'itmoq, adashtirmoq",
+            "yordam bermoq",
+            "eslamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "due",
+          options: [
+            "o'tib ketgan",
+            "kutilayotgan, muddati kelgan",
+            "kutilmagan",
+            "eski",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "entire",
+          options: ["yarim", "butun, barcha", "kichik", "bo'lak"],
+          correctIndex: 1,
+        },
+        {
+          question: "establish",
+          options: [
+            "buzmoq",
+            "asos solmoq, o'rnatmoq",
+            "yo'qotmoq",
+            "kechikmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "furnace",
+          options: ["muzlatgich", "pechka, o'choq", "deraza", "gilam"],
+          correctIndex: 1,
+        },
+        {
+          question: "leash",
+          options: ["zanjir", "tasma (itlar uchun)", "oyoq kiyim", "tayoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "mature",
+          options: ["yosh", "yetilgan, voyaga yetgan", "kichik", "tajribasiz"],
+          correctIndex: 1,
+        },
+        {
+          question: "measure",
+          options: ["taxmin qilmoq", "o'lchamoq", "yo'qotmoq", "sindirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "midst",
+          options: ["chetida", "o'rtasi", "tepasida", "tagida"],
+          correctIndex: 1,
+        },
+        {
+          question: "misery",
+          options: ["baxt", "baxtsizlik, azob", "boylik", "shodlik"],
+          correctIndex: 1,
+        },
+        {
+          question: "prior",
+          options: ["keyingi", "avvalgi, oldin", "hozirgi", "doimiy"],
+          correctIndex: 1,
+        },
+        {
+          question: "research",
+          options: ["o'yin", "tadqiqot", "suhbat", "xat"],
+          correctIndex: 1,
+        },
+        {
+          question: "variety",
+          options: ["bir xillik", "xilma-xillik", "kamchilik", "oddiylik"],
+          correctIndex: 1,
+        },
+      ],
+      unit_16: [
+        {
+          question: "altogether",
+          options: ["ba'zan", "umuman, butunlay", "hech qachon", "biroz"],
+          correctIndex: 1,
+        },
+        {
+          question: "bind",
+          options: ["yechmoq", "bog'lamoq", "sindirmoq", "tashlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "bruise",
+          options: ["chandiq", "ko'karish (shilinish)", "dog'", "toshma"],
+          correctIndex: 1,
+        },
+        {
+          question: "custom",
+          options: ["yangi narsa", "odat, rasm-rusum", "qonun", "o'yin"],
+          correctIndex: 1,
+        },
+        {
+          question: "disobedient",
+          options: [
+            "itoatkor",
+            "itoatsiz, gapga kirmaydigan",
+            "aqlli",
+            "vazmin",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "foresee",
+          options: ["unutmoq", "oldindan bilmoq", "kechikmoq", "eslamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "glimpse",
+          options: [
+            "uzoq tikilish",
+            "ko'z tashlamoq",
+            "yashirmoq",
+            "ko'rmaslik",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "hoop",
+          options: ["chiziq", "halqa", "tayoq", "tosh"],
+          correctIndex: 1,
+        },
+        {
+          question: "misfortune",
+          options: ["omad", "baxtsizlik, omadsizlik", "baxt", "boylik"],
+          correctIndex: 1,
+        },
+        {
+          question: "negative",
+          options: ["ijobiy", "salbiy", "yaxshi", "to'g'ri"],
+          correctIndex: 1,
+        },
+        {
+          question: "per",
+          options: ["uchun", "har bir", "bilan", "orqali"],
+          correctIndex: 1,
+        },
+        {
+          question: "plead",
+          options: [
+            "buyurmoq",
+            "yalinmoq, iltimos qilmoq",
+            "baqirmoq",
+            "urmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "rip",
+          options: ["tuzatmoq", "yirtmoq", "yopishtirmoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "sake",
+          options: ["qarshi", "uchun (manfaati uchun)", "o'rniga", "tashqari"],
+          correctIndex: 1,
+        },
+        {
+          question: "scrape",
+          options: ["silamoq", "qirtishlamoq, qirmoq", "bo'yamoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "source",
+          options: ["natija", "manba", "yakun", "xato"],
+          correctIndex: 1,
+        },
+        {
+          question: "stern",
+          options: ["mehribon", "qattiqqo'l", "quvnoq", "yumshoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "stitch",
+          options: ["yirtmoq", "tikmoq (chok)", "sindirmoq", "yoqmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "thump",
+          options: [
+            "pichirlash",
+            "gursillatish (zarba ovozi)",
+            "musiqa",
+            "jimlik",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "vehement",
+          options: ["sust", "shiddatli, kuchli", "tinch", "sekin"],
+          correctIndex: 1,
+        },
+      ],
+      unit_17: [
+        {
+          question: "civilization",
+          options: ["yovvoyilik", "sivilizatsiya", "qishloq", "o'rmon"],
+          correctIndex: 1,
+        },
+        {
+          question: "convenient",
+          options: ["noqulay", "qulay", "uzoq", "qiyin"],
+          correctIndex: 1,
+        },
+        {
+          question: "den",
+          options: ["uy", "in (hayvonlar yashaydigan joy)", "maktab", "bozor"],
+          correctIndex: 1,
+        },
+        {
+          question: "dew",
+          options: ["yomg'ir", "shabnam", "qor", "tuman"],
+          correctIndex: 1,
+        },
+        {
+          question: "drastic",
+          options: ["yumshoq", "keskin, jiddiy", "sekin", "kichik"],
+          correctIndex: 1,
+        },
+        {
+          question: "exit",
+          options: ["kirish", "chiqish", "to'siq", "yo'l"],
+          correctIndex: 1,
+        },
+        {
+          question: "flock",
+          options: ["bitta", "poda, to'da", "shahar", "bino"],
+          correctIndex: 1,
+        },
+        {
+          question: "fold",
+          options: ["yirtmoq", "qatlamoq", "yoqmoq", "sindirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "lid",
+          options: ["tovoq", "qopqoq", "qoshiq", "pichoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "loom",
+          options: [
+            "yo'qolmoq",
+            "ko'zga tashlanmoq, paydo bo'lmoq",
+            "unutmoq",
+            "yashirinmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "mighty",
+          options: ["kuchsiz", "kuchli, qudratli", "mitti", "yengil"],
+          correctIndex: 1,
+        },
+        {
+          question: "mushroom",
+          options: ["olma", "qo'ziqorin", "sabzi", "piyoz"],
+          correctIndex: 1,
+        },
+        {
+          question: "native",
+          options: ["xorijiy", "mahalliy, tub", "notanish", "yangi"],
+          correctIndex: 1,
+        },
+        {
+          question: "poison",
+          options: ["dori", "zahar", "suv", "ovqat"],
+          correctIndex: 1,
+        },
+        {
+          question: "reed",
+          options: ["daraxt", "qamish", "gul", "maysa"],
+          correctIndex: 1,
+        },
+        {
+          question: "shield",
+          options: ["miltiq", "qalqon", "pichoq", "o'q"],
+          correctIndex: 1,
+        },
+        {
+          question: "stormy",
+          options: ["tinch", "bo'ronli", "issiq", "quyoshli"],
+          correctIndex: 1,
+        },
+        {
+          question: "sway",
+          options: ["tik turmoq", "tebranmoq", "yugurmoq", "uxlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "urban",
+          options: ["qishloq", "shahar", "yovvoyi", "uzoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "wade",
+          options: ["uchmoq", "suvni kechib o'tmoq", "yugurmoq", "sakramoq"],
+          correctIndex: 1,
+        },
+      ],
+      unit_18: [
+        {
+          question: "accent",
+          options: ["rang", "aksent (talaffuz)", "ism", "yosh"],
+          correctIndex: 1,
+        },
+        {
+          question: "barber",
+          options: ["o'qituvchi", "sartarosh", "shifokor", "haydovchi"],
+          correctIndex: 1,
+        },
+        {
+          question: "basement",
+          options: ["tom", "podval (yerto'la)", "oshxona", "balkon"],
+          correctIndex: 1,
+        },
+        {
+          question: "blank",
+          options: ["to'la", "bo'sh", "rangli", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "blink",
+          options: [
+            "tikilmoq",
+            "ko'z qismoq, miltillamoq",
+            "uxlamoq",
+            "kulmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "choir",
+          options: ["guruh", "xor (qo'shiqchilar)", "o'yin", "dars"],
+          correctIndex: 1,
+        },
+        {
+          question: "comic",
+          options: ["dahshatli", "kulgili, komik", "zerikarli", "jiddiy"],
+          correctIndex: 1,
+        },
+        {
+          question: "complicate",
+          options: [
+            "osonlashtirmoq",
+            "murakkablashtirmoq",
+            "tuzatmoq",
+            "yuvmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "decline",
+          options: [
+            "qabul qilmoq",
+            "rad etmoq, pasaymoq",
+            "yordam bermoq",
+            "kulmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "errand",
+          options: ["dam olish", "topshiriq, vazifa", "o'yin", "uyqu"],
+          correctIndex: 1,
+        },
+        {
+          question: "glove",
+          options: ["paypoq", "qo'lqop", "shim", "ko'ylak"],
+          correctIndex: 1,
+        },
+        {
+          question: "hermit",
+          options: ["podshoh", "zohid (yolg'iz yashovchi)", "ishchi", "bola"],
+          correctIndex: 1,
+        },
+        {
+          question: "justly",
+          options: ["nohaq", "adolat bilan", "tezda", "yomon"],
+          correctIndex: 1,
+        },
+        {
+          question: "leather",
+          options: ["latta", "charm, teri", "temir", "shisha"],
+          correctIndex: 1,
+        },
+        {
+          question: "ponder",
+          options: ["shoshilmoq", "chuqur o'ylamoq", "unutmoq", "baqirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "reserve",
+          options: [
+            "sotmoq",
+            "bron qilmoq, olib qo'ymoq",
+            "tashlamoq",
+            "yo'qotmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "script",
+          options: ["rasm", "ssenariy, qo'lyozma", "kitob", "gazeta"],
+          correctIndex: 1,
+        },
+        {
+          question: "search",
+          options: ["yo'qotmoq", "qidirmoq", "yashirmoq", "sotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "slam",
+          options: [
+            "asta yopmoq",
+            "qattiq yopmoq (shang'illatib)",
+            "ochmoq",
+            "urmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "staircase",
+          options: ["deraza", "zinapoya", "eshik", "devor"],
+          correctIndex: 1,
+        },
+      ],
+      unit_19: [
+        {
+          question: "afflicted",
+          options: ["baxtli", "azoblanayotgan", "sog'lom", "quvnoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "aisle",
+          options: ["devor", "yo'lak (qatorlar orasi)", "eshik", "deraza"],
+          correctIndex: 1,
+        },
+        {
+          question: "atmosphere",
+          options: ["yer", "atmosfera", "suv", "tosh"],
+          correctIndex: 1,
+        },
+        {
+          question: "author",
+          options: ["o'quvchi", "muallif", "sotuvchi", "haydovchi"],
+          correctIndex: 1,
+        },
+        {
+          question: "breakdown",
+          options: [
+            "tuzalish",
+            "ishdan chiqish, buzilish",
+            "qurilish",
+            "yutuq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "cargo",
+          options: ["yo'lovchi", "yuk", "haydovchi", "kema"],
+          correctIndex: 1,
+        },
+        {
+          question: "chapter",
+          options: ["kitob", "bob", "sahifa", "muqova"],
+          correctIndex: 1,
+        },
+        {
+          question: "connect",
+          options: ["uzmoq", "ulamoq, bog'lamoq", "sindirmoq", "ayirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "etc.",
+          options: ["va boshqalar", "va hokazo", "shuningdek", "faqat"],
+          correctIndex: 1,
+        },
+        {
+          question: "flip",
+          options: [
+            "to'xtatmoq",
+            "ag'darmoq, aylantirmoq",
+            "yuvmoq",
+            "chizmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "idle",
+          options: ["ishchan", "ishsiz, bekorchi", "tezkor", "aqlli"],
+          correctIndex: 1,
+        },
+        {
+          question: "notify",
+          options: ["yashirmoq", "xabar bermoq", "unutmoq", "baqirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "pea",
+          options: ["olma", "no'xat", "sabzi", "piyoz"],
+          correctIndex: 1,
+        },
+        {
+          question: "raisin",
+          options: ["o'rik", "mayiz", "yong'oq", "olma"],
+          correctIndex: 1,
+        },
+        {
+          question: "retain",
+          options: ["yo'qotmoq", "saqlab qolmoq", "sotmoq", "tashlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "state",
+          options: [
+            "jim turmoq",
+            "bayon qilmoq, aytmoq",
+            "tinglamoq",
+            "uxlamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "tray",
+          options: ["tovoq", "patnis", "qoshiq", "pichoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "unfortunate",
+          options: ["omadli", "baxtsiz, omadsiz", "yaxshi", "quvnoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "vivid",
+          options: ["xira", "yorqin", "qorong'i", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "vomit",
+          options: ["ovqatlanmoq", "qusmoq", "ichmoq", "uxlamoq"],
+          correctIndex: 1,
+        },
+      ],
+      unit_20: [
+        {
+          question: "betray",
+          options: [
+            "yordam bermoq",
+            "xiyonat qilmoq",
+            "sodiq qolmoq",
+            "sevmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "blast",
+          options: ["tinchlik", "portlash", "shovqin", "uyqu"],
+          correctIndex: 1,
+        },
+        {
+          question: "bracelet",
+          options: ["uzuk", "bilaguzuk", "zirak", "marjon"],
+          correctIndex: 1,
+        },
+        {
+          question: "cease",
+          options: ["boshlamoq", "to'xtamoq", "davom etmoq", "yugurmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "choke",
+          options: ["nafas olmoq", "bo'g'ilmoq", "gapirmoq", "kulmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "civil",
+          options: ["harbiy", "fuqarolik", "yovvoyi", "qishloq"],
+          correctIndex: 1,
+        },
+        {
+          question: "comment",
+          options: ["jim turmoq", "fikr bildirmoq", "eshitmoq", "o'qimoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "cross",
+          options: ["to'xtamoq", "kesib o'tmoq", "qolmoq", "yugurmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "dent",
+          options: [
+            "tepalik",
+            "pachoqlangan joy, chuqurcha",
+            "tekislik",
+            "devor",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "distrust",
+          options: ["ishonch", "ishonmaslik", "sevgi", "yordam"],
+          correctIndex: 1,
+        },
+        {
+          question: "fort",
+          options: ["uy", "qal'a", "bog'", "bozor"],
+          correctIndex: 1,
+        },
+        {
+          question: "found",
+          options: ["yo'qotmoq", "asos solmoq", "sindirmoq", "sotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "lining",
+          options: ["ustki qism", "astar", "tugma", "yeng"],
+          correctIndex: 1,
+        },
+        {
+          question: "mass",
+          options: ["kichik", "yirik, ommaviy", "ozgina", "nozik"],
+          correctIndex: 1,
+        },
+        {
+          question: "pray",
+          options: ["urishmoq", "ibodat qilmoq", "o'ynamoq", "ishlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "rife",
+          options: ["kamyob", "keng tarqalgan", "yashirin", "yangi"],
+          correctIndex: 1,
+        },
+        {
+          question: "sole",
+          options: ["ko'p", "yagona", "arzon", "yaxshi"],
+          correctIndex: 1,
+        },
+        {
+          question: "sweep",
+          options: ["iflos qilmoq", "supurmoq", "yuvmoq", "yoqmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "treachery",
+          options: ["sadoqat", "xiyonat", "yaxshilik", "yordam"],
+          correctIndex: 1,
+        },
+        {
+          question: "tuck",
+          options: ["chiqarmoq", "tiqmoq, joylamoq", "sotmoq", "tashlamoq"],
+          correctIndex: 1,
+        },
+      ],
+      unit_21: [
+        {
+          question: "background",
+          options: ["old tomon", "fon, kelib chiqish", "shovqin", "reja"],
+          correctIndex: 1,
+        },
+        {
+          question: "bait",
+          options: ["tuzoq", "xo'rak, yem", "baliq", "suv"],
+          correctIndex: 1,
+        },
+        {
+          question: "chronicle",
+          options: ["ertak", "yilnoma, xronika", "rasm", "xat"],
+          correctIndex: 1,
+        },
+        {
+          question: "copper",
+          options: ["oltin", "mis", "kumush", "temir"],
+          correctIndex: 1,
+        },
+        {
+          question: "disease",
+          options: ["sog'lik", "kasallik", "davo", "shifokor"],
+          correctIndex: 1,
+        },
+        {
+          question: "folklore",
+          options: [
+            "zamonaviy musiqa",
+            "folklor, xalq og'zaki ijodi",
+            "kitob",
+            "sport",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "infect",
+          options: ["davolamoq", "yuqtirmoq (infeksiya)", "tozalash", "yuvish"],
+          correctIndex: 1,
+        },
+        {
+          question: "itch",
+          options: ["og'rimoq", "qichimoq", "kuymoq", "shishmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "literature",
+          options: ["matematika", "adabiyot", "tarix", "kimyo"],
+          correctIndex: 1,
+        },
+        {
+          question: "millennium",
+          options: ["yuz yillik", "ming yillik", "o'n yillik", "asrlik"],
+          correctIndex: 1,
+        },
+        {
+          question: "myth",
+          options: ["haqiqat", "afsona, mif", "xabar", "qonun"],
+          correctIndex: 1,
+        },
+        {
+          question: "promote",
+          options: [
+            "tushirmoq",
+            "lavozimini ko'tarmoq, targ'ib qilmoq",
+            "to'xtatmoq",
+            "yashirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "relate",
+          options: ["ayirmoq", "aloqador bo'lmoq", "unutmoq", "qochmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "religion",
+          options: ["fan", "din", "siyosat", "sport"],
+          correctIndex: 1,
+        },
+        {
+          question: "sum",
+          options: ["ayirma", "summa, miqdor", "bo'linma", "xato"],
+          correctIndex: 1,
+        },
+        {
+          question: "teller",
+          options: ["haydovchi", "kassir (bankda)", "oshpaz", "o'qituvchi"],
+          correctIndex: 1,
+        },
+        {
+          question: "trustworthy",
+          options: ["yolg'onchi", "ishonchli", "qo'rqoq", "shubhali"],
+          correctIndex: 1,
+        },
+        {
+          question: "update",
+          options: ["eskirtirmoq", "yangilamoq", "o'chirmoq", "sotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "vein",
+          options: ["suyak", "tomir (qon tomiri)", "teri", "mushak"],
+          correctIndex: 1,
+        },
+        {
+          question: "venom",
+          options: ["suv", "zahar (ilon/hasharotniki)", "asal", "sut"],
+          correctIndex: 1,
+        },
+      ],
+      unit_22: [
+        {
+          question: "charity",
+          options: ["biznes", "xayriya", "o'g'irlik", "sotuv"],
+          correctIndex: 1,
+        },
+        {
+          question: "commerce",
+          options: ["o'yin", "tijorat, savdo", "urush", "dam olish"],
+          correctIndex: 1,
+        },
+        {
+          question: "condemn",
+          options: [
+            "maqtamoq",
+            "hukm qilmoq, ayblamoq",
+            "yordam bermoq",
+            "ruxsat bermoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "cozy",
+          options: ["noqulay", "shinam, qulay", "sovuq", "keng"],
+          correctIndex: 1,
+        },
+        {
+          question: "deplete",
+          options: [
+            "to'ldirmoq",
+            "tugatmoq, kamaytirmoq",
+            "qurmoq",
+            "saqlamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "economy",
+          options: ["tabiat", "iqtisodiyot", "tarix", "til"],
+          correctIndex: 1,
+        },
+        {
+          question: "empire",
+          options: ["qishloq", "imperiya", "shahar", "mahalla"],
+          correctIndex: 1,
+        },
+        {
+          question: "goods",
+          options: ["xizmatlar", "tovarlar, buyumlar", "odamlar", "hayvonlar"],
+          correctIndex: 1,
+        },
+        {
+          question: "heed",
+          options: [
+            "e'tiborsiz qoldirmoq",
+            "diqqat qilmoq, amal qilmoq",
+            "unutmoq",
+            "kulmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "hitchhike",
+          options: [
+            "yugurish",
+            "yo'lovchi mashinada tekinga yurish",
+            "uchish",
+            "suzish",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "mock",
+          options: ["hurmat qilmoq", "masxara qilmoq", "maqtamoq", "o'rgatmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "neutral",
+          options: ["tarafdor", "betaraf", "qarshi", "shoshqaloq"],
+          correctIndex: 1,
+        },
+        {
+          question: "persecute",
+          options: [
+            "himoya qilmoq",
+            "ta'qib qilmoq, zulm qilmoq",
+            "yordam bermoq",
+            "sevmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "pity",
+          options: [
+            "g'azab",
+            "achinish, rahm qilish",
+            "xursandchilik",
+            "hasad",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "reduce",
+          options: ["ko'paytirmoq", "kamaytirmoq", "o'stirmoq", "to'xtatmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "scribe",
+          options: ["o'quvchi", "kotib, xattot", "haydovchi", "askar"],
+          correctIndex: 1,
+        },
+        {
+          question: "temper",
+          options: ["bo'y", "fe'l-atvor, xarakter", "vazn", "ism"],
+          correctIndex: 1,
+        },
+        {
+          question: "throne",
+          options: ["kursi", "taxt", "gilam", "stul"],
+          correctIndex: 1,
+        },
+        {
+          question: "unity",
+          options: ["ayrilish", "birdamlik", "urush", "nizo"],
+          correctIndex: 1,
+        },
+        {
+          question: "victor",
+          options: ["mag'lub", "g'olib", "hakam", "tomoshabin"],
+          correctIndex: 1,
+        },
+      ],
+      unit_23: [
+        {
+          question: "accurate",
+          options: ["noto'g'ri", "aniq, xatosiz", "taxminiy", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "analyze",
+          options: [
+            "shunchaki ko'rmoq",
+            "tahlil qilmoq",
+            "unutmoq",
+            "yashirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "asteroid",
+          options: ["sayyora", "asteroid", "yulduz", "quyosh"],
+          correctIndex: 1,
+        },
+        {
+          question: "controversy",
+          options: ["kelishuv", "bahs-munozara", "tinchlik", "suhbat"],
+          correctIndex: 1,
+        },
+        {
+          question: "evolve",
+          options: [
+            "to'xtab qolmoq",
+            "rivojlanmoq, o'zgarmoq",
+            "yo'qolmoq",
+            "eskirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "factor",
+          options: ["natija", "omil, sabab", "xato", "javob"],
+          correctIndex: 1,
+        },
+        {
+          question: "genetic",
+          options: ["jismoniy", "genetik", "tarixiy", "ijtimoiy"],
+          correctIndex: 1,
+        },
+        {
+          question: "genome",
+          options: ["hujayra", "genom", "tana", "qon"],
+          correctIndex: 1,
+        },
+        {
+          question: "identical",
+          options: ["har xil", "bir xil, aynan o'zi", "yangi", "notanish"],
+          correctIndex: 1,
+        },
+        {
+          question: "intellectual",
+          options: ["jismoniy", "aqlli, intellektual", "dangasa", "kuchsiz"],
+          correctIndex: 1,
+        },
+        {
+          question: "majority",
+          options: ["ozchilik", "ko'pchilik", "yarmi", "hammasi"],
+          correctIndex: 1,
+        },
+        {
+          question: "mammal",
+          options: ["qush", "sut emizuvchi", "baliq", "hasharot"],
+          correctIndex: 1,
+        },
+        {
+          question: "multiply",
+          options: ["kamaymoq", "ko'paymoq", "to'xtamoq", "bo'linmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "offspring",
+          options: ["ajdod", "avlod, farzand", "o'tmish", "dushman"],
+          correctIndex: 1,
+        },
+        {
+          question: "pesticide",
+          options: ["o'g'it", "pestitsid (zahar)", "suv", "dori"],
+          correctIndex: 1,
+        },
+        {
+          question: "regulate",
+          options: ["buzmoq", "tartibga solmoq", "aralashmoq", "yo'qotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "reinforce",
+          options: [
+            "kuchsizlantirmoq",
+            "mustahkamlamoq",
+            "sindirmoq",
+            "yo'qotmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "stricken",
+          options: ["baxtli", "musibatga uchragan", "boy", "sog'lom"],
+          correctIndex: 1,
+        },
+        {
+          question: "vast",
+          options: ["tor", "keng, juda katta", "kichik", "cheklangan"],
+          correctIndex: 1,
+        },
+        {
+          question: "vegetarian",
+          options: ["go'shtxo'r", "vegetarian", "oshpaz", "sotuvchi"],
+          correctIndex: 1,
+        },
+      ],
+      unit_24: [
+        {
+          question: "cherish",
+          options: [
+            "nafratlanmoq",
+            "ardoqlamoq, qadrlamoq",
+            "unutmoq",
+            "tashlamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "compassion",
+          options: ["shafqatsizlik", "rahm-shafqat", "g'azab", "nafrat"],
+          correctIndex: 1,
+        },
+        {
+          question: "consent",
+          options: ["qarshilik", "rozilik", "taqiq", "buyruq"],
+          correctIndex: 1,
+        },
+        {
+          question: "core",
+          options: ["sirt", "yadro, markaz", "qobiq", "chekka"],
+          correctIndex: 1,
+        },
+        {
+          question: "cunning",
+          options: ["sodda", "ayyor, makkor", "mehribon", "aqlli"],
+          correctIndex: 1,
+        },
+        {
+          question: "dizzy",
+          options: ["sergak", "boshi aylangan", "uyquchi", "quvnoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "equilibrium",
+          options: ["tartibsizlik", "muvozanat", "shovqin", "harakat"],
+          correctIndex: 1,
+        },
+        {
+          question: "foster",
+          options: [
+            "to'xtatmoq",
+            "tarbiyalamoq, rivojlantirmoq",
+            "yomonlamoq",
+            "haydamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "grind",
+          options: ["yopishtirmoq", "maydalamoq, yanchmoq", "qurmoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "growl",
+          options: ["sayramoq", "irillamoq", "pichirlamoq", "kulmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "moderation",
+          options: ["haddidan oshish", "me'yor", "ortiqchalik", "kamchilik"],
+          correctIndex: 1,
+        },
+        {
+          question: "predator",
+          options: ["o'txo'r", "yirtqich", "uy hayvoni", "baliq"],
+          correctIndex: 1,
+        },
+        {
+          question: "sane",
+          options: ["telba", "aqli raso", "kasal", "uyquchi"],
+          correctIndex: 1,
+        },
+        {
+          question: "saucer",
+          options: ["tovoq", "likopcha", "piyola", "qoshiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "snatch",
+          options: [
+            "bermoq",
+            "yulib olmoq, ushlab olmoq",
+            "tashlamoq",
+            "sotmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "stagger",
+          options: ["to'g'ri yurmoq", "gandiraklamoq", "yugurmoq", "sakramoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "stumble",
+          options: ["yugurmoq", "qoqilmoq, adashmoq", "uchmoq", "o'tirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "tense",
+          options: ["erkin", "tarang, keskin", "xursand", "tinch"],
+          correctIndex: 1,
+        },
+        {
+          question: "tumble",
+          options: ["sakramoq", "yumalab ketmoq", "uchmoq", "tik turmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "withhold",
+          options: [
+            "bermoq",
+            "bermaslik, ushlab qolmoq",
+            "yordam bermoq",
+            "sotmoq",
+          ],
+          correctIndex: 1,
+        },
+      ],
+      unit_25: [
+        {
+          question: "aircraft",
+          options: ["mashina", "samolyot", "kema", "poyezd"],
+          correctIndex: 1,
+        },
+        {
+          question: "celebrity",
+          options: ["oddiy odam", "mashhur shaxs", "ishchi", "talaba"],
+          correctIndex: 1,
+        },
+        {
+          question: "concrete",
+          options: ["qum", "beton", "yog'och", "shisha"],
+          correctIndex: 1,
+        },
+        {
+          question: "decisive",
+          options: ["ikkilanuvchi", "qat'iy", "sust", "qo'rqoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "esteemed",
+          options: ["past", "hurmatli, e'zozli", "noma'lum", "yomon"],
+          correctIndex: 1,
+        },
+        {
+          question: "ethical",
+          options: ["axloqsiz", "axloqiy", "noqonuniy", "yomon"],
+          correctIndex: 1,
+        },
+        {
+          question: "extinct",
+          options: ["yashayotgan", "yo'q bo'lib ketgan", "ko'p", "yangi"],
+          correctIndex: 1,
+        },
+        {
+          question: "hardy",
+          options: ["nozik", "chidamli, baquvvat", "kuchsiz", "tezkor"],
+          correctIndex: 1,
+        },
+        {
+          question: "institute",
+          options: ["uy", "institut, muassasa", "bog'", "bozor"],
+          correctIndex: 1,
+        },
+        {
+          question: "jealousy",
+          options: ["mehribonlik", "hasad, rashk", "shodlik", "yordam"],
+          correctIndex: 1,
+        },
+        {
+          question: "migrate",
+          options: [
+            "qolmoq",
+            "ko'chmoq (qush/hayvonlar)",
+            "uxlamoq",
+            "o'ynamoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "nurture",
+          options: ["zarar bermoq", "parvarish qilmoq", "unutmoq", "haydamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "overhead",
+          options: ["pastda", "tepada, bosh uzra", "yon tomonda", "ichkarida"],
+          correctIndex: 1,
+        },
+        {
+          question: "principle",
+          options: ["xato", "tamoyil, prinsip", "reja", "o'yin"],
+          correctIndex: 1,
+        },
+        {
+          question: "rural",
+          options: ["shahar", "qishloq", "markaziy", "yovvoyi"],
+          correctIndex: 1,
+        },
+        {
+          question: "secluded",
+          options: ["gavjum", "ayrim, xoli", "shovqinli", "ochiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "species",
+          options: ["shahar", "turlar (biologik)", "davlat", "shaxs"],
+          correctIndex: 1,
+        },
+        {
+          question: "swamp",
+          options: ["tog'", "botqoqlik", "cho'l", "daryo"],
+          correctIndex: 1,
+        },
+        {
+          question: "traverse",
+          options: ["to'xtamoq", "kesib o'tmoq", "qolmoq", "yashirinmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "zoology",
+          options: ["tarix", "zoologiya", "fizika", "ona tili"],
+          correctIndex: 1,
+        },
+      ],
+      unit_26: [
+        {
+          question: "assumption",
+          options: ["isbot", "faraz, taxmin", "javob", "savol"],
+          correctIndex: 1,
+        },
+        {
+          question: "barley",
+          options: ["bug'doy", "arpa", "sholi", "makkajo'xori"],
+          correctIndex: 1,
+        },
+        {
+          question: "beast",
+          options: ["o'simlik", "yovvoyi hayvon", "odam", "qush"],
+          correctIndex: 1,
+        },
+        {
+          question: "colonel",
+          options: ["askar", "polkovnik", "oshpaz", "haydovchi"],
+          correctIndex: 1,
+        },
+        {
+          question: "contagious",
+          options: ["xavfsiz", "yuqumli", "toza", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "corpse",
+          options: ["tirik", "jasad", "bola", "shifokor"],
+          correctIndex: 1,
+        },
+        {
+          question: "crisis",
+          options: ["tinchlik", "inqiroz", "bayram", "yutuq"],
+          correctIndex: 1,
+        },
+        {
+          question: "cure",
+          options: ["kasal qilmoq", "davolamoq", "urmoq", "so'kmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "deformed",
+          options: ["chiroyli", "shakli o'zgargan", "tekis", "yangi"],
+          correctIndex: 1,
+        },
+        {
+          question: "discriminate",
+          options: ["teng ko'rmoq", "kamsitmoq", "yordam bermoq", "kulmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "embassy",
+          options: ["maktab", "elchixona", "bozor", "shifoxona"],
+          correctIndex: 1,
+        },
+        {
+          question: "extinguish",
+          options: ["yoqmoq", "o'chirmoq (olovni)", "qurmoq", "sotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "flint",
+          options: ["shisha", "chaqmoqtosh", "yog'och", "latta"],
+          correctIndex: 1,
+        },
+        {
+          question: "harass",
+          options: ["yordam bermoq", "bezovta qilmoq", "kuldirmoq", "maqtamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "integrate",
+          options: [
+            "ayirmoq",
+            "birlashtirmoq, integratsiya",
+            "yo'qotmoq",
+            "sindirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "miniature",
+          options: ["ulkan", "mitti, miniaturali", "og'ir", "tezkor"],
+          correctIndex: 1,
+        },
+        {
+          question: "nutrition",
+          options: ["uyqu", "oziqlanish", "ish", "o'yin"],
+          correctIndex: 1,
+        },
+        {
+          question: "promptly",
+          options: ["sekin", "darhol, tezda", "ba'zan", "kech"],
+          correctIndex: 1,
+        },
+        {
+          question: "technician",
+          options: ["o'qituvchi", "texnik xodim", "shifokor", "rassom"],
+          correctIndex: 1,
+        },
+        {
+          question: "tropics",
+          options: ["sovuq joy", "tropiklar", "shimol", "cho'l"],
+          correctIndex: 1,
+        },
+      ],
+      unit_27: [
+        {
+          question: "abundant",
+          options: ["kam", "mo'l-ko'l, ko'p", "yo'q", "qimmat"],
+          correctIndex: 1,
+        },
+        {
+          question: "anchor",
+          options: ["yelkan", "langar", "qayiq", "eshkak"],
+          correctIndex: 1,
+        },
+        {
+          question: "brace",
+          options: [
+            "buzmoq",
+            "qo'llab-quvvatlash, bog'lam",
+            "tashlamoq",
+            "kulmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "concrete",
+          options: ["yumshoq", "beton", "suv", "havo"],
+          correctIndex: 1,
+        },
+        {
+          question: "content",
+          options: ["bo'sh", "tarkib, mundarija", "tashqarisi", "xato"],
+          correctIndex: 1,
+        },
+        {
+          question: "distort",
+          options: ["to'g'rilamoq", "buzib ko'rsatmoq", "tuzatmoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "drought",
+          options: ["yomg'ir", "qurg'oqchilik", "toshqin", "sovuq"],
+          correctIndex: 1,
+        },
+        {
+          question: "famine",
+          options: ["to'qchilik", "ocharchilik", "bayram", "ish"],
+          correctIndex: 1,
+        },
+        {
+          question: "fertile",
+          options: ["unummas", "hosildor", "quruq", "toshloq"],
+          correctIndex: 1,
+        },
+        {
+          question: "finite",
+          options: ["cheksiz", "cheklangan", "katta", "uzoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "fracture",
+          options: ["tuzalish", "sinish, yoriq", "qurilish", "o'sish"],
+          correctIndex: 1,
+        },
+        {
+          question: "immune",
+          options: ["zaif", "immunitetga ega", "kasal", "qo'rqoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "impulse",
+          options: ["reja", "impuls, turtki", "xotira", "uyqu"],
+          correctIndex: 1,
+        },
+        {
+          question: "infinite",
+          options: ["cheklangan", "cheksiz", "kichik", "yaqin"],
+          correctIndex: 1,
+        },
+        {
+          question: "insane",
+          options: ["sog'lom", "telba, jinni", "aqlli", "vazmin"],
+          correctIndex: 1,
+        },
+        {
+          question: "inward",
+          options: ["tashqariga", "ichkariga", "yuqoriga", "pastga"],
+          correctIndex: 1,
+        },
+        {
+          question: "manual",
+          options: ["avtomatik", "qo'llanma / qo'l mehnati", "xato", "o'yin"],
+          correctIndex: 1,
+        },
+        {
+          question: "outward",
+          options: ["ichkariga", "tashqariga", "pastga", "yuqoriga"],
+          correctIndex: 1,
+        },
+        {
+          question: "patriot",
+          options: ["xoin", "vatanparvar", "askar", "bola"],
+          correctIndex: 1,
+        },
+        {
+          question: "propel",
+          options: [
+            "to'xtatmoq",
+            "harakatga keltirmoq",
+            "tushirmoq",
+            "yashirmoq",
+          ],
+          correctIndex: 1,
+        },
+      ],
+      unit_28: [
+        {
+          question: "affection",
+          options: ["nafrat", "mehr-muhabbat", "g'azab", "qo'rquv"],
+          correctIndex: 1,
+        },
+        {
+          question: "allege",
+          options: ["isbotlamoq", "da'vo qilmoq", "unutmoq", "kulmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "auditorium",
+          options: ["bog'", "auditoriya, zal", "bozor", "ko'cha"],
+          correctIndex: 1,
+        },
+        {
+          question: "bizarre",
+          options: ["oddiy", "g'alati, g'ayritabiiy", "chiroyli", "tanish"],
+          correctIndex: 1,
+        },
+        {
+          question: "bulletin",
+          options: ["kitob", "byulleten, xabarnoma", "rasm", "hikoya"],
+          correctIndex: 1,
+        },
+        {
+          question: "bump",
+          options: ["silash", "urilib ketish", "yugurish", "uchish"],
+          correctIndex: 1,
+        },
+        {
+          question: "casualty",
+          options: ["g'olib", "qurbon, talafot", "askar", "rahbar"],
+          correctIndex: 1,
+        },
+        {
+          question: "coincide",
+          options: [
+            "ayrilmoq",
+            "mos kelmoq, to'g'ri kelmoq",
+            "kechikmoq",
+            "xato bo'lmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "commonplace",
+          options: ["kamyob", "oddiy, odatiy", "qimmat", "yangi"],
+          correctIndex: 1,
+        },
+        {
+          question: "compensate",
+          options: ["ayblamoq", "kompensatsiya to'lamoq", "urmoq", "yo'qotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "comprise",
+          options: ["chiqarmoq", "o'z ichiga olmoq", "bo'lmoq", "yo'qotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "contradict",
+          options: [
+            "tasdiqlamoq",
+            "zid bo'lmoq, qarshi chiqmoq",
+            "yordam bermoq",
+            "kulmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "deter",
+          options: [
+            "undaymoq",
+            "qaytarmoq, to'xtatmoq",
+            "yordam bermoq",
+            "tezlatmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "disguise",
+          options: [
+            "ko'rsatmoq",
+            "niqoblanmoq, yashirinmoq",
+            "sotmoq",
+            "baqirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "disperse",
+          options: ["yig'moq", "tarqatmoq", "ushlamoq", "to'xtatmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "fake",
+          options: ["haqiqiy", "soxta", "eski", "yangi"],
+          correctIndex: 1,
+        },
+        {
+          question: "glare",
+          options: ["kulish", "o'qlab qarash / porlash", "uxlash", "gapirish"],
+          correctIndex: 1,
+        },
+        {
+          question: "glimpse",
+          options: ["tikilish", "ko'z tashlash", "yashirish", "unutish"],
+          correctIndex: 1,
+        },
+        {
+          question: "outbreak",
+          options: [
+            "tugash",
+            "boshlanish (kasallik/urush)",
+            "tinchlik",
+            "reja",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "redundant",
+          options: ["kerakli", "ortiqcha", "muhim", "kamyob"],
+          correctIndex: 1,
+        },
+      ],
+      unit_29: [
+        {
+          question: "abolish",
+          options: ["o'rnatmoq", "bekor qilmoq", "qurmoq", "sotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "ambiguous",
+          options: ["aniq", "noaniq, ikki ma'noli", "yaxshi", "tezkor"],
+          correctIndex: 1,
+        },
+        {
+          question: "append",
+          options: [
+            "ayirmoq",
+            "ilova qilmoq, qo'shmoq",
+            "yo'qotmoq",
+            "sindirmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "awaken",
+          options: ["uxlatmoq", "uyg'otmoq", "yig'latmoq", "kuldirmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "bleak",
+          options: ["yorqin", "ma'yus, qorong'u", "quvnoq", "boy"],
+          correctIndex: 1,
+        },
+        {
+          question: "blunt",
+          options: ["o'tkir", "o'tmas", "yangi", "toza"],
+          correctIndex: 1,
+        },
+        {
+          question: "brutal",
+          options: ["mehribon", "shafqatsiz", "aqlli", "sekin"],
+          correctIndex: 1,
+        },
+        {
+          question: "caption",
+          options: ["rasm", "sarlavha, tagso'z", "kitob", "xat"],
+          correctIndex: 1,
+        },
+        {
+          question: "caution",
+          options: ["shoshqaloqlik", "ehtiyotkorlik", "qo'rquv", "g'azab"],
+          correctIndex: 1,
+        },
+        {
+          question: "comply",
+          options: [
+            "rad etmoq",
+            "bo'ysunmoq, amal qilmoq",
+            "baqirmoq",
+            "urishmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "decree",
+          options: ["iltimos", "farmon, qaror", "savol", "xato"],
+          correctIndex: 1,
+        },
+        {
+          question: "dense",
+          options: ["siyrak", "zich, qalin", "yengil", "nozik"],
+          correctIndex: 1,
+        },
+        {
+          question: "deprive",
+          options: ["bermoq", "mahrum qilmoq", "yordam bermoq", "maqtamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "diminish",
+          options: ["ko'paytirmoq", "kamaytirmoq", "o'stirmoq", "to'xtatmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "enforce",
+          options: [
+            "buzmoq",
+            "majburan joriy etmoq",
+            "ruxsat bermoq",
+            "unutmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "era",
+          options: ["kun", "davr, era", "soat", "daqiqa"],
+          correctIndex: 1,
+        },
+        {
+          question: "evoke",
+          options: [
+            "unutmoq",
+            "uyg'otmoq (xotira/hissiyot)",
+            "yashirmoq",
+            "to'xtatmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "exempt",
+          options: ["majbur", "ozod qilingan", "aybdor", "ishchi"],
+          correctIndex: 1,
+        },
+        {
+          question: "ignite",
+          options: ["o'chirmoq", "yoqmoq (o't qo'ymoq)", "yuvmoq", "quritmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "persist",
+          options: [
+            "taslim bo'lmoq",
+            "qat'iyat ko'rsatmoq",
+            "to'xtamoq",
+            "qochmoq",
+          ],
+          correctIndex: 1,
+        },
+      ],
+      unit_30: [
+        {
+          question: "adjacent",
+          options: ["uzoqda", "yonma-yon, tutash", "pastda", "tepada"],
+          correctIndex: 1,
+        },
+        {
+          question: "adjoin",
+          options: ["ayrilmoq", "tutashmoq", "yo'qotmoq", "sotmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "compress",
+          options: ["kengaytirmoq", "siqmoq", "sindirmoq", "tashlamoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "cone",
+          options: ["kvadrat", "konus", "aylana", "uchburchak"],
+          correctIndex: 1,
+        },
+        {
+          question: "dense",
+          options: ["yumshoq", "zich", "suyuq", "issiq"],
+          correctIndex: 1,
+        },
+        {
+          question: "depict",
+          options: ["yashirmoq", "tasvirlamoq", "baqirmoq", "unutmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "designate",
+          options: [
+            "tasodifan tanlamoq",
+            "belgilamoq, tayinlamoq",
+            "xato qilmoq",
+            "unutmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "displace",
+          options: [
+            "joyiga qo'ymoq",
+            "joyidan siljitmoq",
+            "qurmoq",
+            "tuzatmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "distinct",
+          options: ["o'xshash", "farqli, aniq", "yashirin", "eski"],
+          correctIndex: 1,
+        },
+        {
+          question: "exceed",
+          options: ["kamaytirmoq", "oshirib yubormoq", "to'xtatmoq", "qolmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "excavate",
+          options: ["ko'mmoq", "qazimoq", "qurmoq", "yuvmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "federal",
+          options: ["mahalliy", "federal, markaziy", "shaxsiy", "kichik"],
+          correctIndex: 1,
+        },
+        {
+          question: "fee",
+          options: ["sovg'a", "to'lov, haq", "jarima", "mukofot"],
+          correctIndex: 1,
+        },
+        {
+          question: "ignite",
+          options: ["suv sepmoq", "yoqmoq", "tozalash", "yopish"],
+          correctIndex: 1,
+        },
+        {
+          question: "impose",
+          options: [
+            "ozod qilmoq",
+            "yuklamoq, joriy qilmoq",
+            "yordam bermoq",
+            "kulmoq",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "inferior",
+          options: ["yaxshiroq", "pastroq, sifatsiz", "yuqori", "zo'r"],
+          correctIndex: 1,
+        },
+        {
+          question: "inherent",
+          options: ["orttirilgan", "tabiiy, ajralmas", "yangi", "notanish"],
+          correctIndex: 1,
+        },
+        {
+          question: "municipal",
+          options: ["shaxsiy", "munitsipal, shahar", "davlatlararo", "qishloq"],
+          correctIndex: 1,
+        },
+        {
+          question: "preliminary",
+          options: ["yakuniy", "dastlabki", "oxirgi", "doimiy"],
+          correctIndex: 1,
+        },
+        {
+          question: "restrain",
+          options: [
+            "erkin qo'ymoq",
+            "cheklamoq, tiymoq",
+            "yordam bermoq",
+            "baqirmoq",
+          ],
+          correctIndex: 1,
+        },
+      ],
+    },
   },
 };
 

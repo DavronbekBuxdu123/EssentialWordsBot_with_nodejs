@@ -250,7 +250,7 @@ bot.on("callback_query", async (query) => {
 
     bot.sendMessage(
       chatId,
-      `🔷 ${WordsBank1[book].title}\n🔷 ${queryData}\n\n${text} \nDasturlash olami : @Davronbek_IT_blog`
+      `🔷 ${WordsBank1[book].title}\n🔷 ${queryData}\n\n${text} \n\nDasturlash olami : @Davronbek_IT_blog`
     );
   }
 

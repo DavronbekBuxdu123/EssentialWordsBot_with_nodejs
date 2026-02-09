@@ -1,5 +1,12 @@
 require("dotenv").config();
 const TelegramBot = require("node-telegram-bot-api");
+const mongoose = require("mongoose");
+const User = require("./models/User");
+
+mongoose
+  .connect(process.env.MONGO_DB_URL)
+  .then(() => console.log(" MongoDB ulandi"))
+  .catch((err) => console.error(" mongo db bn xato", err));
 
 const TOKEN = process.env.BOT_TOKEN;
 
@@ -30,10 +37,21 @@ const ADMIN_ID = process.env.ADMIN_ID;
 const bot = new TelegramBot(TOKEN, { polling: true });
 const userState = {};
 
-bot.onText(/\/start/, (msg) => {
+bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
   const first_name = msg.chat.first_name;
-
+  User.updateOne(
+    { telegram_id: chatId },
+    {
+      $setOnInsert: {
+        telegram_id: chatId,
+        username: msg.from.username || null,
+        first_name,
+        started_at: new Date(),
+      },
+    },
+    { upsert: true }
+  ).catch(console.error);
   bot.sendMessage(ADMIN_ID, `${chatId} user \n ${first_name} start bosdi`);
   bot.sendMessage(
     chatId,
@@ -96,7 +114,7 @@ function startTest(chatId) {
     });
 }
 
-bot.on("callback_query", (query) => {
+bot.on("callback_query", async (query) => {
   const chatId = query.message.chat.id;
   const queryData = query.data;
   const state = userState[chatId];
@@ -247,7 +265,8 @@ bot.on("callback_query", (query) => {
 
   // Statistika qismi
   if (queryData === "stat") {
-    bot.sendMessage(chatId, `🔷 Jami foydalanuvchilar ${100} ta`);
+    const count = await User.countDocuments();
+    bot.sendMessage(chatId, `👥 Jami foydalanuvchilar: ${count} ta`);
   }
 
   bot.answerCallbackQuery(query.id);

@@ -5,7 +5,7 @@ const array = [
   { name: "Essential Words 3 📘", data: "word3" },
   { name: "Essential Words 4 📙", data: "word4" },
   { name: "Essential Words 5 📔", data: "word5" },
-  { name: "Essential Words 6 📚", data: "word6" },
+  // { name: "Essential Words 6 📚", data: "word6" },
 ];
 const Books = [];
 array.map((book) =>

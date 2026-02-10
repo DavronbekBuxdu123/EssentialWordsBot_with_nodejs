@@ -49,14 +49,13 @@ const getMainMenu = () => ({
 });
 
 // Start komandasi
-bot.onText(/\/start/, (msg) => {
+bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
   const firstName = msg.chat.first_name;
 
-  // State-ni tozalash
   userState[chatId] = { score: 0, currentQuestion: 0 };
 
-  bot.sendMessage(
+  await bot.sendMessage(
     chatId,
     `Assalomu aleykum ${firstName} 😊\nEssential English Words botiga xush kelibsiz!`,
     getMainMenu()
@@ -65,11 +64,8 @@ bot.onText(/\/start/, (msg) => {
   User.updateOne(
     { telegram_id: chatId },
     {
-      $setOnInsert: {
-        telegram_id: chatId,
-        first_name: firstName,
-        started_at: new Date(),
-      },
+      $set: { first_name: firstName },
+      $setOnInsert: { telegram_id: chatId, started_at: new Date() },
     },
     { upsert: true }
   ).catch((err) => console.error("User save error:", err));
@@ -77,71 +73,73 @@ bot.onText(/\/start/, (msg) => {
 
 // Test render qilish funksiyasi
 async function renderTest(chatId, messageId) {
-  const state = userState[chatId];
-  if (!state || !state.book || !state.unit) return;
+  try {
+    const state = userState[chatId];
+    if (!state || !state.book || !state.unit) return;
 
-  const questions = TestsBank[state.book]?.units[state.unit];
+    const questions = TestsBank[state.book]?.units[state.unit];
 
-  if (!questions || questions.length === 0) {
-    return bot.editMessageText("⚠️ Bu unit uchun testlar hali qo'shilmagan.", {
-      chat_id: chatId,
-      message_id: messageId,
-      reply_markup: {
-        inline_keyboard: [[{ text: "⬅️ Orqaga", callback_data: state.book }]],
-      },
-    });
-  }
+    if (!questions || questions.length === 0) {
+      return await bot.editMessageText("⚠️ Testlar topilmadi.", {
+        chat_id: chatId,
+        message_id: messageId,
+        reply_markup: {
+          inline_keyboard: [[{ text: "⬅️ Orqaga", callback_data: state.book }]],
+        },
+      });
+    }
 
-  // Test yakunlanganda
-  if (state.currentQuestion >= questions.length) {
-    const correct = state.score;
-    const total = questions.length;
-    const percent = Math.round((correct / total) * 100);
-    let medal = percent >= 90 ? "🥇" : percent >= 70 ? "🥈" : "🥉";
+    if (state.currentQuestion >= questions.length) {
+      const correct = state.score;
+      const total = questions.length;
+      const percent = Math.round((correct / total) * 100);
+      let medal = percent >= 90 ? "🥇" : percent >= 70 ? "🥈" : "🥉";
 
-    return bot.editMessageText(
-      `🏁 **Test yakunlandi!**\n\n📚 Kitob: ${
-        TestsBank[state.book].title
-      }\n✅ To'g'ri: ${correct} ta\n❌ Xato: ${
-        total - correct
-      } ta\n📊 Natija: ${percent}%\n\n${medal} ${
-        percent >= 70 ? "Barakalla!" : "Yana biroz o'qing."
-      }`,
+      return await bot.editMessageText(
+        `🏁 **Test yakunlandi!**\n\n✅ To'g'ri: ${correct}\n❌ Xato: ${
+          total - correct
+        }\n📊 Natija: ${percent}%`,
+        {
+          chat_id: chatId,
+          message_id: messageId,
+          parse_mode: "Markdown",
+          reply_markup: {
+            inline_keyboard: [
+              [{ text: "🔄 Qayta ishlash", callback_data: state.unit }],
+              [{ text: "🏠 Menyu", callback_data: "main_menu" }],
+            ],
+          },
+        }
+      );
+    }
+
+    const currentQ = questions[state.currentQuestion];
+    const keyboard = [];
+    for (let i = 0; i < currentQ.options.length; i += 2) {
+      const row = [
+        { text: currentQ.options[i], callback_data: `ans_${i}` },
+        { text: currentQ.options[i + 1] || "", callback_data: `ans_${i + 1}` },
+      ].filter((b) => b.text !== "");
+      keyboard.push(row);
+    }
+    keyboard.push([{ text: "❌ To'xtatish", callback_data: "test" }]);
+
+    await bot.editMessageText(
+      `❓ **Savol:** ${currentQ.question}\n\n📊 Savol: ${
+        state.currentQuestion + 1
+      }/${questions.length} ✅ Ball: ${state.score}`,
       {
         chat_id: chatId,
         message_id: messageId,
         parse_mode: "Markdown",
-        reply_markup: {
-          inline_keyboard: [
-            [{ text: "🔄 Qayta ishlash", callback_data: state.unit }],
-            [{ text: "🏠 Asosiy menyu", callback_data: "main_menu" }],
-          ],
-        },
+        reply_markup: { inline_keyboard: keyboard },
       }
     );
+  } catch (err) {
+    if (!err.message.includes("message is not modified")) {
+      console.error("RenderTest Error:", err.message);
+    }
   }
-
-  const currentQ = questions[state.currentQuestion];
-  const progress = `📊 Savol: ${state.currentQuestion + 1}/${
-    questions.length
-  } | ✅ Ball: ${state.score}`;
-
-  const keyboard = [];
-  for (let i = 0; i < currentQ.options.length; i += 2) {
-    const row = [
-      { text: currentQ.options[i], callback_data: `ans_${i}` },
-      { text: currentQ.options[i + 1] || "", callback_data: `ans_${i + 1}` },
-    ].filter((btn) => btn.text !== "");
-    keyboard.push(row);
-  }
-  keyboard.push([{ text: "❌ Testni to'xtatish", callback_data: "test" }]);
-
-  bot.editMessageText(`❓ **Savol:** ${currentQ.question}\n\n${progress}`, {
-    chat_id: chatId,
-    message_id: messageId,
-    parse_mode: "Markdown",
-    reply_markup: { inline_keyboard: keyboard },
-  });
 }
 
 // Callback Query handling
@@ -150,27 +148,52 @@ bot.on("callback_query", async (query) => {
   const messageId = query.message.message_id;
   const data = query.data;
 
-  // Xavfsizlik uchun state mavjudligini tekshirish
   if (!userState[chatId]) userState[chatId] = { score: 0, currentQuestion: 0 };
   const state = userState[chatId];
 
   try {
-    // 1. Asosiy menyu
+    // 1. Javoblarni tekshirish (Alert barqarorligi uchun tepaga chiqdi)
+    if (data.startsWith("ans_")) {
+      const currentBookTests = TestsBank[state.book];
+      const unitTests = currentBookTests?.units[state.unit];
+      if (!unitTests)
+        return await bot.answerCallbackQuery(query.id, { text: "Xatolik!" });
+
+      const ansIdx = parseInt(data.split("_")[1]);
+      const currentQ = unitTests[state.currentQuestion];
+
+      if (ansIdx === currentQ.correctIndex) {
+        state.score++;
+        await bot.answerCallbackQuery(query.id, { text: "✅ To'g'ri!" });
+      } else {
+        await bot.answerCallbackQuery(query.id, {
+          text: `❌ Xato! Javob: ${currentQ.options[currentQ.correctIndex]}`,
+          show_alert: true,
+        });
+      }
+
+      state.currentQuestion++;
+      // RenderTest await bilan chaqiriladi, setTimeout olib tashlandi
+      return await renderTest(chatId, messageId);
+    }
+
+    // 2. Qolgan barcha tugmalar uchun standart javob
+    await bot.answerCallbackQuery(query.id).catch(() => {});
+
     if (data === "main_menu") {
       state.currentQuestion = 0;
       state.score = 0;
-      return bot.editMessageText("🏠 Bo'limni tanlang:", {
+      return await bot.editMessageText("🏠 Bo'limni tanlang:", {
         chat_id: chatId,
         message_id: messageId,
         ...getMainMenu(),
       });
     }
 
-    // 2. Test yoki So'z tanlash
     if (data === "test" || data === "words") {
       state.mode = data;
       const list = data === "test" ? TestBooks : Books;
-      return bot.editMessageText(
+      return await bot.editMessageText(
         `📚 ${data === "test" ? "Test" : "So'zlar"} uchun kitobni tanlang:`,
         {
           chat_id: chatId,
@@ -185,11 +208,10 @@ bot.on("callback_query", async (query) => {
       );
     }
 
-    // 3. Kitob Tanlash (Unitlar 1-sahifasini chiqaradi)
     if (data.match(/^(word|book)\d+$/)) {
       state.book = data;
       const backBtn = state.mode === "test" ? "test" : "words";
-      return bot.editMessageText("📍 Unitni tanlang:", {
+      return await bot.editMessageText("📍 Unitni tanlang:", {
         chat_id: chatId,
         message_id: messageId,
         reply_markup: {
@@ -201,27 +223,23 @@ bot.on("callback_query", async (query) => {
       });
     }
 
-    // 4. Unit tanlash
     if (data.startsWith("unit_")) {
       state.unit = data;
       if (state.mode === "test") {
         state.currentQuestion = 0;
         state.score = 0;
-        await renderTest(chatId, messageId);
+        return await renderTest(chatId, messageId);
       } else {
         const currentBook = WordsBank1[state.book];
         if (!currentBook?.units[data]) {
-          return bot.answerCallbackQuery(query.id, {
-            text: "⚠️ So'zlar topilmadi!",
-            show_alert: true,
-          });
+          return await bot.sendMessage(chatId, "⚠️ So'zlar topilmadi!");
         }
 
         const text = currentBook.units[data]
           .map((w, i) => `${i + 1}. ${w.en} - ${w.uz}`)
           .join("\n");
 
-        bot.editMessageText(
+        return await bot.editMessageText(
           `📖 *${currentBook.title}*\n📍 Unit ${data.split("_")[1]}\n\n${text}`,
           {
             chat_id: chatId,
@@ -237,35 +255,9 @@ bot.on("callback_query", async (query) => {
       }
     }
 
-    // 5. Javoblarni tekshirish
-    if (data.startsWith("ans_")) {
-      const currentBookTests = TestsBank[state.book];
-      const unitTests = currentBookTests?.units[state.unit];
-      if (!unitTests)
-        return bot.answerCallbackQuery(query.id, { text: "Xatolik!" });
-
-      const ansIdx = parseInt(data.split("_")[1]);
-      const currentQ = unitTests[state.currentQuestion];
-
-      if (ansIdx === currentQ.correctIndex) {
-        state.score++;
-        bot.answerCallbackQuery(query.id, { text: "✅ To'g'ri!" });
-      } else {
-        bot.answerCallbackQuery(query.id, {
-          text: `❌ Xato! Javob: ${currentQ.options[currentQ.correctIndex]}`,
-          show_alert: true,
-        });
-      }
-
-      state.currentQuestion++;
-      // Bir oz kutish foydalanuvchiga javobni ko'rish imkonini beradi
-      setTimeout(() => renderTest(chatId, messageId), 500);
-    }
-
-    // 6. Sahifalash (Pagination)
     if (data.startsWith("page_")) {
       const backBtn = state.mode === "test" ? "test" : "words";
-      bot.editMessageReplyMarkup(
+      return await bot.editMessageReplyMarkup(
         {
           inline_keyboard: [
             ...unitsPages[data],
@@ -276,10 +268,9 @@ bot.on("callback_query", async (query) => {
       );
     }
 
-    // 7. Statistika
     if (data === "stat") {
       const count = await User.countDocuments();
-      bot.editMessageText(
+      return await bot.editMessageText(
         `📊 **Bot statistikasi**\n\n👤 Jami foydalanuvchilar: ${
           100 + count
         } ta`,
@@ -296,9 +287,8 @@ bot.on("callback_query", async (query) => {
       );
     }
 
-    // 8. Qo'llanma (Description)
     if (data === "description") {
-      bot.editMessageText(
+      return await bot.editMessageText(
         "Hurmatli foydalanuvchi! 😊\n\nUshbu bot orqali *Essential English Words* kitobidagi so'zlarni o'rganishingiz va test orqali bilimingizni tekshirishingiz mumkin.\n\n👨‍💻 Admin: @Aslonov_Davronbek",
         {
           chat_id: chatId,
@@ -312,10 +302,9 @@ bot.on("callback_query", async (query) => {
         }
       );
     }
-
-    bot.answerCallbackQuery(query.id).catch(() => {});
   } catch (err) {
-    console.error("Callback Error:", err);
-    bot.answerCallbackQuery(query.id, { text: "⚠️ Xatolik yuz berdi!" });
+    if (!err.message.includes("message is not modified")) {
+      console.error("Callback General Error:", err);
+    }
   }
 });

@@ -280,7 +280,9 @@ bot.on("callback_query", async (query) => {
     if (data === "stat") {
       const count = await User.countDocuments();
       bot.editMessageText(
-        `📊 **Bot statistikasi**\n\n👤 Jami foydalanuvchilar: ${count} ta`,
+        `📊 **Bot statistikasi**\n\n👤 Jami foydalanuvchilar: ${
+          100 + count
+        } ta`,
         {
           chat_id: chatId,
           message_id: messageId,

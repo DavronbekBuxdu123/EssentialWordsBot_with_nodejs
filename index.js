@@ -2,7 +2,7 @@ require("dotenv").config();
 const TelegramBot = require("node-telegram-bot-api");
 const mongoose = require("mongoose");
 const User = require("./models/User");
-
+const ADMIN_ID = process.env.ADMIN_ID;
 // Ma'lumotlarni import qilish
 const WordsBank1 = require("./data/words/wordsBank");
 const Books = require("./data/words/books");
@@ -54,7 +54,7 @@ bot.onText(/\/start/, async (msg) => {
   const firstName = msg.chat.first_name;
 
   userState[chatId] = { score: 0, currentQuestion: 0 };
-
+  bot.sendMessage(ADMIN_ID, `${chatId} user ${firstName} start bosdi`);
   await bot.sendMessage(
     chatId,
     `Assalomu aleykum ${firstName} 😊\nEssential English Words botiga xush kelibsiz!`,

@@ -3,7 +3,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const mongoose = require("mongoose");
 const User = require("./models/User");
 const ADMIN_ID = process.env.ADMIN_ID;
-// Ma'lumotlarni import qilish
+
 const WordsBank1 = require("./data/words/wordsBank");
 const Books = require("./data/words/books");
 const TestBooks = require("./data/tests/TestBooks");
@@ -31,10 +31,9 @@ const userState = {};
 
 mongoose
   .connect(process.env.MONGO_DB_URL)
-  .then(() => console.log("✅ MongoDB ulandi"))
-  .catch((err) => console.error("❌ MongoDB xatosi:", err));
+  .then(() => console.log(" Mongo ulandi"))
+  .catch((err) => console.error(" MongoDB xatosi:", err));
 
-// Asosiy menyu funksiyasi
 const getMainMenu = () => ({
   reply_markup: {
     inline_keyboard: [
@@ -48,7 +47,6 @@ const getMainMenu = () => ({
   },
 });
 
-// Start komandasi
 bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
   const firstName = msg.chat.first_name;
@@ -71,7 +69,6 @@ bot.onText(/\/start/, async (msg) => {
   ).catch((err) => console.error("User save error:", err));
 });
 
-// Test render qilish funksiyasi
 async function renderTest(chatId, messageId) {
   try {
     const state = userState[chatId];
@@ -93,7 +90,6 @@ async function renderTest(chatId, messageId) {
       const correct = state.score;
       const total = questions.length;
       const percent = Math.round((correct / total) * 100);
-      let medal = percent >= 90 ? "🥇" : percent >= 70 ? "🥈" : "🥉";
 
       return await bot.editMessageText(
         `🏁 **Test yakunlandi!**\n\n✅ To'g'ri: ${correct}\n❌ Xato: ${
@@ -142,7 +138,6 @@ async function renderTest(chatId, messageId) {
   }
 }
 
-// Callback Query handling
 bot.on("callback_query", async (query) => {
   const chatId = query.message.chat.id;
   const messageId = query.message.message_id;
@@ -152,7 +147,6 @@ bot.on("callback_query", async (query) => {
   const state = userState[chatId];
 
   try {
-    // 1. Javoblarni tekshirish (Alert barqarorligi uchun tepaga chiqdi)
     if (data.startsWith("ans_")) {
       const currentBookTests = TestsBank[state.book];
       const unitTests = currentBookTests?.units[state.unit];
@@ -173,11 +167,9 @@ bot.on("callback_query", async (query) => {
       }
 
       state.currentQuestion++;
-      // RenderTest await bilan chaqiriladi, setTimeout olib tashlandi
       return await renderTest(chatId, messageId);
     }
 
-    // 2. Qolgan barcha tugmalar uchun standart javob
     await bot.answerCallbackQuery(query.id).catch(() => {});
 
     if (data === "main_menu") {

@@ -3561,40 +3561,40 @@ const TestsBank = {
         {
           question: "anxious",
           options: [
-            "xavotirlangan, tashvishlangan", // 0 - to'g'ri
-            "juda yomon",
-            "iborat bo'lmoq",
             "xohlamoq, istamoq",
-          ],
-          correctIndex: 0,
-        },
-        {
-          question: "awful",
-          options: [
-            "iborat bo'lmoq",
-            "juda yomon", // 1 - to'g'ri
-            "chanqoq, sabrsiz",
+            "xavotirlangan, tashvishlangan",
+            "juda yomon",
             "oila a'zolari",
           ],
           correctIndex: 1,
         },
         {
-          question: "consist",
+          question: "awful",
           options: [
-            "xohlamoq, istamoq",
-            "iborat bo'lmoq", // 2 - to'g'ri
+            "iborat bo'lmoq",
+            "chanqoq, sabrsiz",
             "juda yomon",
             "niyat, maqsad",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
+        },
+        {
+          question: "consist",
+          options: [
+            "iborat bo'lmoq",
+            "yuklamoq",
+            "ko'tarmoq",
+            "ishora, harakat",
+          ],
+          correctIndex: 0,
         },
         {
           question: "desire",
           options: [
             "landshaft, manzara",
-            "xohlamoq, istamoq", // 3 - to'g'ri
-            "ko'tarmoq",
-            "yuklamoq",
+            "xohlamoq, istamoq",
+            "juda tez",
+            "egalik qilmoq",
           ],
           correctIndex: 1,
         },
@@ -3602,37 +3602,37 @@ const TestsBank = {
           question: "eager",
           options: [
             "oila a'zolari",
-            "chanqoq, sabrsiz", // 4 - to'g'ri
             "niyat, maqsad",
-            "landshaft, manzara",
+            "chanqoq, sabrsiz",
+            "o'pka",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "household",
           options: [
+            "oila a'zolari",
             "ko'tarmoq",
-            "oila a'zolari", // 5 - to'g'ri
             "yuklamoq",
-            "o'pka",
+            "ishora, harakat",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "intent",
           options: [
+            "landshaft, manzara",
             "yuklamoq",
-            "o'pka",
-            "niyat, maqsad", // 6 - to'g'ri
-            "ishora, harakat",
+            "niyat, maqsad",
+            "temp, sur'at",
           ],
           correctIndex: 2,
         },
         {
           question: "landscape",
           options: [
-            "landshaft, manzara", // 7 - to'g'ri
-            "temp, sur'at",
+            "landshaft, manzara",
+            "o'pka",
             "odobli, aql-xushli",
             "egalik qilmoq",
           ],
@@ -3640,60 +3640,45 @@ const TestsBank = {
         },
         {
           question: "lift",
-          options: [
-            "yuklamoq",
-            "ko'tarmoq", // 8 - to'g'ri
-            "o'pka",
-            "ishora, harakat",
-          ],
+          options: ["yuklamoq", "ko'tarmoq", "nur taratmoq", "to'kmoq"],
           correctIndex: 1,
         },
         {
           question: "load",
           options: [
-            "o'pka",
-            "yuklamoq", // 9 - to'g'ri
             "ishora, harakat",
             "temp, sur'at",
+            "yuklamoq",
+            "ta'kidlamoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "lung",
-          options: [
-            "ishora, harakat",
-            "o'pka", // 10 - to'g'ri
-            "temp, sur'at",
-            "odobli, aql-xushli",
-          ],
+          options: ["odobli, aql-xushli", "o'pka", "temp, sur'at", "juda tez"],
           correctIndex: 1,
         },
         {
           question: "motion",
           options: [
-            "temp, sur'at",
-            "ishora, harakat", // 11 - to'g'ri
-            "odobli, aql-xushli",
+            "ishora, harakat",
             "egalik qilmoq",
+            "juda tez",
+            "nur taratmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "pace",
-          options: [
-            "odobli, aql-xushli",
-            "temp, sur'at", // 12 - to'g'ri
-            "egalik qilmoq",
-            "juda tez",
-          ],
-          correctIndex: 1,
+          options: ["odobli", "egalik qilmoq", "ta'kidlamoq", "temp, sur'at"],
+          correctIndex: 3,
         },
         {
           question: "polite",
           options: [
-            "egalik qilmoq",
-            "odobli, aql-xushli", // 13 - to'g'ri
-            "juda tez",
+            "nur taratmoq",
+            "odobli, aql-xushli",
+            "qidirmoq",
             "ta'kidlamoq",
           ],
           correctIndex: 1,
@@ -3701,39 +3686,29 @@ const TestsBank = {
         {
           question: "possess",
           options: [
+            "egalik qilmoq, bor bo'lmoq",
             "juda tez",
-            "egalik qilmoq, bor bo'lmoq", // 14 - to'g'ri
             "ta'kidlamoq",
-            "qidirmoq, izlamoq",
+            "to'kmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "rapidly",
-          options: [
-            "ta'kidlamoq",
-            "juda tez", // 15 - to'g'ri
-            "qidirmoq, izlamoq",
-            "nur taratmoq",
-          ],
-          correctIndex: 1,
+          options: ["nur taratmoq", "ta'kidlamoq", "juda tez", "qidirmoq"],
+          correctIndex: 2,
         },
         {
           question: "remark",
-          options: [
-            "qidirmoq, izlamoq",
-            "ta'kidlamoq", // 16 - to'g'ri
-            "nur taratmoq",
-            "to'kmoq, to'kib yubormoq",
-          ],
-          correctIndex: 1,
+          options: ["ta'kidlamoq", "to'kmoq", "qidirmoq", "nur taratmoq"],
+          correctIndex: 0,
         },
         {
           question: "seek",
           options: [
             "nur taratmoq",
-            "qidirmoq, izlamoq", // 17 - to'g'ri
-            "to'kmoq, to'kib yubormoq",
+            "qidirmoq, izlamoq",
+            "to'kmoq",
             "xavotirlangan",
           ],
           correctIndex: 1,
@@ -3741,3918 +3716,2309 @@ const TestsBank = {
         {
           question: "shine",
           options: [
-            "to'kmoq, to'kib yubormoq",
-            "nur taratmoq/sochmoq", // 18 - to'g'ri
+            "to'kmoq",
             "xavotirlangan",
             "juda yomon",
+            "nur taratmoq/sochmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "spill",
           options: [
-            "to'kmoq, to'kib yubormoq", // 19 - to'g'ri
-            "iborat bo'lmoq",
-            "xohlamoq, istamoq",
             "chanqoq",
+            "to'kmoq, to'kib yubormoq",
+            "istamoq",
+            "iborat bo'lmoq",
           ],
-          correctIndex: 0,
+          correctIndex: 1,
         },
       ],
-
       unit_2: [
         {
           question: "bring",
-          options: [
-            "keltirmoq, olib kelmoq", // 0 - to'g'ri
-            "qasr, saroy",
-            "buyruq bermoq",
-            "maslahat bermoq",
-          ],
+          options: ["keltirmoq, olib kelmoq", "qasr", "buyruq", "maslahat"],
           correctIndex: 0,
         },
         {
           question: "castle",
-          options: [
-            "buyruq bermoq",
-            "qasr, saroy", // 1 - to'g'ri
-            "maslahat bermoq",
-            "ta'minlamoq",
-          ],
-          correctIndex: 1,
+          options: ["ta'minlamoq", "portlash", "qasr, saroy", "taqinchoq"],
+          correctIndex: 2,
         },
         {
           question: "command",
           options: [
-            "maslahat bermoq",
-            "buyruq bermoq, buyurmoq", // 2 - to'g'ri
+            "maslahat",
+            "buyruq bermoq, buyurmoq",
             "ta'minlamoq",
-            "portlash",
+            "qo'nmoq",
           ],
           correctIndex: 1,
         },
         {
           question: "counsel",
-          options: [
-            "ta'minlamoq",
-            "maslahat bermoq", // 3 - to'g'ri
-            "portlash",
-            "taqinchoq",
-          ],
+          options: ["portlash", "maslahat bermoq", "taqinchoq", "qo'nmoq"],
           correctIndex: 1,
         },
         {
           question: "ensure",
-          options: [
-            "portlash",
-            "ta'minlamoq", // 4 - to'g'ri
-            "taqinchoq",
-            "qo'nmoq",
-          ],
-          correctIndex: 1,
+          options: ["taqinchoq", "qo'nmoq", "ta'minlamoq", "meteorit"],
+          correctIndex: 2,
         },
         {
           question: "explosion",
-          options: [
-            "taqinchoq",
-            "portlash", // 5 - to'g'ri
-            "qo'nmoq",
-            "meteorit",
-          ],
-          correctIndex: 1,
+          options: ["portlash", "mahluk", "shimoliy", "olis"],
+          correctIndex: 0,
         },
         {
           question: "jewelry",
-          options: [
-            "qo'nmoq",
-            "taqinchoq", // 6 - to'g'ri
-            "meteorit",
-            "mahluk, monster",
-          ],
+          options: ["qo'nmoq", "taqinchoq", "meteorit", "mahluk"],
           correctIndex: 1,
         },
         {
           question: "land",
-          options: [
-            "meteorit",
-            "qo'nmoq", // 7 - to'g'ri
-            "mahluk, monster",
-            "shimoliy",
-          ],
+          options: ["janubiy", "qo'nmoq", "haykal", "bug'"],
           correctIndex: 1,
         },
         {
           question: "meteor",
-          options: [
-            "mahluk, monster",
-            "meteorit", // 8 - to'g'ri
-            "shimoliy",
-            "olis, uzoq",
-          ],
-          correctIndex: 1,
+          options: ["mahluk", "shimoliy", "meteorit", "olis"],
+          correctIndex: 2,
         },
         {
           question: "monster",
-          options: [
-            "shimoliy",
-            "mahluk, monster", // 9 - to'g'ri
-            "olis, uzoq",
-            "janubiy",
-          ],
-          correctIndex: 1,
+          options: ["shimoliy", "olis", "mahluk, monster", "janubiy"],
+          correctIndex: 2,
         },
         {
           question: "northern",
-          options: [
-            "olis, uzoq",
-            "shimoliy", // 10 - to'g'ri
-            "janubiy",
-            "haykal",
-          ],
+          options: ["haykal", "shimoliy", "olis", "janubiy"],
           correctIndex: 1,
         },
         {
           question: "remote",
-          options: [
-            "janubiy",
-            "olis, uzoq", // 11 - to'g'ri
-            "haykal",
-            "par, bug'",
-          ],
+          options: ["bug'", "olis, uzoq", "haykal", "shimoliy"],
           correctIndex: 1,
         },
         {
           question: "southern",
-          options: [
-            "haykal",
-            "janubiy", // 12 - to'g'ri
-            "par, bug'",
-            "bo'ysunmoq",
-          ],
-          correctIndex: 1,
+          options: ["janubiy", "haykal", "bug'", "bo'ysunmoq"],
+          correctIndex: 0,
         },
         {
           question: "statue",
-          options: [
-            "par, bug'",
-            "haykal", // 13 - to'g'ri
-            "bo'ysunmoq",
-            "ibodatxona",
-          ],
-          correctIndex: 1,
+          options: ["bo'ysunmoq", "ibodatxona", "haykal", "par"],
+          correctIndex: 2,
         },
         {
           question: "steam",
-          options: [
-            "bo'ysunmoq",
-            "par, bug'", // 14 - to'g'ri
-            "ibodatxona",
-            "yuqori, ustki",
-          ],
-          correctIndex: 1,
+          options: ["par, bug'", "bo'ysunmoq", "ibodatxona", "yuqori"],
+          correctIndex: 0,
         },
         {
           question: "submit",
           options: [
-            "ibodatxona",
-            "bo'ysunmoq, aytganini qilmoq", // 15 - to'g'ri
-            "yuqori, ustki",
+            "yuqori",
             "begona o't",
+            "qasr",
+            "bo'ysunmoq, aytganini qilmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "temple",
-          options: [
-            "yuqori, ustki",
-            "ibodatxona", // 16 - to'g'ri
-            "begona o't",
-            "qanot",
-          ],
+          options: ["yuqori", "ibodatxona", "begona o't", "qanot"],
           correctIndex: 1,
         },
         {
           question: "upper",
-          options: [
-            "begona o't",
-            "yuqori, ustki", // 17 - to'g'ri
-            "qanot",
-            "keltirmoq",
-          ],
+          options: ["qanot", "yuqori, ustki", "begona o't", "keltirmoq"],
           correctIndex: 1,
         },
         {
           question: "weed",
-          options: [
-            "qanot",
-            "begona o't", // 18 - to'g'ri
-            "keltirmoq",
-            "qasr, saroy",
-          ],
+          options: ["keltirmoq", "begona o't", "qasr", "ta'minlamoq"],
           correctIndex: 1,
         },
         {
           question: "wing",
-          options: [
-            "qanot", // 19 - to'g'ri
-            "buyruq bermoq",
-            "maslahat bermoq",
-            "ta'minlamoq",
-          ],
+          options: ["qanot", "buyruq", "maslahat", "ta'minlamoq"],
           correctIndex: 0,
         },
       ],
-
       unit_3: [
         {
           question: "arrow",
-          options: [
-            "o'q", // 0 - to'g'ri
-            "jang, urush",
-            "kamondan o'q otish",
-            "jasur, dovyurak",
-          ],
-          correctIndex: 0,
+          options: ["jang", "o'q", "kamon", "jasur"],
+          correctIndex: 1,
         },
         {
           question: "battle",
-          options: [
-            "kamondan o'q otish",
-            "jang, urush", // 1 - to'g'ri
-            "jasur, dovyurak",
-            "boshliq, rahbar",
-          ],
+          options: ["kamon", "jang, urush", "boshliq", "dushman"],
           correctIndex: 1,
         },
         {
           question: "bow",
           options: [
-            "jasur, dovyurak",
-            "kamondan o'q otish; kamon", // 2 - to'g'ri
-            "boshliq, rahbar",
-            "kamchilik, noqulaylik",
+            "boshliq",
+            "kamchilik",
+            "kamondan o'q otish; kamon",
+            "kirish",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "brave",
-          options: [
-            "boshliq, rahbar",
-            "jasur, dovyurak", // 3 - to'g'ri
-            "kamchilik, noqulaylik",
-            "dushman",
-          ],
+          options: ["dushman", "jasur, dovyurak", "niyat", "kulgi"],
           correctIndex: 1,
         },
         {
           question: "chief",
-          options: [
-            "kamchilik, noqulaylik",
-            "boshliq, rahbar", // 4 - to'g'ri
-            "dushman",
-            "kirish joyi",
-          ],
+          options: ["kirish", "boshliq, rahbar", "kamchilik", "dushman"],
           correctIndex: 1,
         },
         {
           question: "disadvantage",
-          options: [
-            "dushman",
-            "kamchilik, noqulaylik", // 5 - to'g'ri
-            "kirish joyi",
-            "deyarli emas",
-          ],
-          correctIndex: 1,
+          options: ["deyarli emas", "kirish", "kamchilik, noqulaylik", "niyat"],
+          correctIndex: 2,
         },
         {
           question: "enemy",
-          options: [
-            "kirish joyi",
-            "dushman", // 6 - to'g'ri
-            "deyarli emas",
-            "niyat qilmoq",
-          ],
+          options: ["niyat", "dushman", "kulgi", "yog'och"],
           correctIndex: 1,
         },
         {
           question: "entrance",
-          options: [
-            "deyarli emas",
-            "kirish joyi", // 7 - to'g'ri
-            "niyat qilmoq",
-            "kulgi",
-          ],
+          options: ["deyarli emas", "kirish joyi", "niyat", "kulgi"],
           correctIndex: 1,
         },
         {
           question: "hardly",
-          options: [
-            "niyat qilmoq",
-            "deyarli emas", // 8 - to'g'ri
-            "kulgi",
-            "yog'och qutqon",
-          ],
-          correctIndex: 1,
+          options: ["kulgi", "niyat", "deyarli emas", "yog'och"],
+          correctIndex: 2,
         },
         {
           question: "intend",
           options: [
-            "kulgi",
-            "niyat qilmoq, rejalashtirmoq", // 9 - to'g'ri
-            "yog'och qutqon",
-            "harbiy, askariy",
+            "niyat qilmoq, rejalashtirmoq",
+            "harbiy",
+            "itoat",
+            "xavfsiz",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "laughter",
-          options: [
-            "yog'och qutqon",
-            "kulgi", // 10 - to'g'ri
-            "harbiy, askariy",
-            "itoat qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["harbiy", "yog'och", "kulgi", "itoat"],
+          correctIndex: 2,
         },
         {
           question: "log",
-          options: [
-            "harbiy, askariy",
-            "yog'och qutqon", // 11 - to'g'ri
-            "itoat qilmoq",
-            "xavfsiz, mustahkam",
-          ],
-          correctIndex: 1,
+          options: ["xavfsiz", "itoat", "yog'och qutqon", "barqaror"],
+          correctIndex: 2,
         },
         {
           question: "military",
-          options: [
-            "itoat qilmoq",
-            "harbiy, askariy", // 12 - to'g'ri
-            "xavfsiz, mustahkam",
-            "barqaror, o'zgarmas",
-          ],
+          options: ["itoat", "harbiy, askariy", "xavfsiz", "barqaror"],
           correctIndex: 1,
         },
         {
           question: "obey",
           options: [
-            "xavfsiz, mustahkam",
-            "itoat qilmoq, bo'ysunmoq", // 13 - to'g'ri
-            "barqaror, o'zgarmas",
+            "barqaror",
             "ishonmoq",
+            "itoat qilmoq, bo'ysunmoq",
+            "o'ramoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "secure",
           options: [
-            "barqaror, o'zgarmas",
-            "xavfsiz, mustahkam", // 14 - to'g'ri
+            "o'ramoq",
+            "xavfsiz, mustahkam",
             "ishonmoq",
-            "o'ramoq, burmoq",
+            "agar ... bo'lmasa",
           ],
           correctIndex: 1,
         },
         {
           question: "steady",
-          options: [
-            "ishonmoq",
-            "barqaror, o'zgarmas", // 15 - to'g'ri
-            "o'ramoq, burmoq",
-            "agar ... bo'lmasa",
-          ],
-          correctIndex: 1,
+          options: ["barqaror, o'zgarmas", "o'ramoq", "ishonmoq", "qurol"],
+          correctIndex: 0,
         },
         {
           question: "trust",
-          options: [
-            "o'ramoq, burmoq",
-            "ishonmoq", // 16 - to'g'ri
-            "agar ... bo'lmasa",
-            "qurol",
-          ],
-          correctIndex: 1,
+          options: ["agar ... bo'lmasa", "o'ramoq", "ishonmoq", "qurol"],
+          correctIndex: 2,
         },
         {
           question: "twist",
-          options: [
-            "agar ... bo'lmasa",
-            "o'ramoq, burmoq", // 17 - to'g'ri
-            "qurol",
-            "o'q",
-          ],
+          options: ["qurol", "o'ramoq, burmoq", "o'q", "jang"],
           correctIndex: 1,
         },
         {
           question: "unless",
-          options: [
-            "qurol",
-            "agar ... bo'lmasa", // 18 - to'g'ri
-            "o'q",
-            "jang, urush",
-          ],
-          correctIndex: 1,
+          options: ["agar ... bo'lmasa", "qurol", "jang", "dushman"],
+          correctIndex: 0,
         },
         {
           question: "weapon",
-          options: [
-            "qurol", // 19 - to'g'ri
-            "kamondan o'q otish",
-            "jasur, dovyurak",
-            "boshliq, rahbar",
-          ],
-          correctIndex: 0,
+          options: ["kamon", "qurol", "jasur", "boshliq"],
+          correctIndex: 1,
         },
       ],
-
       unit_4: [
         {
           question: "chest",
-          options: [
-            "bag'ir, ko'ks", // 0 - to'g'ri
-            "ishonch, dadillik",
-            "natija, oqibat",
-            "falokat, halokat",
-          ],
-          correctIndex: 0,
+          options: ["ishonch", "bag'ir, ko'ks", "natija", "falokat"],
+          correctIndex: 1,
         },
         {
           question: "confidence",
-          options: [
-            "natija, oqibat",
-            "ishonch, dadillik", // 1 - to'g'ri
-            "falokat, halokat",
-            "tashvishga solmoq",
-          ],
+          options: ["falokat", "ishonch, dadillik", "tashvish", "hisoblamoq"],
           correctIndex: 1,
         },
         {
           question: "consequence",
-          options: [
-            "falokat, halokat",
-            "natija, oqibat", // 2 - to'g'ri
-            "tashvishga solmoq",
-            "taxminan hisoblamoq",
-          ],
+          options: ["tashvish", "natija, oqibat", "hisoblamoq", "sharaflamoq"],
           correctIndex: 1,
         },
         {
           question: "disaster",
           options: [
-            "tashvishga solmoq",
-            "falokat, halokat", // 3 - to'g'ri
-            "taxminan hisoblamoq",
-            "sharaflamoq, hurmat qilmoq",
+            "sharaflamoq",
+            "lol qoldirmoq",
+            "falokat, halokat",
+            "marafon",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "disturb",
           options: [
-            "taxminan hisoblamoq",
-            "tashvishga solmoq", // 4 - to'g'ri
-            "sharaflamoq, hurmat qilmoq",
+            "hisoblamoq",
+            "tashvishga solmoq",
+            "sharaflamoq",
             "lol qoldirmoq",
           ],
           correctIndex: 1,
         },
         {
           question: "estimate",
-          options: [
-            "sharaflamoq, hurmat qilmoq",
-            "taxminan hisoblamoq", // 5 - to'g'ri
-            "lol qoldirmoq",
-            "marafon",
-          ],
-          correctIndex: 1,
+          options: ["taxminan hisoblamoq", "lol qoldirmoq", "marafon", "tor"],
+          correctIndex: 0,
         },
         {
           question: "honor",
-          options: [
-            "lol qoldirmoq",
-            "sharaflamoq, hurmat qilmoq", // 6 - to'g'ri
-            "marafon",
-            "tor",
-          ],
-          correctIndex: 1,
+          options: ["tor", "xira", "sharaflamoq, hurmat qilmoq", "dag'al"],
+          correctIndex: 2,
         },
         {
           question: "impress",
-          options: [
-            "marafon",
-            "lol qoldirmoq", // 7 - to'g'ri
-            "tor",
-            "xira",
-          ],
+          options: ["xira", "lol qoldirmoq", "dag'al", "qoniqtirmoq"],
           correctIndex: 1,
         },
         {
           question: "marathon",
-          options: [
-            "tor",
-            "marafon", // 8 - to'g'ri
-            "xira",
-            "g'adir-budur, dag'al",
-          ],
+          options: ["tor", "marafon", "baqirmoq", "sezuvchan"],
           correctIndex: 1,
         },
         {
           question: "narrow",
-          options: [
-            "xira",
-            "tor", // 9 - to'g'ri
-            "g'adir-budur, dag'al",
-            "qoniqtirmoq, mamnun qilmoq",
-          ],
+          options: ["baqirmoq", "tor", "sezuvchan", "soya"],
           correctIndex: 1,
         },
         {
           question: "pale",
-          options: [
-            "g'adir-budur, dag'al",
-            "xira", // 10 - to'g'ri
-            "qoniqtirmoq, mamnun qilmoq",
-            "baqirmoq, qichqirmoq",
-          ],
-          correctIndex: 1,
+          options: ["soya", "to'ldirmoq", "xira", "dahshat"],
+          correctIndex: 2,
         },
         {
           question: "rough",
-          options: [
-            "qoniqtirmoq, mamnun qilmoq",
-            "g'adir-budur, dag'al", // 11 - to'g'ri
-            "baqirmoq, qichqirmoq",
-            "sezuvchan, ta'sirchan",
-          ],
-          correctIndex: 1,
+          options: ["g'adir-budur, dag'al", "qoniqtirmoq", "soya", "xatar"],
+          correctIndex: 0,
         },
         {
           question: "satisfy",
-          options: [
-            "baqirmoq, qichqirmoq",
-            "qoniqtirmoq, mamnun qilmoq", // 12 - to'g'ri
-            "sezuvchan, ta'sirchan",
-            "soya",
-          ],
-          correctIndex: 1,
+          options: ["xatar", "qurbon", "qoniqtirmoq, mamnun qilmoq", "bag'ir"],
+          correctIndex: 2,
         },
         {
           question: "scream",
-          options: [
-            "sezuvchan, ta'sirchan",
-            "baqirmoq, qichqirmoq", // 13 - to'g'ri
-            "soya",
-            "to'ldirmoq, qo'shmoq",
-          ],
+          options: ["dahshat", "baqirmoq, qichqirmoq", "xatar", "ishonch"],
           correctIndex: 1,
         },
         {
           question: "sensitive",
-          options: [
-            "soya",
-            "sezuvchan, ta'sirchan", // 14 - to'g'ri
-            "to'ldirmoq, qo'shmoq",
-            "dahshat, qo'rquv",
-          ],
-          correctIndex: 1,
+          options: ["sezuvchan, ta'sirchan", "soya", "to'ldirmoq", "dahshat"],
+          correctIndex: 0,
         },
         {
           question: "shade",
-          options: [
-            "to'ldirmoq, qo'shmoq",
-            "soya", // 15 - to'g'ri
-            "dahshat, qo'rquv",
-            "xatar, xavf",
-          ],
-          correctIndex: 1,
+          options: ["dahshat", "xatar", "soya", "qurbon"],
+          correctIndex: 2,
         },
         {
           question: "supplement",
-          options: [
-            "dahshat, qo'rquv",
-            "to'ldirmoq, qo'shmoq", // 16 - to'g'ri
-            "xatar, xavf",
-            "qurbon",
-          ],
+          options: ["qurbon", "to'ldirmoq, qo'shmoq", "bag'ir", "ishonch"],
           correctIndex: 1,
         },
         {
           question: "terror",
-          options: [
-            "xatar, xavf",
-            "dahshat, qo'rquv", // 17 - to'g'ri
-            "qurbon",
-            "bag'ir, ko'ks",
-          ],
-          correctIndex: 1,
+          options: ["dahshat, qo'rquv", "xatar", "bag'ir", "natija"],
+          correctIndex: 0,
         },
         {
           question: "threat",
-          options: [
-            "qurbon",
-            "xatar, xavf", // 18 - to'g'ri
-            "bag'ir, ko'ks",
-            "ishonch, dadillik",
-          ],
+          options: ["bag'ir", "xatar, xavf", "natija", "falokat"],
           correctIndex: 1,
         },
         {
           question: "victim",
-          options: [
-            "qurbon", // 19 - to'g'ri
-            "natija, oqibat",
-            "falokat, halokat",
-            "tashvishga solmoq",
-          ],
+          options: ["qurbon", "natija", "falokat", "tashvish"],
           correctIndex: 0,
         },
       ],
-
       unit_5: [
         {
           question: "ancestor",
-          options: [
-            "ajdod", // 0 - to'g'ri
-            "taraf, tomon, burchak",
-            "etik",
-            "chegara",
-          ],
+          options: ["ajdod", "taraf", "etik", "chegara"],
           correctIndex: 0,
         },
         {
           question: "angle",
-          options: [
-            "etik",
-            "taraf, tomon, burchak", // 1 - to'g'ri
-            "chegara",
-            "tabriklamoq, qutlamoq",
-          ],
-          correctIndex: 1,
+          options: ["etik", "chegara", "taraf, tomon, burchak", "tabriklamoq"],
+          correctIndex: 2,
         },
         {
           question: "boot",
-          options: [
-            "chegara",
-            "etik", // 2 - to'g'ri
-            "tabriklamoq, qutlamoq",
-            "ramka",
-          ],
-          correctIndex: 1,
+          options: ["ramka", "jannat", "etik", "afsona"],
+          correctIndex: 2,
         },
         {
           question: "border",
-          options: [
-            "tabriklamoq, qutlamoq",
-            "chegara", // 3 - to'g'ri
-            "ramka",
-            "jannat",
-          ],
+          options: ["maqtamoq", "chegara", "jannat", "ramka"],
           correctIndex: 1,
         },
         {
           question: "congratulate",
           options: [
-            "ramka",
-            "tabriklamoq, qutlamoq", // 4 - to'g'ri
+            "aqlga sig'mas",
             "jannat",
-            "aqldan ozdiradigan, aqlga sig'mas",
+            "tabriklamoq, qutlamoq",
+            "afsona",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "frame",
-          options: [
-            "jannat",
-            "ramka", // 5 - to'g'ri
-            "aqldan ozdiradigan, aqlga sig'mas",
-            "afsona",
-          ],
+          options: ["jannat", "ramka", "afsona", "maqtamoq"],
           correctIndex: 1,
         },
         {
           question: "heaven",
-          options: [
-            "aqldan ozdiradigan, aqlga sig'mas",
-            "jannat", // 6 - to'g'ri
-            "afsona",
-            "maqtamoq",
-          ],
+          options: ["maqtamoq", "jannat", "afsona", "sof"],
           correctIndex: 1,
         },
         {
           question: "incredible",
           options: [
-            "afsona",
-            "aqldan ozdiradigan, aqlga sig'mas", // 7 - to'g'ri
-            "maqtamoq",
-            "bir yo'nalishdan bormoq",
+            "sof",
+            "aqldan ozdiradigan, aqlga sig'mas",
+            "qarindosh",
+            "ustun",
           ],
           correctIndex: 1,
         },
         {
           question: "legend",
-          options: [
-            "maqtamoq",
-            "afsona", // 8 - to'g'ri
-            "bir yo'nalishdan bormoq",
-            "sof, musaffo",
-          ],
+          options: ["qarindosh", "afsona", "katta yoshdagi", "jim"],
           correctIndex: 1,
         },
         {
           question: "praise",
-          options: [
-            "bir yo'nalishdan bormoq",
-            "maqtamoq", // 9 - to'g'ri
-            "sof, musaffo",
-            "qarindosh",
-          ],
-          correctIndex: 1,
+          options: ["cho'kmoq", "ustun", "maqtamoq", "o'rab olmoq"],
+          correctIndex: 2,
         },
         {
           question: "proceed",
-          options: [
-            "sof, musaffo",
-            "bir yo'nalishdan bormoq", // 10 - to'g'ri
-            "qarindosh",
-            "katta yoshdagi",
-          ],
-          correctIndex: 1,
+          options: ["qalin", "o'ramoq", "bir yo'nalishdan bormoq", "ajdod"],
+          correctIndex: 2,
         },
         {
           question: "pure",
-          options: [
-            "qarindosh",
-            "sof, musaffo", // 11 - to'g'ri
-            "katta yoshdagi",
-            "jim, sokin, tinch",
-          ],
+          options: ["taraf", "sof, musaffo", "etik", "chegara"],
           correctIndex: 1,
         },
         {
           question: "relative",
-          options: [
-            "katta yoshdagi",
-            "qarindosh", // 12 - to'g'ri
-            "jim, sokin, tinch",
-            "cho'kmoq",
-          ],
-          correctIndex: 1,
+          options: ["ramka", "jannat", "qarindosh", "maqtamoq"],
+          correctIndex: 2,
         },
         {
           question: "senior",
-          options: [
-            "jim, sokin, tinch",
-            "katta yoshdagi", // 13 - to'g'ri
-            "cho'kmoq",
-            "ustun, yuqori",
-          ],
-          correctIndex: 1,
+          options: ["katta yoshdagi", "jim", "cho'kmoq", "o'rab olmoq"],
+          correctIndex: 0,
         },
         {
           question: "silent",
-          options: [
-            "cho'kmoq",
-            "jim, sokin, tinch", // 14 - to'g'ri
-            "ustun, yuqori",
-            "o'rab olmoq",
-          ],
+          options: ["ustun", "jim, sokin, tinch", "o'rab olmoq", "qalin"],
           correctIndex: 1,
         },
         {
           question: "sink",
-          options: [
-            "ustun, yuqori",
-            "cho'kmoq", // 15 - to'g'ri
-            "o'rab olmoq",
-            "qalin, keng",
-          ],
-          correctIndex: 1,
+          options: ["o'ramoq", "taraf", "cho'kmoq", "ajdod"],
+          correctIndex: 2,
         },
         {
           question: "superior",
-          options: [
-            "o'rab olmoq",
-            "ustun, yuqori", // 16 - to'g'ri
-            "qalin, keng",
-            "o'ramoq",
-          ],
-          correctIndex: 1,
+          options: ["ustun, yuqori", "o'rab olmoq", "qalin", "o'ramoq"],
+          correctIndex: 0,
         },
         {
           question: "surround",
-          options: [
-            "qalin, keng",
-            "o'rab olmoq", // 17 - to'g'ri
-            "o'ramoq",
-            "ajdod",
-          ],
-          correctIndex: 1,
+          options: ["ajdod", "taraf", "o'rab olmoq", "etik"],
+          correctIndex: 2,
         },
         {
           question: "thick",
-          options: [
-            "o'ramoq",
-            "qalin, keng", // 18 - to'g'ri
-            "ajdod",
-            "taraf, tomon",
-          ],
-          correctIndex: 1,
+          options: ["chegara", "tabriklamoq", "qalin, keng", "ramka"],
+          correctIndex: 2,
         },
         {
           question: "wrap",
-          options: [
-            "o'ramoq", // 19 - to'g'ri
-            "etik",
-            "chegara",
-            "tabriklamoq",
-          ],
-          correctIndex: 0,
+          options: ["jannat", "o'ramoq", "afsona", "maqtamoq"],
+          correctIndex: 1,
         },
       ],
-
       unit_6: [
         {
           question: "abroad",
           options: [
-            "xorij, chet el", // 0 - to'g'ri
-            "jahlini chiqarmoq",
             "kelinchak",
+            "jahlini chiqarmoq",
+            "xorij, chet el",
             "qisqa",
           ],
-          correctIndex: 0,
+          correctIndex: 2,
         },
         {
           question: "anger",
           options: [
+            "jahlini chiqarmoq",
+            "xorij, chet el",
+            "quvlamoq",
             "kelinchak",
-            "jahlini chiqarmoq", // 1 - to'g'ri
-            "qisqa",
-            "quvlamoq, quvmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "bride",
-          options: [
-            "qisqa",
-            "kelinchak", // 2 - to'g'ri
-            "quvlamoq, quvmoq",
-            "hafa qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["hafa qilmoq", "qisqa", "suvga sakramoq", "kelinchak"],
+          correctIndex: 3,
         },
         {
           question: "brief",
-          options: [
-            "quvlamoq, quvmoq",
-            "qisqa", // 3 - to'g'ri
-            "hafa qilmoq",
-            "suvga sakramoq",
-          ],
+          options: ["xorij", "qisqa", "ayriboshlamoq", "quvlamoq"],
           correctIndex: 1,
         },
         {
           question: "chase",
           options: [
-            "hafa qilmoq",
-            "quvlamoq, quvmoq", // 4 - to'g'ri
+            "quvlamoq, quvmoq",
             "suvga sakramoq",
-            "ayriboshlamoq",
+            "hafa qilmoq",
+            "yordam",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "disappoint",
           options: [
-            "suvga sakramoq",
-            "hafa qilmoq", // 5 - to'g'ri
             "ayriboshlamoq",
-            "yordam, muruvvat",
+            "to'lov",
+            "hafa qilmoq, umidsizlantirmoq",
+            "suvga sakramoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "dive",
           options: [
+            "abadiy",
+            "suvga sakramoq, sho'ng'imoq",
+            "yordam",
             "ayriboshlamoq",
-            "suvga sakramoq, sho'ng'imoq", // 6 - to'g'ri
-            "yordam, muruvvat",
-            "to'lov, badal",
           ],
           correctIndex: 1,
         },
         {
           question: "exchange",
-          options: [
-            "yordam, muruvvat",
-            "ayriboshlamoq", // 7 - to'g'ri
-            "to'lov, badal",
-            "abadiy, umrbod",
-          ],
-          correctIndex: 1,
+          options: ["to'lov", "abadiy", "yordam", "ayriboshlamoq"],
+          correctIndex: 3,
         },
         {
           question: "favor",
-          options: [
-            "to'lov, badal",
-            "yordam, muruvvat", // 8 - to'g'ri
-            "abadiy, umrbod",
-            "erkak kishi (informal)",
-          ],
-          correctIndex: 1,
+          options: ["yordam, muruvvat", "to'lov", "go'zal", "kayfiyat"],
+          correctIndex: 0,
         },
         {
           question: "fee",
-          options: [
-            "abadiy, umrbod",
-            "to'lov, badal", // 9 - to'g'ri
-            "erkak kishi (informal)",
-            "yoqimli, go'zal",
-          ],
-          correctIndex: 1,
+          options: ["abadiy", "erkak kishi", "to'lov, badal", "go'zal"],
+          correctIndex: 2,
         },
         {
           question: "forever",
-          options: [
-            "erkak kishi (informal)",
-            "abadiy, umrbod", // 10 - to'g'ri
-            "yoqimli, go'zal",
-            "kayfiyat",
-          ],
+          options: ["kayfiyat", "abadiy, umrbod", "qasr", "ruxsat"],
           correctIndex: 1,
         },
         {
           question: "guy",
           options: [
-            "yoqimli, go'zal",
-            "erkak kishi (informal)", // 11 - to'g'ri
             "kayfiyat",
-            "qasr, saroy",
+            "go'zal",
+            "norozilik",
+            "erkak kishi (informal)",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "lovely",
-          options: [
-            "kayfiyat",
-            "yoqimli, go'zal", // 12 - to'g'ri
-            "qasr, saroy",
-            "ruxsat etmoq",
-          ],
-          correctIndex: 1,
+          options: ["yoqimli, go'zal", "qasr", "ruxsat", "haykal"],
+          correctIndex: 0,
         },
         {
           question: "mood",
-          options: [
-            "qasr, saroy",
-            "kayfiyat", // 13 - to'g'ri
-            "ruxsat etmoq",
-            "norozilik bildirmoq",
-          ],
-          correctIndex: 1,
+          options: ["norozilik", "qabila", "kayfiyat", "yoshlik"],
+          correctIndex: 2,
         },
         {
           question: "palace",
-          options: [
-            "ruxsat etmoq",
-            "qasr, saroy", // 14 - to'g'ri
-            "norozilik bildirmoq",
-            "haykal",
-          ],
+          options: ["haykal", "qasr, saroy", "ruxsat", "qisqa"],
           correctIndex: 1,
         },
         {
           question: "permit",
-          options: [
-            "norozilik bildirmoq",
-            "ruxsat etmoq", // 15 - to'g'ri
-            "haykal",
-            "qabila",
-          ],
-          correctIndex: 1,
+          options: ["norozilik", "haykal", "qabila", "ruxsat etmoq"],
+          correctIndex: 3,
         },
         {
           question: "protest",
-          options: [
-            "haykal",
-            "norozilik bildirmoq", // 16 - to'g'ri
-            "qabila",
-            "yoshlik payt",
-          ],
-          correctIndex: 1,
+          options: ["norozilik bildirmoq", "yoshlik", "xorij", "jahl"],
+          correctIndex: 0,
         },
         {
           question: "sculpture",
-          options: [
-            "qabila",
-            "haykal", // 17 - to'g'ri
-            "yoshlik payt",
-            "xorij, chet el",
-          ],
+          options: ["qabila", "haykal, haykaltaroshlik", "kelinchak", "qisqa"],
           correctIndex: 1,
         },
         {
           question: "tribe",
-          options: [
-            "yoshlik payt",
-            "qabila", // 18 - to'g'ri
-            "xorij, chet el",
-            "jahlini chiqarmoq",
-          ],
-          correctIndex: 1,
+          options: ["xorij", "suvga sakramoq", "qabila", "yordam"],
+          correctIndex: 2,
         },
         {
           question: "youth",
-          options: [
-            "yoshlik payt", // 19 - to'g'ri
-            "kelinchak",
-            "qisqa",
-            "quvlamoq",
-          ],
-          correctIndex: 0,
+          options: ["abadiy", "yoshlik payt", "to'lov", "kayfiyat"],
+          correctIndex: 1,
         },
       ],
-
       unit_7: [
         {
           question: "basis",
-          options: [
-            "tartib, yo'nalish", // 0 - to'g'ri
-            "biologiya",
-            "qafas",
-            "hamkasb",
-          ],
-          correctIndex: 0,
+          options: ["biologiya", "qafas", "marshrut", "asos, tartib"],
+          correctIndex: 3,
         },
         {
           question: "biology",
-          options: [
-            "qafas",
-            "biologiya", // 1 - to'g'ri
-            "hamkasb",
-            "koloniya, mustamlaka",
-          ],
+          options: ["hamkasb", "biologiya", "mustamlaka", "muhokama"],
           correctIndex: 1,
         },
         {
           question: "cage",
-          options: [
-            "hamkasb",
-            "qafas", // 2 - to'g'ri
-            "koloniya, mustamlaka",
-            "muhokama qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["qafas", "hamkasb", "jo'namoq", "dilini xufton qilmoq"],
+          correctIndex: 0,
         },
         {
           question: "colleague",
-          options: [
-            "koloniya, mustamlaka",
-            "hamkasb", // 3 - to'g'ri
-            "muhokama qilmoq",
-            "jo'namoq, ketmoq",
-          ],
-          correctIndex: 1,
+          options: ["asosli", "mustamlaka", "hamkasb", "maftun qilmoq"],
+          correctIndex: 2,
         },
         {
           question: "colony",
           options: [
-            "muhokama qilmoq",
-            "koloniya, mustamlaka", // 4 - to'g'ri
-            "jo'namoq, ketmoq",
-            "dilini xufton qilmoq",
+            "missiya",
+            "koloniya, mustamlaka",
+            "shunga qaramay",
+            "kasb",
           ],
           correctIndex: 1,
         },
         {
           question: "debate",
-          options: [
-            "jo'namoq, ketmoq",
-            "muhokama qilmoq", // 5 - to'g'ri
-            "dilini xufton qilmoq",
-            "asosli, dalilga boy",
-          ],
-          correctIndex: 1,
+          options: ["muhokama qilmoq", "okean orti", "ko'ndirmoq", "xaroba"],
+          correctIndex: 0,
         },
         {
           question: "depart",
-          options: [
-            "dilini xufton qilmoq",
-            "jo'namoq, ketmoq", // 6 - to'g'ri
-            "asosli, dalilga boy",
-            "maftun qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["bilimdon", "vulqon", "jo'namoq, ketmoq", "muhim"],
+          correctIndex: 2,
         },
         {
           question: "depress",
-          options: [
-            "asosli, dalilga boy",
-            "dilini xufton qilmoq", // 7 - to'g'ri
-            "maftun qilmoq, qiziqtirmoq",
-            "missiya, topshiriq",
-          ],
-          correctIndex: 1,
+          options: ["dilini xufton qilmoq", "biologiya", "qafas", "hamkasb"],
+          correctIndex: 0,
         },
         {
           question: "factual",
           options: [
-            "maftun qilmoq, qiziqtirmoq",
-            "asosli, dalilga boy", // 8 - to'g'ri
-            "missiya, topshiriq",
-            "shunga qaramay",
+            "mustamlaka",
+            "muhokama",
+            "asosli, dalilga boy",
+            "jo'namoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "fascinate",
           options: [
-            "missiya, topshiriq",
-            "maftun qilmoq, qiziqtirmoq", // 9 - to'g'ri
-            "shunga qaramay",
+            "maftun qilmoq, qiziqtirmoq",
+            "missiya",
             "kasb",
+            "okean orti",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "mission",
-          options: [
-            "shunga qaramay",
-            "missiya, topshiriq", // 10 - to'g'ri
-            "kasb",
-            "okean orti",
-          ],
-          correctIndex: 1,
+          options: ["ko'ndirmoq", "marshrut", "xaroba", "missiya, topshiriq"],
+          correctIndex: 3,
         },
         {
           question: "nevertheless",
-          options: [
-            "kasb",
-            "shunga qaramay", // 11 - to'g'ri
-            "okean orti",
-            "ko'ndirmoq",
-          ],
+          options: ["bilimdon", "shunga qaramay", "muhim", "vulqon"],
           correctIndex: 1,
         },
         {
           question: "occupation",
-          options: [
-            "okean orti",
-            "kasb", // 12 - to'g'ri
-            "ko'ndirmoq",
-            "marshrut, yo'nalish",
-          ],
+          options: ["biologiya", "kasb, mashg'ulot", "qafas", "hamkasb"],
           correctIndex: 1,
         },
         {
           question: "overseas",
-          options: [
-            "ko'ndirmoq",
-            "okean orti", // 13 - to'g'ri
-            "marshrut, yo'nalish",
-            "xaroba",
-          ],
-          correctIndex: 1,
+          options: ["mustamlaka", "muhokama", "okean orti", "jo'namoq"],
+          correctIndex: 2,
         },
         {
           question: "persuade",
           options: [
-            "marshrut, yo'nalish",
-            "ko'ndirmoq", // 14 - to'g'ri
-            "xaroba",
-            "bilimdon",
+            "ko'ndirmoq",
+            "dilini xufton qilmoq",
+            "asosli",
+            "maftun qilmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "route",
-          options: [
-            "xaroba",
-            "marshrut, yo'nalish", // 15 - to'g'ri
-            "bilimdon",
-            "muhim, ahamiyatli",
-          ],
-          correctIndex: 1,
+          options: ["missiya", "shunga qaramay", "marshrut, yo'nalish", "kasb"],
+          correctIndex: 2,
         },
         {
           question: "ruins",
-          options: [
-            "bilimdon",
-            "xaroba", // 16 - to'g'ri
-            "muhim, ahamiyatli",
-            "vulqon",
-          ],
+          options: ["ko'ndirmoq", "xaroba", "bilimdon", "muhim"],
           correctIndex: 1,
         },
         {
           question: "scholar",
-          options: [
-            "muhim, ahamiyatli",
-            "bilimdon", // 17 - to'g'ri
-            "vulqon",
-            "tartib, yo'nalish",
-          ],
-          correctIndex: 1,
+          options: ["vulqon", "biologiya", "qafas", "bilimdon"],
+          correctIndex: 3,
         },
         {
           question: "significant",
-          options: [
-            "vulqon",
-            "muhim, ahamiyatli", // 18 - to'g'ri
-            "tartib, yo'nalish",
-            "biologiya",
-          ],
-          correctIndex: 1,
+          options: ["muhim, ahamiyatli", "hamkasb", "mustamlaka", "muhokama"],
+          correctIndex: 0,
         },
         {
           question: "volcano",
-          options: [
-            "vulqon", // 19 - to'g'ri
-            "qafas",
-            "hamkasb",
-            "koloniya",
-          ],
-          correctIndex: 0,
+          options: ["jo'namoq", "dilini xufton qilmoq", "vulqon", "asosli"],
+          correctIndex: 2,
         },
       ],
-
       unit_8: [
         {
           question: "broad",
-          options: [
-            "keng, katta", // 0 - to'g'ri
-            "buta",
-            "qobiliyatli, o'quvli",
-            "g'irromlik qilmoq",
-          ],
-          correctIndex: 0,
+          options: ["buta", "keng, katta", "qobiliyatli", "g'irromlik"],
+          correctIndex: 1,
         },
         {
           question: "bush",
-          options: [
-            "qobiliyatli, o'quvli",
-            "buta", // 1 - to'g'ri
-            "g'irromlik qilmoq",
-            "diqqatini jamlamoq",
-          ],
-          correctIndex: 1,
+          options: ["diqqatni jamlash", "xulosa", "ishongan", "buta, butazor"],
+          correctIndex: 3,
         },
         {
           question: "capable",
-          options: [
-            "g'irromlik qilmoq",
-            "qobiliyatli, o'quvli", // 2 - to'g'ri
-            "diqqatini jamlamoq",
-            "deb xulosa qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["sezilarli", "ifodalamoq", "qobiliyatli, o'quvli", "aniq"],
+          correctIndex: 2,
         },
         {
           question: "cheat",
           options: [
-            "diqqatini jamlamoq",
-            "g'irromlik qilmoq", // 3 - to'g'ri
-            "deb xulosa qilmoq",
-            "o'ziga ishongan",
+            "g'irromlik qilmoq, aldash",
+            "zavq",
+            "manzil",
+            "aytib yozdirmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "concentrate",
-          options: [
-            "deb xulosa qilmoq",
-            "diqqatini jamlamoq", // 4 - to'g'ri
-            "o'ziga ishongan",
-            "sezilarli, salmoqli",
-          ],
-          correctIndex: 1,
+          options: ["chet", "so'qmoq", "diqqatini jamlamoq", "asoslanmoq"],
+          correctIndex: 2,
         },
         {
           question: "conclude",
-          options: [
-            "o'ziga ishongan",
-            "deb xulosa qilmoq", // 5 - to'g'ri
-            "sezilarli, salmoqli",
-            "ifodalamoq",
-          ],
-          correctIndex: 1,
+          options: ["deb xulosa qilmoq", "soya", "muvaffaqiyat", "hisoblamoq"],
+          correctIndex: 0,
         },
         {
           question: "confident",
-          options: [
-            "sezilarli, salmoqli",
-            "o'ziga ishongan", // 6 - to'g'ri
-            "ifodalamoq",
-            "aniq, yaqqol",
-          ],
-          correctIndex: 1,
+          options: ["vodiy", "keng", "o'ziga ishongan", "buta"],
+          correctIndex: 2,
         },
         {
           question: "considerable",
           options: [
-            "ifodalamoq",
-            "sezilarli, salmoqli", // 7 - to'g'ri
-            "aniq, yaqqol",
-            "zavq, shavq",
+            "qobiliyatli",
+            "sezilarli, salmoqli",
+            "g'irromlik",
+            "diqqat",
           ],
           correctIndex: 1,
         },
         {
           question: "convey",
-          options: [
-            "aniq, yaqqol",
-            "ifodalamoq", // 8 - to'g'ri
-            "zavq, shavq",
-            "manzil",
-          ],
-          correctIndex: 1,
+          options: ["xulosa", "ishongan", "ifodalamoq, yetkazmoq", "sezilarli"],
+          correctIndex: 2,
         },
         {
           question: "definite",
-          options: [
-            "zavq, shavq",
-            "aniq, yaqqol", // 9 - to'g'ri
-            "manzil",
-            "aytib yozdirmoq",
-          ],
-          correctIndex: 1,
+          options: ["aniq, yaqqol", "zavq", "manzil", "aytib yozdirmoq"],
+          correctIndex: 0,
         },
         {
           question: "delight",
-          options: [
-            "manzil",
-            "zavq, shavq", // 10 - to'g'ri
-            "aytib yozdirmoq",
-            "chet, qirra",
-          ],
-          correctIndex: 1,
+          options: ["chet", "so'qmoq", "zavq, shavq", "asoslanmoq"],
+          correctIndex: 2,
         },
         {
           question: "destination",
-          options: [
-            "aytib yozdirmoq",
-            "manzil", // 11 - to'g'ri
-            "chet, qirra",
-            "so'qmoq",
-          ],
+          options: ["soya", "manzil", "muvaffaqiyat", "hisoblamoq"],
           correctIndex: 1,
         },
         {
           question: "dictate",
-          options: [
-            "chet, qirra",
-            "aytib yozdirmoq", // 12 - to'g'ri
-            "so'qmoq",
-            "asos qilib olmoq",
-          ],
-          correctIndex: 1,
+          options: ["vodiy", "keng", "buta", "aytib yozdirmoq"],
+          correctIndex: 3,
         },
         {
           question: "edge",
-          options: [
-            "so'qmoq",
-            "chet, qirra", // 13 - to'g'ri
-            "asos qilib olmoq",
-            "soya, ko'lanka",
-          ],
-          correctIndex: 1,
+          options: ["chet, qirra", "qobiliyatli", "g'irromlik", "diqqat"],
+          correctIndex: 0,
         },
         {
           question: "path",
-          options: [
-            "asos qilib olmoq",
-            "so'qmoq", // 14 - to'g'ri
-            "soya, ko'lanka",
-            "muvaffaqiyat qozonmoq",
-          ],
+          options: ["xulosa", "so'qmoq, yo'lak", "ishongan", "ifodalamoq"],
           correctIndex: 1,
         },
         {
           question: "resort",
           options: [
-            "soya, ko'lanka",
-            "asos qilib olmoq, asoslanmoq", // 15 - to'g'ri
-            "muvaffaqiyat qozonmoq",
-            "- deb hisoblamoq",
+            "sezilarli",
+            "aniq",
+            "zavq",
+            "asos qilib olmoq, asoslanmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "shadow",
-          options: [
-            "muvaffaqiyat qozonmoq",
-            "soya, ko'lanka", // 16 - to'g'ri
-            "- deb hisoblamoq",
-            "vodiy",
-          ],
+          options: ["manzil", "soya, ko'lanka", "aytib yozdirmoq", "chet"],
           correctIndex: 1,
         },
         {
           question: "succeed",
-          options: [
-            "- deb hisoblamoq",
-            "muvaffaqiyat qozonmoq", // 17 - to'g'ri
-            "vodiy",
-            "keng, katta",
-          ],
-          correctIndex: 1,
+          options: ["so'qmoq", "asoslanmoq", "muvaffaqiyat qozonmoq", "soya"],
+          correctIndex: 2,
         },
         {
           question: "suspect",
           options: [
+            "- deb hisoblamoq, shubhalanmoq",
+            "hisoblamoq",
             "vodiy",
-            "- deb hisoblamoq", // 18 - to'g'ri
-            "keng, katta",
-            "buta",
+            "keng",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "valley",
-          options: [
-            "vodiy", // 19 - to'g'ri
-            "qobiliyatli",
-            "g'irromlik qilmoq",
-            "diqqatini jamlamoq",
-          ],
-          correctIndex: 0,
+          options: ["buta", "qobiliyatli", "vodiy", "g'irromlik"],
+          correctIndex: 2,
         },
       ],
-
       unit_9: [
         {
           question: "admire",
-          options: [
-            "qoyil qolmoq", // 0 - to'g'ri
-            "yordam bermoq",
-            "urinmoq, harakat qilmoq",
-            "vakolat, huquq",
-          ],
-          correctIndex: 0,
+          options: ["yordam", "qoyil qolmoq", "urinmoq", "vakolat"],
+          correctIndex: 1,
         },
         {
           question: "aid",
-          options: [
-            "urinmoq, harakat qilmoq",
-            "yordam bermoq", // 1 - to'g'ri
-            "vakolat, huquq",
-            "poytaxt",
-          ],
-          correctIndex: 1,
+          options: ["yordam bermoq", "poytaxt", "hamkorlik", "mudofaa"],
+          correctIndex: 0,
         },
         {
           question: "attempt",
           options: [
-            "vakolat, huquq",
-            "urinmoq, harakat qilmoq", // 2 - to'g'ri
-            "poytaxt",
-            "hamkorlik qilmoq",
+            "halokat",
+            "tartibsizlik",
+            "urinmoq, harakat qilmoq",
+            "taqsimlash",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "authority",
           options: [
-            "poytaxt",
-            "vakolat, huquq", // 3 - to'g'ri
-            "hamkorlik qilmoq",
-            "mudofaa qilmoq",
+            "imkoniyat",
+            "umidsizlantirmoq",
+            "boshqarmoq",
+            "vakolat, huquq",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "capital",
-          options: [
-            "hamkorlik qilmoq",
-            "poytaxt", // 4 - to'g'ri
-            "mudofaa qilmoq",
-            "vayron qilish, halokat",
-          ],
+          options: ["yeterli", "poytaxt", "yengillashtirmoq", "reputatsiya"],
           correctIndex: 1,
         },
         {
           question: "cooperate",
-          options: [
-            "mudofaa qilmoq",
-            "hamkorlik qilmoq", // 5 - to'g'ri
-            "vayron qilish, halokat",
-            "tartibsizlik",
-          ],
-          correctIndex: 1,
+          options: ["qirollik", "qul", "hamkorlik qilmoq", "kurashmoq"],
+          correctIndex: 2,
         },
         {
           question: "defend",
-          options: [
-            "vayron qilish, halokat",
-            "mudofaa qilmoq", // 6 - to'g'ri
-            "tartibsizlik",
-            "bo'lish, taqsimlash",
-          ],
+          options: ["ahmoq", "mudofaa qilmoq", "yordam", "urinmoq"],
           correctIndex: 1,
         },
         {
           question: "destruction",
           options: [
-            "tartibsizlik",
-            "vayron qilish, halokat", // 7 - to'g'ri
-            "bo'lish, taqsimlash",
-            "imkoniyat bermoq",
+            "vakolat",
+            "poytaxt",
+            "vayron qilish, halokat",
+            "hamkorlik",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "disorder",
-          options: [
-            "bo'lish, taqsimlash",
-            "tartibsizlik", // 8 - to'g'ri
-            "imkoniyat bermoq",
-            "umidsizlantirmoq",
-          ],
-          correctIndex: 1,
+          options: ["mudofaa", "halokat", "tartibsizlik", "taqsimlash"],
+          correctIndex: 2,
         },
         {
           question: "division",
           options: [
-            "imkoniyat bermoq",
-            "bo'lish, taqsimlash", // 9 - to'g'ri
+            "imkoniyat",
+            "bo'lish, taqsimlash",
             "umidsizlantirmoq",
-            "nazorat qilmoq, boshqarmoq",
+            "boshqarmoq",
           ],
           correctIndex: 1,
         },
         {
           question: "enable",
           options: [
-            "umidsizlantirmoq",
-            "imkoniyat bermoq", // 10 - to'g'ri
-            "nazorat qilmoq, boshqarmoq",
-            "yeterli miqdor",
+            "imkoniyat bermoq",
+            "yeterli",
+            "yengillashtirmoq",
+            "reputatsiya",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "frustrate",
-          options: [
-            "nazorat qilmoq, boshqarmoq",
-            "umidsizlantirmoq", // 11 - to'g'ri
-            "yeterli miqdor",
-            "og'rig'ini yengillashtirmoq",
-          ],
+          options: ["qirollik", "umidsizlantirmoq", "qul", "kurashmoq"],
           correctIndex: 1,
         },
         {
           question: "govern",
-          options: [
-            "yeterli miqdor",
-            "nazorat qilmoq, boshqarmoq", // 12 - to'g'ri
-            "og'rig'ini yengillashtirmoq",
-            "obro', reputatsiya",
-          ],
-          correctIndex: 1,
+          options: ["nazorat qilmoq, boshqarmoq", "ahmoq", "yordam", "urinmoq"],
+          correctIndex: 0,
         },
         {
           question: "plenty",
-          options: [
-            "og'rig'ini yengillashtirmoq",
-            "yeterli miqdor", // 13 - to'g'ri
-            "obro', reputatsiya",
-            "qirollik",
-          ],
-          correctIndex: 1,
+          options: ["vakolat", "poytaxt", "yeterli miqdor", "hamkorlik"],
+          correctIndex: 2,
         },
         {
           question: "relieve",
           options: [
-            "obro', reputatsiya",
-            "og'rig'ini yengillashtirmoq", // 14 - to'g'ri
-            "qirollik",
-            "qul",
+            "mudofaa",
+            "yengillashtirmoq, og'rig'ini olmoq",
+            "halokat",
+            "tartibsizlik",
           ],
           correctIndex: 1,
         },
         {
           question: "reputation",
           options: [
-            "qirollik",
-            "obro', reputatsiya", // 15 - to'g'ri
-            "qul",
-            "kurashmoq, yoqalashmoq",
+            "taqsimlash",
+            "imkoniyat",
+            "obro', reputatsiya",
+            "umidsizlantirmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "royal",
-          options: [
-            "qul",
-            "qirollik", // 16 - to'g'ri
-            "kurashmoq, yoqalashmoq",
-            "ahmoq, tentak",
-          ],
-          correctIndex: 1,
+          options: ["boshqarmoq", "yeterli", "qirollik", "yengillashtirmoq"],
+          correctIndex: 2,
         },
         {
           question: "slave",
-          options: [
-            "kurashmoq, yoqalashmoq",
-            "qul", // 17 - to'g'ri
-            "ahmoq, tentak",
-            "qoyil qolmoq",
-          ],
+          options: ["reputatsiya", "qul", "qirollik", "ahmoq"],
           correctIndex: 1,
         },
         {
           question: "struggle",
-          options: [
-            "ahmoq, tentak",
-            "kurashmoq, yoqalashmoq", // 18 - to'g'ri
-            "qoyil qolmoq",
-            "yordam bermoq",
-          ],
-          correctIndex: 1,
+          options: ["kurashmoq, yoqalashmoq", "yordam", "urinmoq", "vakolat"],
+          correctIndex: 0,
         },
         {
           question: "stupid",
-          options: [
-            "ahmoq, tentak", // 19 - to'g'ri
-            "urinmoq, harakat qilmoq",
-            "vakolat, huquq",
-            "poytaxt",
-          ],
-          correctIndex: 0,
+          options: ["poytaxt", "ahmoq, tentak", "hamkorlik", "mudofaa"],
+          correctIndex: 1,
         },
       ],
-
       unit_10: [
         {
           question: "citizen",
-          options: [
-            "fuqaro", // 0 - to'g'ri
-            "kengash, konsullik",
-            "aytmoq, bildirmoq",
-            "ulkan, juda katta",
-          ],
+          options: ["fuqaro", "kengash", "bildirmoq", "ulkan"],
           correctIndex: 0,
         },
         {
           question: "council",
-          options: [
-            "aytmoq, bildirmoq",
-            "kengash, konsullik", // 1 - to'g'ri
-            "ulkan, juda katta",
-            "g'ayritabiiy, turfa",
-          ],
-          correctIndex: 1,
+          options: ["turfa", "tuman", "kengash, konsullik", "dafn marosimi"],
+          correctIndex: 2,
         },
         {
           question: "declare",
-          options: [
-            "ulkan, juda katta",
-            "aytmoq, bildirmoq", // 2 - to'g'ri
-            "g'ayritabiiy, turfa",
-            "tuman",
-          ],
-          correctIndex: 1,
+          options: ["gigant", "taassurot", "daromad", "aytmoq, bildirmoq"],
+          correctIndex: 3,
         },
         {
           question: "enormous",
-          options: [
-            "g'ayritabiiy, turfa",
-            "ulkan, juda katta", // 3 - to'g'ri
-            "tuman",
-            "dafn marosimi",
-          ],
+          options: ["jahldor", "ulkan, juda katta", "lozim", "qarshilik"],
           correctIndex: 1,
         },
         {
           question: "extraordinary",
           options: [
-            "tuman",
-            "g'ayritabiiy, turfa", // 4 - to'g'ri
-            "dafn marosimi",
-            "bahaybat, gigant",
+            "ko'rsatmoq",
+            "g'ayritabiiy, turfa",
+            "xalos qilmoq",
+            "shamshir",
           ],
           correctIndex: 1,
         },
         {
           question: "fog",
-          options: [
-            "dafn marosimi",
-            "tuman", // 5 - to'g'ri
-            "bahaybat, gigant",
-            "taassurot",
-          ],
-          correctIndex: 1,
+          options: ["hikoya", "tutqunlik", "tuman", "sud"],
+          correctIndex: 2,
         },
         {
           question: "funeral",
-          options: [
-            "bahaybat, gigant",
-            "dafn marosimi", // 6 - to'g'ri
-            "taassurot",
-            "daromad",
-          ],
-          correctIndex: 1,
+          options: ["zo'ravon", "fuqaro", "dafn marosimi", "kengash"],
+          correctIndex: 2,
         },
         {
           question: "giant",
-          options: [
-            "taassurot",
-            "bahaybat, gigant", // 7 - to'g'ri
-            "daromad",
-            "badjahl, jahldor",
-          ],
-          correctIndex: 1,
+          options: ["bildirmoq", "ulkan", "bahaybat, gigant", "turfa"],
+          correctIndex: 2,
         },
         {
           question: "impression",
-          options: [
-            "daromad",
-            "taassurot", // 8 - to'g'ri
-            "badjahl, jahldor",
-            "kerak, lozim",
-          ],
-          correctIndex: 1,
+          options: ["tuman", "dafn marosimi", "gigant", "taassurot"],
+          correctIndex: 3,
         },
         {
           question: "income",
-          options: [
-            "badjahl, jahldor",
-            "daromad", // 9 - to'g'ri
-            "kerak, lozim",
-            "qarshilik ko'rsatmoq",
-          ],
-          correctIndex: 1,
+          options: ["daromad", "jahldor", "lozim", "qarshilik"],
+          correctIndex: 0,
         },
         {
           question: "mad",
           options: [
-            "kerak, lozim",
-            "badjahl, jahldor", // 10 - to'g'ri
-            "qarshilik ko'rsatmoq",
             "ko'rsatmoq",
+            "xalos qilmoq",
+            "badjahl, jahldor",
+            "shamshir",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "ought",
-          options: [
-            "qarshilik ko'rsatmoq",
-            "kerak, lozim", // 11 - to'g'ri
-            "ko'rsatmoq",
-            "xalos qilmoq",
-          ],
+          options: ["hikoya", "kerak, lozim", "tutqunlik", "sud"],
           correctIndex: 1,
         },
         {
           question: "resist",
-          options: [
-            "ko'rsatmoq",
-            "qarshilik ko'rsatmoq", // 12 - to'g'ri
-            "xalos qilmoq",
-            "qilich, shamshir",
-          ],
-          correctIndex: 1,
+          options: ["zo'ravon", "fuqaro", "kengash", "qarshilik ko'rsatmoq"],
+          correctIndex: 3,
         },
         {
           question: "reveal",
-          options: [
-            "xalos qilmoq",
-            "ko'rsatmoq", // 13 - to'g'ri
-            "qilich, shamshir",
-            "ertak, hikoya",
-          ],
+          options: ["bildirmoq", "ko'rsatmoq, ochib bermoq", "ulkan", "turfa"],
           correctIndex: 1,
         },
         {
           question: "rid",
           options: [
-            "qilich, shamshir",
-            "xalos qilmoq", // 14 - to'g'ri
-            "ertak, hikoya",
-            "tutqunlikda saqlamoq",
+            "tuman",
+            "dafn marosimi",
+            "xalos qilmoq, qutulmoq",
+            "gigant",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "sword",
-          options: [
-            "ertak, hikoya",
-            "qilich, shamshir", // 15 - to'g'ri
-            "tutqunlikda saqlamoq",
-            "sud jarayoni",
-          ],
-          correctIndex: 1,
+          options: ["taassurot", "daromad", "jahldor", "qilich, shamshir"],
+          correctIndex: 3,
         },
         {
           question: "tale",
-          options: [
-            "tutqunlikda saqlamoq",
-            "ertak, hikoya", // 16 - to'g'ri
-            "sud jarayoni",
-            "zo'ravon, quturgan",
-          ],
+          options: ["lozim", "ertak, hikoya", "qarshilik", "ko'rsatmoq"],
           correctIndex: 1,
         },
         {
           question: "trap",
           options: [
-            "sud jarayoni",
-            "tutqunlikda saqlamoq", // 17 - to'g'ri
-            "zo'ravon, quturgan",
-            "fuqaro",
+            "xalos qilmoq",
+            "shamshir",
+            "tutqunlikda saqlamoq",
+            "hikoya",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "trial",
-          options: [
-            "zo'ravon, quturgan",
-            "sud jarayoni", // 18 - to'g'ri
-            "fuqaro",
-            "kengash, konsullik",
-          ],
-          correctIndex: 1,
+          options: ["sud jarayoni", "zo'ravon", "fuqaro", "kengash"],
+          correctIndex: 0,
         },
         {
           question: "violent",
-          options: [
-            "zo'ravon, quturgan", // 19 - to'g'ri
-            "aytmoq, bildirmoq",
-            "ulkan, juda katta",
-            "g'ayritabiiy, turfa",
-          ],
-          correctIndex: 0,
+          options: ["bildirmoq", "ulkan", "turfa", "zo'ravon, quturgan"],
+          correctIndex: 3,
         },
       ],
 
       unit_11: [
         {
           question: "admission",
-          options: [
-            "ruxsat, kirish", // 0 - to'g'ri
-            "astronomiya",
-            "ayblamoq",
-            "kimyo",
-          ],
-          correctIndex: 0,
+          options: ["astronomiya", "ayblamoq", "ruxsat, kirish", "kimyo"],
+          correctIndex: 2,
         },
         {
           question: "astronomy",
-          options: [
-            "ayblamoq",
-            "astronomiya", // 1 - to'g'ri
-            "kimyo",
-            "-ga qaramasdan",
-          ],
-          correctIndex: 1,
+          options: ["astronomiya", "ayblamoq", "kimyo", "-ga qaramasdan"],
+          correctIndex: 0,
         },
         {
           question: "blame",
-          options: [
-            "kimyo",
-            "ayblamoq", // 2 - to'g'ri
-            "-ga qaramasdan",
-            "dinozavr",
-          ],
-          correctIndex: 1,
+          options: ["kimyo", "dinozavr", "ayblamoq", "-ga qaramasdan"],
+          correctIndex: 2,
         },
         {
           question: "chemistry",
-          options: [
-            "-ga qaramasdan",
-            "kimyo", // 3 - to'g'ri
-            "dinozavr",
-            "eksponat",
-          ],
-          correctIndex: 1,
+          options: ["dinozavr", "eksponat", "-ga qaramasdan", "kimyo"],
+          correctIndex: 3,
         },
         {
           question: "despite",
-          options: [
-            "dinozavr",
-            "-ga qaramasdan", // 4 - to'g'ri
-            "eksponat",
-            "shon-shuhrat, obro'",
-          ],
-          correctIndex: 1,
+          options: ["dinozavr", "shon-shuhrat", "-ga qaramasdan", "eksponat"],
+          correctIndex: 2,
         },
         {
           question: "dinosaur",
-          options: [
-            "eksponat",
-            "dinozavr", // 5 - to'g'ri
-            "shon-shuhrat, obro'",
-            "ob-havo ma'lumoti",
-          ],
-          correctIndex: 1,
+          options: ["dinozavr", "eksponat", "ob-havo ma'lumoti", "obro'"],
+          correctIndex: 0,
         },
         {
           question: "exhibit",
-          options: [
-            "shon-shuhrat, obro'",
-            "eksponat", // 6 - to'g'ri
-            "ob-havo ma'lumoti",
-            "juda aqlli, ziyrak",
-          ],
-          correctIndex: 1,
+          options: ["shon-shuhrat", "juda aqlli", "eksponat", "ob-havo"],
+          correctIndex: 2,
         },
         {
           question: "fame",
-          options: [
-            "ob-havo ma'lumoti",
-            "shon-shuhrat, obro'", // 7 - to'g'ri
-            "juda aqlli, ziyrak",
-            "muloyim, yuvosh",
-          ],
-          correctIndex: 1,
+          options: ["ob-havo", "muloyim", "juda aqlli", "shon-shuhrat, obro'"],
+          correctIndex: 3,
         },
         {
           question: "forecast",
-          options: [
-            "juda aqlli, ziyrak",
-            "ob-havo ma'lumoti", // 8 - to'g'ri
-            "muloyim, yuvosh",
-            "geografiya",
-          ],
-          correctIndex: 1,
+          options: ["ob-havo ma'lumoti", "juda aqlli", "muloyim", "geografiya"],
+          correctIndex: 0,
         },
         {
           question: "genius",
-          options: [
-            "muloyim, yuvosh",
-            "juda aqlli, ziyrak", // 9 - to'g'ri
-            "geografiya",
-            "xalaqit bermoq",
-          ],
-          correctIndex: 1,
+          options: ["muloyim", "geografiya", "juda aqlli, ziyrak", "xalaqit"],
+          correctIndex: 2,
         },
         {
           question: "gentle",
-          options: [
-            "geografiya",
-            "muloyim, yuvosh", // 10 - to'g'ri
-            "xalaqit bermoq",
-            "muloyimlik bilan",
-          ],
-          correctIndex: 1,
+          options: ["muloyim, yuvosh", "geografiya", "xalaqit", "muloyimlik"],
+          correctIndex: 0,
         },
         {
           question: "geography",
-          options: [
-            "xalaqit bermoq",
-            "geografiya", // 11 - to'g'ri
-            "muloyimlik bilan",
-            "maktab direktori",
-          ],
-          correctIndex: 1,
+          options: ["xalaqit", "direktor", "geografiya", "muloyimlik"],
+          correctIndex: 2,
         },
         {
           question: "interfere",
-          options: [
-            "muloyimlik bilan",
-            "xalaqit bermoq", // 12 - to'g'ri
-            "maktab direktori",
-            "qator, saf",
-          ],
-          correctIndex: 1,
+          options: ["muloyimlik", "direktor", "xalaqit bermoq", "qator"],
+          correctIndex: 2,
         },
         {
           question: "lightly",
-          options: [
-            "maktab direktori",
-            "muloyimlik bilan", // 13 - to'g'ri
-            "qator, saf",
-            "tokcha",
-          ],
+          options: ["tokcha", "muloyimlik bilan", "direktor", "saf"],
           correctIndex: 1,
         },
         {
           question: "principal",
-          options: [
-            "qator, saf",
-            "maktab direktori", // 14 - to'g'ri
-            "tokcha",
-            "qasddan, jo'rtaga",
-          ],
-          correctIndex: 1,
+          options: ["qator", "tokcha", "qasddan", "maktab direktori"],
+          correctIndex: 3,
         },
         {
           question: "row",
-          options: [
-            "tokcha",
-            "qator, saf", // 15 - to'g'ri
-            "qasddan, jo'rtaga",
-            "juda yaxshi",
-          ],
-          correctIndex: 1,
+          options: ["qator, saf", "tokcha", "qasddan", "yaxshi"],
+          correctIndex: 0,
         },
         {
           question: "shelf",
-          options: [
-            "qasddan, jo'rtaga",
-            "tokcha", // 16 - to'g'ri
-            "juda yaxshi",
-            "nam, ho'l",
-          ],
-          correctIndex: 1,
+          options: ["qasddan", "juda yaxshi", "tokcha", "nam"],
+          correctIndex: 2,
         },
         {
           question: "spite",
-          options: [
-            "juda yaxshi",
-            "qasddan, jo'rtaga", // 17 - to'g'ri
-            "nam, ho'l",
-            "ruxsat, kirish",
-          ],
-          correctIndex: 1,
+          options: ["yaxshi", "nam", "ruxsat", "qasddan, jo'rtaga"],
+          correctIndex: 3,
         },
         {
           question: "super",
-          options: [
-            "nam, ho'l",
-            "juda yaxshi", // 18 - to'g'ri
-            "ruxsat, kirish",
-            "astronomiya",
-          ],
-          correctIndex: 1,
+          options: ["nam", "ruxsat", "juda yaxshi", "astronomiya"],
+          correctIndex: 2,
         },
         {
           question: "wet",
-          options: [
-            "nam, ho'l", // 19 - to'g'ri
-            "ayblamoq",
-            "kimyo",
-            "-ga qaramasdan",
-          ],
-          correctIndex: 0,
+          options: ["ayblamoq", "nam, ho'l", "kimyo", "-ga qaramasdan"],
+          correctIndex: 1,
         },
       ],
-
       unit_12: [
         {
           question: "abuse",
-          options: [
-            "haqorat qilmoq, so'kmoq", // 0 - to'g'ri
-            "qurbi yetmoq",
-            "pishirmoq",
-            "no'xat, loviya",
-          ],
-          correctIndex: 0,
+          options: ["qurbi yetmoq", "pishirmoq", "haqorat qilmoq", "no'xat"],
+          correctIndex: 2,
         },
         {
           question: "afford",
-          options: [
-            "pishirmoq",
-            "qurbi yetmoq", // 1 - to'g'ri
-            "no'xat, loviya",
-            "shag'am",
-          ],
-          correctIndex: 1,
+          options: ["qurbi yetmoq", "pishirmoq", "no'xat", "shag'am"],
+          correctIndex: 0,
         },
         {
           question: "bake",
-          options: [
-            "no'xat, loviya",
-            "pishirmoq", // 2 - to'g'ri
-            "shag'am",
-            "-ga aylantirmoq, o'zgartirmoq",
-          ],
-          correctIndex: 1,
+          options: ["no'xat", "shag'am", "pishirmoq", "o'zgartirmoq"],
+          correctIndex: 2,
         },
         {
           question: "bean",
-          options: [
-            "shag'am",
-            "no'xat, loviya", // 3 - to'g'ri
-            "-ga aylantirmoq, o'zgartirmoq",
-            "qarz",
-          ],
+          options: ["shag'am", "no'xat, loviya", "qarz", "aylantirmoq"],
           correctIndex: 1,
         },
         {
           question: "candle",
-          options: [
-            "-ga aylantirmoq, o'zgartirmoq",
-            "shag'am", // 4 - to'g'ri
-            "qarz",
-            "kamaytirmoq, pasaymoq",
-          ],
-          correctIndex: 1,
+          options: ["qarz", "kamaytirmoq", "shag'am", "aylantirmoq"],
+          correctIndex: 2,
         },
         {
           question: "convert",
-          options: [
-            "qarz",
-            "-ga aylantirmoq, o'zgartirmoq", // 5 - to'g'ri
-            "kamaytirmoq, pasaymoq",
-            "ayb, xato",
-          ],
-          correctIndex: 1,
+          options: ["qarz", "ayb", "pasaymoq", "-ga aylantirmoq"],
+          correctIndex: 3,
         },
         {
           question: "debt",
-          options: [
-            "kamaytirmoq, pasaymoq",
-            "qarz", // 6 - to'g'ri
-            "ayb, xato",
-            "fond",
-          ],
-          correctIndex: 1,
+          options: ["kamaytirmoq", "fond", "ayb", "qarz"],
+          correctIndex: 3,
         },
         {
           question: "decrease",
-          options: [
-            "ayb, xato",
-            "kamaytirmoq, pasaymoq", // 7 - to'g'ri
-            "fond",
-            "sahiy, qo'li ochiq",
-          ],
-          correctIndex: 1,
+          options: ["ayb", "fond", "kamaytirmoq, pasaymoq", "saxiy"],
+          correctIndex: 2,
         },
         {
           question: "fault",
-          options: [
-            "fond",
-            "ayb, xato", // 8 - to'g'ri
-            "sahiy, qo'li ochiq",
-            "tarkibiy qism, ingredient",
-          ],
-          correctIndex: 1,
+          options: ["fond", "saxiy", "ayb, xato", "tarkibiy qism"],
+          correctIndex: 2,
         },
         {
           question: "fund",
-          options: [
-            "sahiy, qo'li ochiq",
-            "fond", // 9 - to'g'ri
-            "tarkibiy qism, ingredient",
-            "ta'lab qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["saxiy", "talab qilmoq", "fond", "tarkibiy qism"],
+          correctIndex: 2,
         },
         {
           question: "generous",
-          options: [
-            "tarkibiy qism, ingredient",
-            "sahiy, qo'li ochiq", // 10 - to'g'ri
-            "ta'lab qilmoq",
-            "kir, tartibsizlik",
-          ],
+          options: ["tarkibiy qism", "saxiy, qo'li ochiq", "talab", "kir"],
           correctIndex: 1,
         },
         {
           question: "ingredient",
-          options: [
-            "ta'lab qilmoq",
-            "tarkibiy qism, ingredient", // 11 - to'g'ri
-            "kir, tartibsizlik",
-            "metall, temir",
-          ],
-          correctIndex: 1,
+          options: ["talab", "kir", "metall", "tarkibiy qism"],
+          correctIndex: 3,
         },
         {
           question: "insist",
-          options: [
-            "kir, tartibsizlik",
-            "ta'lab qilmoq", // 12 - to'g'ri
-            "metall, temir",
-            "kuzatib bormoq",
-          ],
-          correctIndex: 1,
+          options: ["kir", "metall", "talab qilmoq", "kuzatmoq"],
+          correctIndex: 2,
         },
         {
           question: "mess",
           options: [
-            "metall, temir",
-            "kir, tartibsizlik", // 13 - to'g'ri
-            "kuzatib bormoq",
-            "qarshi chiqmoq, yomon ko'rmoq",
+            "metall",
+            "kuzatmoq",
+            "qarshi chiqmoq",
+            "kir, tartibsizlik",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "metal",
-          options: [
-            "kuzatib bormoq",
-            "metall, temir", // 14 - to'g'ri
-            "qarshi chiqmoq, yomon ko'rmoq",
-            "passiv, sust",
-          ],
+          options: ["kuzatmoq", "metall, temir", "qarshi chiqmoq", "sust"],
           correctIndex: 1,
         },
         {
           question: "monitor",
-          options: [
-            "qarshi chiqmoq, yomon ko'rmoq",
-            "kuzatib bormoq", // 15 - to'g'ri
-            "passiv, sust",
-            "miqdor",
-          ],
-          correctIndex: 1,
+          options: ["qarshi chiqmoq", "sust", "kuzatib bormoq", "miqdor"],
+          correctIndex: 2,
         },
         {
           question: "oppose",
-          options: [
-            "passiv, sust",
-            "qarshi chiqmoq, yomon ko'rmoq", // 16 - to'g'ri
-            "miqdor",
-            "sudga bermoq",
-          ],
-          correctIndex: 1,
+          options: ["sust", "miqdor", "sudga bermoq", "qarshi chiqmoq"],
+          correctIndex: 3,
         },
         {
           question: "passive",
-          options: [
-            "miqdor",
-            "passiv, sust", // 17 - to'g'ri
-            "sudga bermoq",
-            "haqorat qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["miqdor", "sudga bermoq", "passiv, sust", "haqorat"],
+          correctIndex: 2,
         },
         {
           question: "quantity",
-          options: [
-            "sudga bermoq",
-            "miqdor", // 18 - to'g'ri
-            "haqorat qilmoq",
-            "qurbi yetmoq",
-          ],
+          options: ["sudga bermoq", "miqdor", "haqorat", "qurbi yetmoq"],
           correctIndex: 1,
         },
         {
           question: "sue",
-          options: [
-            "sudga bermoq", // 19 - to'g'ri
-            "pishirmoq",
-            "no'xat, loviya",
-            "shag'am",
-          ],
-          correctIndex: 0,
+          options: ["shag'am", "pishirmoq", "sudga bermoq", "loviya"],
+          correctIndex: 2,
         },
       ],
-
       unit_13: [
         {
           question: "anxiety",
-          options: [
-            "tashvish, xavotir", // 0 - to'g'ri
-            "armiya",
-            "milliard",
-            "kesmoq, to'g'ramoq",
-          ],
-          correctIndex: 0,
+          options: ["armiya", "tashvish, xavotir", "milliard", "kesmoq"],
+          correctIndex: 1,
         },
         {
           question: "army",
-          options: [
-            "milliard",
-            "armiya", // 1 - to'g'ri
-            "kesmoq, to'g'ramoq",
-            "yordam so'ramoq",
-          ],
-          correctIndex: 1,
+          options: ["armiya", "milliard", "kesmoq", "yordam"],
+          correctIndex: 0,
         },
         {
           question: "billion",
-          options: [
-            "kesmoq, to'g'ramoq",
-            "milliard", // 2 - to'g'ri
-            "yordam so'ramoq",
-            "favqulodda holat",
-          ],
-          correctIndex: 1,
+          options: ["kesmoq", "favqulodda", "milliard", "yordam"],
+          correctIndex: 2,
         },
         {
           question: "carve",
-          options: [
-            "yordam so'ramoq",
-            "kesmoq, to'g'ramoq", // 3 - to'g'ri
-            "favqulodda holat",
-            "omad",
-          ],
-          correctIndex: 1,
+          options: ["omad", "yordam", "favqulodda", "kesmoq, to'g'ramoq"],
+          correctIndex: 3,
         },
         {
           question: "consult",
-          options: [
-            "favqulodda holat",
-            "yordam so'ramoq", // 4 - to'g'ri
-            "omad",
-            "kafolat bermoq",
-          ],
-          correctIndex: 1,
+          options: ["favqulodda", "omad", "yordam so'ramoq", "kafolat"],
+          correctIndex: 2,
         },
         {
           question: "emergency",
-          options: [
-            "omad",
-            "favqulodda holat", // 5 - to'g'ri
-            "kafolat bermoq",
-            "piyoda safarga chiqmoq",
-          ],
-          correctIndex: 1,
+          options: ["omad", "kafolat", "favqulodda holat", "safarlar"],
+          correctIndex: 2,
         },
         {
           question: "fortune",
-          options: [
-            "kafolat bermoq",
-            "omad", // 6 - to'g'ri
-            "piyoda safarga chiqmoq",
-            "birinchi, dastlabki",
-          ],
+          options: ["kafolat", "omad", "piyoda safar", "dastlabki"],
           correctIndex: 1,
         },
         {
           question: "guarantee",
-          options: [
-            "piyoda safarga chiqmoq",
-            "kafolat bermoq", // 7 - to'g'ri
-            "birinchi, dastlabki",
-            "jadal, juda kuchli",
-          ],
-          correctIndex: 1,
+          options: ["safarlar", "jadal", "kafolat bermoq", "birinchi"],
+          correctIndex: 2,
         },
         {
           question: "hike",
-          options: [
-            "birinchi, dastlabki",
-            "piyoda safarga chiqmoq", // 8 - to'g'ri
-            "jadal, juda kuchli",
-            "berib turmoq",
-          ],
+          options: ["birinchi", "piyoda safarga chiqmoq", "kuchli", "berish"],
           correctIndex: 1,
         },
         {
           question: "initial",
-          options: [
-            "jadal, juda kuchli",
-            "birinchi, dastlabki", // 9 - to'g'ri
-            "berib turmoq",
-            "cho'qqi",
-          ],
-          correctIndex: 1,
+          options: ["jadal", "berib turmoq", "cho'qqi", "birinchi, dastlabki"],
+          correctIndex: 3,
         },
         {
           question: "intense",
-          options: [
-            "berib turmoq",
-            "jadal, juda kuchli", // 10 - to'g'ri
-            "cho'qqi",
-            "potentsial, ehtimoldagi",
-          ],
-          correctIndex: 1,
+          options: ["jadal, juda kuchli", "berib turmoq", "cho'qqi", "ehtimol"],
+          correctIndex: 0,
         },
         {
           question: "lend",
-          options: [
-            "cho'qqi",
-            "berib turmoq", // 11 - to'g'ri
-            "potentsial, ehtimoldagi",
-            "mamnuniyat, qoniqish",
-          ],
-          correctIndex: 1,
+          options: ["cho'qqi", "ehtimol", "berib turmoq", "mamnuniyat"],
+          correctIndex: 2,
         },
         {
           question: "peak",
-          options: [
-            "potentsial, ehtimoldagi",
-            "cho'qqi", // 12 - to'g'ri
-            "mamnuniyat, qoniqish",
-            "isbot, dalil",
-          ],
+          options: ["ehtimol", "cho'qqi", "mamnuniyat", "isbot"],
           correctIndex: 1,
         },
         {
           question: "potential",
-          options: [
-            "mamnuniyat, qoniqish",
-            "potentsial, ehtimoldagi", // 13 - to'g'ri
-            "isbot, dalil",
-            "to'xtatmoq",
-          ],
-          correctIndex: 1,
+          options: ["faxr", "isbot", "potentsial, ehtimoldagi", "to'xtatmoq"],
+          correctIndex: 2,
         },
         {
           question: "pride",
-          options: [
-            "isbot, dalil",
-            "mamnuniyat, qoniqish", // 14 - to'g'ri
-            "to'xtatmoq",
-            "aylanmoq",
-          ],
-          correctIndex: 1,
+          options: ["dalil", "to'xtatmoq", "aylanmoq", "mamnuniyat, faxr"],
+          correctIndex: 3,
         },
         {
           question: "proof",
-          options: [
-            "to'xtatmoq",
-            "isbot, dalil", // 15 - to'g'ri
-            "aylanmoq",
-            "jajji, kichkina",
-          ],
+          options: ["to'xtatmoq", "isbot, dalil", "aylanmoq", "jajji"],
           correctIndex: 1,
         },
         {
           question: "quit",
-          options: [
-            "aylanmoq",
-            "to'xtatmoq", // 16 - to'g'ri
-            "jajji, kichkina",
-            "repetitor",
-          ],
-          correctIndex: 1,
+          options: ["aylanmoq", "jajji", "to'xtatmoq", "repetitor"],
+          correctIndex: 2,
         },
         {
           question: "spin",
-          options: [
-            "jajji, kichkina",
-            "aylanmoq", // 17 - to'g'ri
-            "repetitor",
-            "tashvish, xavotir",
-          ],
+          options: ["kichkina", "aylanmoq", "repetitor", "xavotir"],
           correctIndex: 1,
         },
         {
           question: "tiny",
-          options: [
-            "repetitor",
-            "jajji, kichkina", // 18 - to'g'ri
-            "tashvish, xavotir",
-            "armiya",
-          ],
-          correctIndex: 1,
+          options: ["repetitor", "tashvish", "armiya", "jajji, kichkina"],
+          correctIndex: 3,
         },
         {
           question: "tutor",
-          options: [
-            "repetitor", // 19 - to'g'ri
-            "milliard",
-            "kesmoq, to'g'ramoq",
-            "yordam so'ramoq",
-          ],
-          correctIndex: 0,
+          options: ["milliard", "repetitor", "kesmoq", "yordam"],
+          correctIndex: 1,
         },
       ],
-
       unit_14: [
         {
           question: "apparent",
-          options: [
-            "aniq, muqarrar", // 0 - to'g'ri
-            "ko'zi ojiz, ko'r",
-            "hisoblamoq",
-            "suhbatlashmoq, gaplashmoq",
-          ],
-          correctIndex: 0,
+          options: ["ko'zi ojiz", "hisoblamoq", "aniq, muqarrar", "chat"],
+          correctIndex: 2,
         },
         {
           question: "blind",
-          options: [
-            "hisoblamoq",
-            "ko'zi ojiz, ko'r", // 1 - to'g'ri
-            "suhbatlashmoq, gaplashmoq",
-            "va'da bermoq",
-          ],
-          correctIndex: 1,
+          options: ["hisoblamoq", "chat", "va'da", "ko'zi ojiz, ko'r"],
+          correctIndex: 3,
         },
         {
           question: "calculate",
-          options: [
-            "suhbatlashmoq, gaplashmoq",
-            "hisoblamoq", // 2 - to'g'ri
-            "va'da bermoq",
-            "tuzmoq, yaratmoq",
-          ],
-          correctIndex: 1,
+          options: ["chat", "va'da", "hisoblamoq", "yaratmoq"],
+          correctIndex: 2,
         },
         {
           question: "chat",
-          options: [
-            "va'da bermoq",
-            "suhbatlashmoq, gaplashmoq", // 3 - to'g'ri
-            "tuzmoq, yaratmoq",
-            "yotoqxona",
-          ],
-          correctIndex: 1,
+          options: ["va'da", "yaratmoq", "suhbatlashmoq", "yotoqxona"],
+          correctIndex: 2,
         },
         {
           question: "commit",
-          options: [
-            "tuzmoq, yaratmoq",
-            "va'da bermoq", // 4 - to'g'ri
-            "yotoqxona",
-            "holdan toydirmoq, charchatmoq",
-          ],
+          options: ["tuzmoq", "va'da bermoq", "yotoqxona", "charchatmoq"],
           correctIndex: 1,
         },
         {
           question: "compose",
           options: [
             "yotoqxona",
-            "tuzmoq, yaratmoq", // 5 - to'g'ri
-            "holdan toydirmoq, charchatmoq",
+            "charchatmoq",
+            "tuzmoq, yaratmoq",
             "issiqxona",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "dormitory",
-          options: [
-            "holdan toydirmoq, charchatmoq",
-            "yotoqxona", // 6 - to'g'ri
-            "issiqxona",
-            "e'tiborsiz qoldirmoq",
-          ],
+          options: ["charchatmoq", "yotoqxona", "issiqxona", "e'tibor"],
           correctIndex: 1,
         },
         {
           question: "exhaust",
-          options: [
-            "issiqxona",
-            "holdan toydirmoq, charchatmoq", // 7 - to'g'ri
-            "e'tiborsiz qoldirmoq",
-            "aniq, ravshan",
-          ],
-          correctIndex: 1,
+          options: ["issiqxona", "e'tiborsiz", "aniq", "holdan toydirmoq"],
+          correctIndex: 3,
         },
         {
           question: "greenhouse",
-          options: [
-            "e'tiborsiz qoldirmoq",
-            "issiqxona", // 8 - to'g'ri
-            "aniq, ravshan",
-            "fizika",
-          ],
-          correctIndex: 1,
+          options: ["e'tiborsiz", "aniq", "issiqxona", "fizika"],
+          correctIndex: 2,
         },
         {
           question: "ignore",
-          options: [
-            "aniq, ravshan",
-            "e'tiborsiz qoldirmoq", // 9 - to'g'ri
-            "fizika",
-            "qism, bo'lak",
-          ],
-          correctIndex: 1,
+          options: ["aniq", "fizika", "e'tiborsiz qoldirmoq", "qism"],
+          correctIndex: 2,
         },
         {
           question: "obvious",
-          options: [
-            "fizika",
-            "aniq, ravshan", // 10 - to'g'ri
-            "qism, bo'lak",
-            "eslatmoq",
-          ],
-          correctIndex: 1,
+          options: ["fizika", "qism", "eslatmoq", "aniq, ravshan"],
+          correctIndex: 3,
         },
         {
           question: "physics",
-          options: [
-            "qism, bo'lak",
-            "fizika", // 11 - to'g'ri
-            "eslatmoq",
-            "kotib(a)",
-          ],
+          options: ["qism", "fizika", "eslatmoq", "kotiba"],
           correctIndex: 1,
         },
         {
           question: "portion",
-          options: [
-            "eslatmoq",
-            "qism, bo'lak", // 12 - to'g'ri
-            "kotib(a)",
-            "qattiq, jiddiy",
-          ],
-          correctIndex: 1,
+          options: ["eslatmoq", "kotib", "qism, bo'lak", "jiddiy"],
+          correctIndex: 2,
         },
         {
           question: "remind",
-          options: [
-            "kotib(a)",
-            "eslatmoq", // 13 - to'g'ri
-            "qattiq, jiddiy",
-            "iqtidor, talant",
-          ],
-          correctIndex: 1,
+          options: ["kotib", "jiddiy", "eslatmoq", "talant"],
+          correctIndex: 2,
         },
         {
           question: "secretary",
-          options: [
-            "qattiq, jiddiy",
-            "kotib(a)", // 14 - to'g'ri
-            "iqtidor, talant",
-            "tezis",
-          ],
+          options: ["jiddiy", "kotib(a)", "talant", "tezis"],
           correctIndex: 1,
         },
         {
           question: "severe",
-          options: [
-            "iqtidor, talant",
-            "qattiq, jiddiy", // 15 - to'g'ri
-            "tezis",
-            "forma, maxsus kiyim",
-          ],
-          correctIndex: 1,
+          options: ["talant", "tezis", "qattiq, jiddiy", "forma"],
+          correctIndex: 2,
         },
         {
           question: "talent",
-          options: [
-            "tezis",
-            "iqtidor, talant", // 16 - to'g'ri
-            "forma, maxsus kiyim",
-            "ko'rish qobiliyati",
-          ],
-          correctIndex: 1,
+          options: ["tezis", "forma", "iqtidor, talant", "vision"],
+          correctIndex: 2,
         },
         {
           question: "thesis",
-          options: [
-            "forma, maxsus kiyim",
-            "tezis", // 17 - to'g'ri
-            "ko'rish qobiliyati",
-            "aniq, muqarrar",
-          ],
-          correctIndex: 1,
+          options: ["forma", "vision", "aniq", "tezis"],
+          correctIndex: 3,
         },
         {
           question: "uniform",
-          options: [
-            "ko'rish qobiliyati",
-            "forma, maxsus kiyim", // 18 - to'g'ri
-            "aniq, muqarrar",
-            "ko'zi ojiz, ko'r",
-          ],
+          options: ["vision", "forma, maxsus kiyim", "aniq", "ko'r"],
           correctIndex: 1,
         },
         {
           question: "vision",
-          options: [
-            "ko'rish qobiliyati", // 19 - to'g'ri
-            "hisoblamoq",
-            "suhbatlashmoq",
-            "va'da bermoq",
-          ],
-          correctIndex: 0,
+          options: ["hisoblamoq", "chat", "ko'rish qobiliyati", "va'da"],
+          correctIndex: 2,
         },
       ],
-
       unit_15: [
         {
           question: "absorb",
-          options: [
-            "so'rmoq, shimmog", // 0 - to'g'ri
-            "ho'jayin",
-            "qo'mita, komitet",
-            "shartnoma",
-          ],
-          correctIndex: 0,
+          options: ["ho'jayin", "shartnoma", "so'rmoq, shimoq", "qo'mita"],
+          correctIndex: 2,
         },
         {
           question: "boss",
-          options: [
-            "qo'mita, komitet",
-            "ho'jayin", // 1 - to'g'ri
-            "shartnoma",
-            "brigada",
-          ],
-          correctIndex: 1,
+          options: ["ho'jayin", "qo'mita", "shartnoma", "brigada"],
+          correctIndex: 0,
         },
         {
           question: "committee",
-          options: [
-            "shartnoma",
-            "qo'mita, komitet", // 2 - to'g'ri
-            "brigada",
-            "bag'ishlamoq, sarf etmoq",
-          ],
-          correctIndex: 1,
+          options: ["shartnoma", "brigada", "qo'mita", "bag'ishlamoq"],
+          correctIndex: 2,
         },
         {
           question: "contract",
-          options: [
-            "brigada",
-            "shartnoma", // 3 - to'g'ri
-            "bag'ishlamoq, sarf etmoq",
-            "yer kovlamoq",
-          ],
-          correctIndex: 1,
+          options: ["brigada", "bag'ishlamoq", "shartnoma", "dig"],
+          correctIndex: 2,
         },
         {
           question: "crew",
-          options: [
-            "bag'ishlamoq, sarf etmoq",
-            "brigada", // 4 - to'g'ri
-            "yer kovlamoq",
-            "tushlik qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["bag'ishlamoq", "dig", "brigada", "dine"],
+          correctIndex: 2,
         },
         {
           question: "devote",
-          options: [
-            "yer kovlamoq",
-            "bag'ishlamoq, sarf etmoq", // 5 - to'g'ri
-            "tushlik qilmoq",
-            "in'om qilmoq, hadya qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["dig", "dine", "bag'ishlamoq", "in'om"],
+          correctIndex: 2,
         },
         {
           question: "dig",
-          options: [
-            "tushlik qilmoq",
-            "yer kovlamoq", // 6 - to'g'ri
-            "in'om qilmoq, hadya qilmoq",
-            "ikki hissa",
-          ],
-          correctIndex: 1,
+          options: ["dine", "in'om", "yer kovlamoq", "double"],
+          correctIndex: 2,
         },
         {
           question: "dine",
-          options: [
-            "in'om qilmoq, hadya qilmoq",
-            "tushlik qilmoq", // 7 - to'g'ri
-            "ikki hissa",
-            "balandroqqa qo'ymoq",
-          ],
+          options: ["in'om", "tushlik qilmoq", "double", "elevate"],
           correctIndex: 1,
         },
         {
           question: "donate",
-          options: [
-            "ikki hissa",
-            "in'om qilmoq, hadya qilmoq", // 8 - to'g'ri
-            "balandroqqa qo'ymoq",
-            "ta'm, maza",
-          ],
-          correctIndex: 1,
+          options: ["double", "elevate", "in'om qilmoq", "flavor"],
+          correctIndex: 2,
         },
         {
           question: "double",
-          options: [
-            "balandroqqa qo'ymoq",
-            "ikki hissa", // 9 - to'g'ri
-            "ta'm, maza",
-            "jamg'arma",
-          ],
+          options: ["elevate", "ikki hissa", "flavor", "fond"],
           correctIndex: 1,
         },
         {
           question: "elevate",
-          options: [
-            "ta'm, maza",
-            "balandroqqa qo'ymoq", // 10 - to'g'ri
-            "jamg'arma",
-            "avlod",
-          ],
-          correctIndex: 1,
+          options: ["flavor", "fond", "avlod", "balandroqqa qo'ymoq"],
+          correctIndex: 3,
         },
         {
           question: "flavor",
-          options: [
-            "jamg'arma",
-            "ta'm, maza", // 11 - to'g'ri
-            "avlod",
-            "band, tutqich",
-          ],
+          options: ["fond", "ta'm, maza", "avlod", "band"],
           correctIndex: 1,
         },
         {
           question: "foundation",
-          options: [
-            "avlod",
-            "jamg'arma", // 12 - to'g'ri
-            "band, tutqich",
-            "qatlam, qat",
-          ],
-          correctIndex: 1,
+          options: ["avlod", "band", "jamg'arma", "layer"],
+          correctIndex: 2,
         },
         {
           question: "generation",
-          options: [
-            "band, tutqich",
-            "avlod", // 13 - to'g'ri
-            "qatlam, qat",
-            "loy",
-          ],
-          correctIndex: 1,
+          options: ["band", "layer", "avlod", "mud"],
+          correctIndex: 2,
         },
         {
           question: "handle",
-          options: [
-            "qatlam, qat",
-            "band, tutqich", // 14 - to'g'ri
-            "loy",
-            "tekis",
-          ],
-          correctIndex: 1,
+          options: ["layer", "mud", "band, tutqich", "smooth"],
+          correctIndex: 2,
         },
         {
           question: "layer",
-          options: [
-            "loy",
-            "qatlam, qat", // 15 - to'g'ri
-            "tekis",
-            "tuproq",
-          ],
-          correctIndex: 1,
+          options: ["mud", "smooth", "qatlam, qat", "tuproq"],
+          correctIndex: 2,
         },
         {
           question: "mud",
-          options: [
-            "tekis",
-            "loy", // 16 - to'g'ri
-            "tuproq",
-            "g'ayrioddiy, o'zgacha",
-          ],
-          correctIndex: 1,
+          options: ["smooth", "tuproq", "loy", "unique"],
+          correctIndex: 2,
         },
         {
           question: "smooth",
-          options: [
-            "tuproq",
-            "tekis", // 17 - to'g'ri
-            "g'ayrioddiy, o'zgacha",
-            "so'rmoq, shimmog",
-          ],
-          correctIndex: 1,
+          options: ["tuproq", "unique", "absorb", "tekis"],
+          correctIndex: 3,
         },
         {
           question: "soil",
-          options: [
-            "g'ayrioddiy, o'zgacha",
-            "tuproq", // 18 - to'g'ri
-            "so'rmoq, shimmog",
-            "ho'jayin",
-          ],
+          options: ["unique", "tuproq", "absorb", "boss"],
           correctIndex: 1,
         },
         {
           question: "unique",
-          options: [
-            "g'ayrioddiy, o'zgacha", // 19 - to'g'ri
-            "qo'mita, komitet",
-            "shartnoma",
-            "brigada",
-          ],
-          correctIndex: 0,
+          options: ["shartnoma", "brigada", "qo'mita", "g'ayrioddiy, o'zgacha"],
+          correctIndex: 3,
         },
       ],
-
       unit_16: [
         {
           question: "chamber",
           options: [
-            "yotoqxona (eski so'z)", // 0 - to'g'ri
-            "inkor qilmoq",
             "hujjat",
+            "yotoqxona (eski so'z)",
             "ta'kidlamoq",
+            "inkor qilmoq",
           ],
-          correctIndex: 0,
+          correctIndex: 1,
         },
         {
           question: "deny",
-          options: [
-            "hujjat",
-            "inkor qilmoq", // 1 - to'g'ri
-            "ta'kidlamoq",
-            "isitma",
-          ],
-          correctIndex: 1,
+          options: ["isitma", "hujjat", "inkor qilmoq", "ta'kidlamoq"],
+          correctIndex: 2,
         },
         {
           question: "document",
-          options: [
-            "ta'kidlamoq",
-            "hujjat", // 2 - to'g'ri
-            "isitma",
-            "gripp",
-          ],
-          correctIndex: 1,
+          options: ["hujjat", "isitma", "gripp", "ta'kidlamoq"],
+          correctIndex: 0,
         },
         {
           question: "emphasize",
-          options: [
-            "isitma",
-            "ta'kidlamoq", // 3 - to'g'ri
-            "gripp",
-            "sovuqdan qotib qolmoq",
-          ],
+          options: ["gripp", "ta'kidlamoq", "isitma", "sovuqdan qotib qolmoq"],
           correctIndex: 1,
         },
         {
           question: "fever",
-          options: [
-            "gripp",
-            "isitma", // 4 - to'g'ri
-            "sovuqdan qotib qolmoq",
-            "imo-ishora",
-          ],
-          correctIndex: 1,
+          options: ["sovuqdan qotib qolmoq", "imo-ishora", "gripp", "isitma"],
+          correctIndex: 3,
         },
         {
           question: "flu",
           options: [
-            "sovuqdan qotib qolmoq",
-            "gripp", // 5 - to'g'ri
             "imo-ishora",
+            "gripp",
             "bezovta qilmoq",
+            "sovuqdan qotib qolmoq",
           ],
           correctIndex: 1,
         },
         {
           question: "freeze",
           options: [
-            "imo-ishora",
-            "sovuqdan qotib qolmoq", // 6 - to'g'ri
-            "bezovta qilmoq",
             "davom etmoq",
+            "bezovta qilmoq",
+            "sovuqdan qotib qolmoq",
+            "imo-ishora",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "gesture",
           options: [
-            "bezovta qilmoq",
-            "imo-ishora", // 7 - to'g'ri
-            "davom etmoq",
+            "imo-ishora",
             "o'xshashlik",
+            "bezovta qilmoq",
+            "davom etmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "interrupt",
           options: [
             "davom etmoq",
-            "bezovta qilmoq", // 8 - to'g'ri
             "o'xshashlik",
             "bundan tashqari",
+            "bezovta qilmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "last",
           options: [
             "o'xshashlik",
-            "davom etmoq", // 9 - to'g'ri
+            "davom etmoq",
+            "nuqtayi nazar",
             "bundan tashqari",
-            "nuqtayi nazar, qarash",
           ],
           correctIndex: 1,
         },
         {
           question: "likeness",
           options: [
+            "o'xshashlik",
             "bundan tashqari",
-            "o'xshashlik", // 10 - to'g'ri
-            "nuqtayi nazar, qarash",
-            "idrokli, ongli",
+            "idrokli",
+            "nuqtayi nazar",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "moreover",
           options: [
-            "nuqtayi nazar, qarash",
-            "bundan tashqari", // 11 - to'g'ri
-            "idrokli, ongli",
             "qayta tiklanmoq",
+            "bundan tashqari",
+            "nuqtayi nazar",
+            "idrokli",
           ],
           correctIndex: 1,
         },
         {
           question: "perspective",
           options: [
-            "idrokli, ongli",
-            "nuqtayi nazar, qarash", // 12 - to'g'ri
+            "idrokli",
+            "suyanmoq",
             "qayta tiklanmoq",
-            "suyanmoq, tayanmoq",
+            "nuqtayi nazar, qarash",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "rational",
           options: [
-            "qayta tiklanmoq",
-            "idrokli, ongli", // 13 - to'g'ri
-            "suyanmoq, tayanmoq",
+            "idrokli, ongli",
+            "suyanmoq",
             "hayratda qoldirmoq",
+            "qayta tiklanmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "recover",
           options: [
-            "suyanmoq, tayanmoq",
-            "qayta tiklanmoq", // 14 - to'g'ri
+            "suyanmoq",
             "hayratda qoldirmoq",
-            "uyatchan, tortinchoq",
+            "qayta tiklanmoq",
+            "uyatchan",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "rely",
           options: [
-            "hayratda qoldirmoq",
-            "suyanmoq, tayanmoq", // 15 - to'g'ri
-            "uyatchan, tortinchoq",
             "tikilmoq",
+            "suyanmoq, tayanmoq",
+            "hayratda qoldirmoq",
+            "uyatchan",
           ],
           correctIndex: 1,
         },
         {
           question: "shock",
           options: [
-            "uyatchan, tortinchoq",
-            "hayratda qoldirmoq", // 16 - to'g'ri
+            "hayratda qoldirmoq",
             "tikilmoq",
             "shuning uchun",
+            "uyatchan",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "shy",
           options: [
             "tikilmoq",
-            "uyatchan, tortinchoq", // 17 - to'g'ri
             "shuning uchun",
-            "yotoqxona (eski so'z)",
+            "uyatchan, tortinchoq",
+            "yotoqxona",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "stare",
-          options: [
-            "shuning uchun",
-            "tikilmoq", // 18 - to'g'ri
-            "yotoqxona (eski so'z)",
-            "inkor qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["shuning uchun", "inkor qilmoq", "yotoqxona", "tikilmoq"],
+          correctIndex: 3,
         },
         {
           question: "thus",
-          options: [
-            "shuning uchun", // 19 - to'g'ri
-            "hujjat",
-            "ta'kidlamoq",
-            "isitma",
-          ],
-          correctIndex: 0,
+          options: ["hujjat", "shuning uchun", "ta'kidlamoq", "isitma"],
+          correctIndex: 1,
         },
       ],
-
       unit_17: [
         {
           question: "aim",
-          options: [
-            "maqsad", // 0 - to'g'ri
-            "mahkamlamoq",
-            "pul tikmoq",
-            "ot arava",
-          ],
+          options: ["maqsad", "pul tikmoq", "mahkamlamoq", "ot arava"],
           correctIndex: 0,
         },
         {
           question: "attach",
-          options: [
-            "pul tikmoq",
-            "mahkamlamoq", // 1 - to'g'ri
-            "ot arava",
-            "odatiy",
-          ],
-          correctIndex: 1,
+          options: ["pul tikmoq", "ot arava", "odatiy", "mahkamlamoq"],
+          correctIndex: 3,
         },
         {
           question: "bet",
-          options: [
-            "ot arava",
-            "pul tikmoq", // 2 - to'g'ri
-            "odatiy",
-            "ishgacha uzoq yo'l yurmoq",
-          ],
+          options: ["ot arava", "pul tikmoq", "odatiy", "yo'l yurmoq"],
           correctIndex: 1,
         },
         {
           question: "carriage",
-          options: [
-            "odatiy",
-            "ot arava", // 3 - to'g'ri
-            "ishgacha uzoq yo'l yurmoq",
-            "tasdiqlamoq",
-          ],
-          correctIndex: 1,
+          options: ["odatiy", "yo'l yurmoq", "ot arava", "tasdiqlamoq"],
+          correctIndex: 2,
         },
         {
           question: "classic",
-          options: [
-            "ishgacha uzoq yo'l yurmoq",
-            "odatiy", // 4 - to'g'ri
-            "tasdiqlamoq",
-            "tanqid qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["tasdiqlamoq", "ishgacha yo'l", "tanqid qilmoq", "odatiy"],
+          correctIndex: 3,
         },
         {
           question: "commute",
           options: [
+            "ishgacha uzoq yo'l yurmoq",
+            "farq qilmoq",
             "tasdiqlamoq",
-            "ishgacha uzoq yo'l yurmoq", // 5 - to'g'ri
             "tanqid qilmoq",
-            "farq qilmoq, o'xshamaslik",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "confirm",
-          options: [
-            "tanqid qilmoq",
-            "tasdiqlamoq", // 6 - to'g'ri
-            "farq qilmoq, o'xshamaslik",
-            "chiqim, xarajat",
-          ],
-          correctIndex: 1,
+          options: ["farq qilmoq", "chiqim", "tasdiqlamoq", "tanqid qilmoq"],
+          correctIndex: 2,
         },
         {
           question: "criticize",
-          options: [
-            "farq qilmoq, o'xshamaslik",
-            "tanqid qilmoq", // 7 - to'g'ri
-            "chiqim, xarajat",
-            "rasmiy",
-          ],
-          correctIndex: 1,
+          options: ["tanqid qilmoq", "rasmiy", "chiqim", "farq qilmoq"],
+          correctIndex: 0,
         },
         {
           question: "differ",
-          options: [
-            "chiqim, xarajat",
-            "farq qilmoq, o'xshamaslik", // 8 - to'g'ri
-            "rasmiy",
-            "bo'y",
-          ],
+          options: ["rasmiy", "farq qilmoq", "bo'y", "chiqim"],
           correctIndex: 1,
         },
         {
           question: "expense",
-          options: [
-            "rasmiy",
-            "chiqim, xarajat", // 9 - to'g'ri
-            "bo'y",
-            "ixtiro qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["bo'y", "rasmiy", "ixtiro", "chiqim, xarajat"],
+          correctIndex: 3,
         },
         {
           question: "formal",
-          options: [
-            "bo'y",
-            "rasmiy", // 10 - to'g'ri
-            "ixtiro qilmoq",
-            "kichik mansabli",
-          ],
+          options: ["ixtiro", "rasmiy", "kichik mansabli", "bo'y"],
           correctIndex: 1,
         },
         {
           question: "height",
-          options: [
-            "ixtiro qilmoq",
-            "bo'y", // 11 - to'g'ri
-            "kichik mansabli",
-            "mehnat",
-          ],
-          correctIndex: 1,
+          options: ["kichik mansabli", "mehnat", "bo'y", "ixtiro"],
+          correctIndex: 2,
         },
         {
           question: "invent",
-          options: [
-            "kichik mansabli",
-            "ixtiro qilmoq", // 12 - to'g'ri
-            "mehnat",
-            "mexanik",
-          ],
-          correctIndex: 1,
+          options: ["mehnat", "mexanik", "ixtiro qilmoq", "kichik mansabli"],
+          correctIndex: 2,
         },
         {
           question: "junior",
-          options: [
-            "mehnat",
-            "kichik mansabli", // 13 - to'g'ri
-            "mexanik",
-            "eng asosiy, bosh",
-          ],
+          options: ["mexanik", "kichik mansabli", "asosiy", "mehnat"],
           correctIndex: 1,
         },
         {
           question: "labor",
-          options: [
-            "mexanik",
-            "mehnat", // 14 - to'g'ri
-            "eng asosiy, bosh",
-            "joyini o'zgartirmoq",
-          ],
+          options: ["asosiy", "mehnat", "o'zgartirmoq", "mexanik"],
           correctIndex: 1,
         },
         {
           question: "mechanic",
-          options: [
-            "eng asosiy, bosh",
-            "mexanik", // 15 - to'g'ri
-            "joyini o'zgartirmoq",
-            "signal, belgi",
-          ],
-          correctIndex: 1,
+          options: ["mexanik", "signal", "o'zgartirmoq", "asosiy"],
+          correctIndex: 0,
         },
         {
           question: "prime",
-          options: [
-            "joyini o'zgartirmoq",
-            "eng asosiy, bosh", // 16 - to'g'ri
-            "signal, belgi",
-            "samimiy",
-          ],
-          correctIndex: 1,
+          options: ["signal", "samimiy", "eng asosiy, bosh", "o'zgartirmoq"],
+          correctIndex: 2,
         },
         {
           question: "shift",
-          options: [
-            "signal, belgi",
-            "joyini o'zgartirmoq", // 17 - to'g'ri
-            "samimiy",
-            "maqsad",
-          ],
+          options: ["samimiy", "joyini o'zgartirmoq", "maqsad", "signal"],
           correctIndex: 1,
         },
         {
           question: "signal",
-          options: [
-            "samimiy",
-            "signal, belgi", // 18 - to'g'ri
-            "maqsad",
-            "mahkamlamoq",
-          ],
+          options: ["maqsad", "signal, belgi", "mahkamlamoq", "samimiy"],
           correctIndex: 1,
         },
         {
           question: "sincere",
-          options: [
-            "samimiy", // 19 - to'g'ri
-            "pul tikmoq",
-            "ot arava",
-            "odatiy",
-          ],
+          options: ["samimiy", "pul tikmoq", "ot arava", "odatiy"],
           correctIndex: 0,
         },
       ],
-
       unit_18: [
         {
           question: "ability",
           options: [
-            "qobiliyat, iste'dod", // 0 - to'g'ri
-            "qishloq xo'jaligi",
-            "multfilm, karikatura",
+            "multfilm",
             "ship",
+            "qobiliyat, iste'dod",
+            "qishloq xo'jaligi",
           ],
-          correctIndex: 0,
+          correctIndex: 2,
         },
         {
           question: "agriculture",
-          options: [
-            "multfilm, karikatura",
-            "qishloq xo'jaligi", // 1 - to'g'ri
-            "ship",
-            "ishontirmoq",
-          ],
+          options: ["ishontirmoq", "qishloq xo'jaligi", "multfilm", "ship"],
           correctIndex: 1,
         },
         {
           question: "cartoon",
           options: [
             "ship",
-            "multfilm, karikatura", // 2 - to'g'ri
-            "ishontirmoq",
             "qiziquvchan",
+            "multfilm, karikatura",
+            "ishontirmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "ceiling",
-          options: [
-            "ishontirmoq",
-            "ship", // 3 - to'g'ri
-            "qiziquvchan",
-            "kechiktirmoq",
-          ],
+          options: ["kechiktirmoq", "ship", "ishontirmoq", "qiziquvchan"],
           correctIndex: 1,
         },
         {
           question: "convince",
           options: [
-            "qiziquvchan",
-            "ishontirmoq", // 4 - to'g'ri
-            "kechiktirmoq",
+            "ishontirmoq",
             "kun daftari",
+            "qiziquvchan",
+            "kechiktirmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "curious",
-          options: [
-            "kechiktirmoq",
-            "qiziquvchan", // 5 - to'g'ri
-            "kun daftari",
-            "element, tarkibiy qism",
-          ],
-          correctIndex: 1,
+          options: ["kechiktirmoq", "kun daftari", "element", "qiziquvchan"],
+          correctIndex: 3,
         },
         {
           question: "delay",
-          options: [
-            "kun daftari",
-            "kechiktirmoq", // 6 - to'g'ri
-            "element, tarkibiy qism",
-            "ishonch, e'tiqod",
-          ],
+          options: ["kun daftari", "kechiktirmoq", "ishonch", "element"],
           correctIndex: 1,
         },
         {
           question: "diary",
-          options: [
-            "element, tarkibiy qism",
-            "kun daftari", // 7 - to'g'ri
-            "ishonch, e'tiqod",
-            "don, don-dun",
-          ],
-          correctIndex: 1,
+          options: ["kun daftari", "ishonch", "element", "don"],
+          correctIndex: 0,
         },
         {
           question: "element",
-          options: [
-            "ishonch, e'tiqod",
-            "element, tarkibiy qism", // 8 - to'g'ri
-            "don, don-dun",
-            "salomlashmoq",
-          ],
-          correctIndex: 1,
+          options: ["don", "salomlashmoq", "element, tarkibiy qism", "ishonch"],
+          correctIndex: 2,
         },
         {
           question: "faith",
-          options: [
-            "don, don-dun",
-            "ishonch, e'tiqod", // 9 - to'g'ri
-            "salomlashmoq",
-            "o'rganib chiqmoq",
-          ],
-          correctIndex: 1,
+          options: ["salomlashmoq", "o'rganish", "don", "ishonch, e'tiqod"],
+          correctIndex: 3,
         },
         {
           question: "grain",
-          options: [
-            "salomlashmoq",
-            "don, don-dun", // 10 - to'g'ri
-            "o'rganib chiqmoq",
-            "shodlik, xursandchilik",
-          ],
+          options: ["o'rganish", "don, don-dun", "shodlik", "salomlashmoq"],
           correctIndex: 1,
         },
         {
           question: "greet",
-          options: [
-            "o'rganib chiqmoq",
-            "salomlashmoq", // 11 - to'g'ri
-            "shodlik, xursandchilik",
-            "etiketka, yorliq",
-          ],
-          correctIndex: 1,
+          options: ["shodlik", "yorliq", "salomlashmoq", "o'rganish"],
+          correctIndex: 2,
         },
         {
           question: "investigate",
-          options: [
-            "shodlik, xursandchilik",
-            "o'rganib chiqmoq", // 12 - to'g'ri
-            "etiketka, yorliq",
-            "rohib",
-          ],
+          options: ["rohib", "o'rganib chiqmoq", "shodlik", "yorliq"],
           correctIndex: 1,
         },
         {
           question: "joy",
-          options: [
-            "etiketka, yorliq",
-            "shodlik, xursandchilik", // 13 - to'g'ri
-            "rohib",
-            "g'alati, g'ayrioddi",
-          ],
-          correctIndex: 1,
+          options: ["yorliq", "g'alati", "rohib", "shodlik, xursandchilik"],
+          correctIndex: 3,
         },
         {
           question: "label",
-          options: [
-            "rohib",
-            "etiketka, yorliq", // 14 - to'g'ri
-            "g'alati, g'ayrioddi",
-            "to'xtatmoq",
-          ],
-          correctIndex: 1,
+          options: ["g'alati", "to'xtatmoq", "etiketka, yorliq", "rohib"],
+          correctIndex: 2,
         },
         {
           question: "monk",
-          options: [
-            "g'alati, g'ayrioddi",
-            "rohib", // 15 - to'g'ri
-            "to'xtatmoq",
-            "ruhoniy",
-          ],
-          correctIndex: 1,
+          options: ["to'xtatmoq", "ruhoniy", "g'alati", "rohib"],
+          correctIndex: 3,
         },
         {
           question: "odd",
-          options: [
-            "to'xtatmoq",
-            "g'alati, g'ayrioddi", // 16 - to'g'ri
-            "ruhoniy",
-            "kasb",
-          ],
-          correctIndex: 1,
+          options: ["g'alati, g'ayrioddiy", "kasb", "to'xtatmoq", "ruhoniy"],
+          correctIndex: 0,
         },
         {
           question: "pause",
-          options: [
-            "ruhoniy",
-            "to'xtatmoq", // 17 - to'g'ri
-            "kasb",
-            "qobiliyat, iste'dod",
-          ],
+          options: ["ruhoniy", "to'xtatmoq", "kasb", "qobiliyat"],
           correctIndex: 1,
         },
         {
           question: "priest",
-          options: [
-            "kasb",
-            "ruhoniy", // 18 - to'g'ri
-            "qobiliyat, iste'dod",
-            "qishloq xo'jaligi",
-          ],
-          correctIndex: 1,
+          options: ["ruhoniy", "qobiliyat", "qishloq xo'jaligi", "kasb"],
+          correctIndex: 0,
         },
         {
           question: "profession",
-          options: [
-            "kasb", // 19 - to'g'ri
-            "multfilm, karikatura",
-            "ship",
-            "ishontirmoq",
-          ],
-          correctIndex: 0,
+          options: ["ship", "ishontirmoq", "kasb", "multfilm"],
+          correctIndex: 2,
         },
       ],
-
       unit_19: [
         {
           question: "adopt",
-          options: [
-            "farzandlikka olmoq", // 0 - to'g'ri
-            "sadaqa so'ramoq",
-            "narigi tarafida",
-            "kiyim",
-          ],
-          correctIndex: 0,
+          options: ["sadaqa", "narigi taraf", "kiyim", "farzandlikka olmoq"],
+          correctIndex: 3,
         },
         {
           question: "beg",
-          options: [
-            "narigi tarafida",
-            "sadaqa so'ramoq", // 1 - to'g'ri
-            "kiyim",
-            "xitob qilmoq",
-          ],
+          options: ["kiyim", "sadaqa so'ramoq", "xitob", "narigi taraf"],
           correctIndex: 1,
         },
         {
           question: "beyond",
-          options: [
-            "kiyim",
-            "narigi tarafida", // 2 - to'g'ri
-            "xitob qilmoq",
-            "qo'l cho'zmoq",
-          ],
-          correctIndex: 1,
+          options: ["xitob", "qo'l cho'zmoq", "narigi tarafida", "kiyim"],
+          correctIndex: 2,
         },
         {
           question: "costume",
-          options: [
-            "xitob qilmoq",
-            "kiyim", // 3 - to'g'ri
-            "qo'l cho'zmoq",
-            "ahmoq, esi past",
-          ],
-          correctIndex: 1,
+          options: ["kiyim", "ahmoq", "xitob", "qo'l cho'zmoq"],
+          correctIndex: 0,
         },
         {
           question: "exclaim",
-          options: [
-            "qo'l cho'zmoq",
-            "xitob qilmoq", // 4 - to'g'ri
-            "ahmoq, esi past",
-            "ta'qiqlamoq",
-          ],
+          options: ["qo'l cho'zmoq", "xitob qilmoq", "ahmoq", "ta'qiqlamoq"],
           correctIndex: 1,
         },
         {
           question: "extend",
-          options: [
-            "ahmoq, esi past",
-            "qo'l cho'zmoq", // 5 - to'g'ri
-            "ta'qiqlamoq",
-            "ko'rsatmoq (rasm orqali)",
-          ],
+          options: ["ahmoq", "qo'l cho'zmoq", "ta'qiqlamoq", "ko'rsatmoq"],
           correctIndex: 1,
         },
         {
           question: "fool",
           options: [
-            "ta'qiqlamoq",
-            "ahmoq, esi past", // 6 - to'g'ri
-            "ko'rsatmoq (rasm orqali)",
+            "ko'rsatmoq",
             "haqiqatan",
+            "ahmoq, esi past",
+            "ta'qiqlamoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "forbid",
-          options: [
-            "ko'rsatmoq (rasm orqali)",
-            "ta'qiqlamoq", // 7 - to'g'ri
-            "haqiqatan",
-            "izohlamoq, tushuntirib bermoq",
-          ],
-          correctIndex: 1,
+          options: ["ta'qiqlamoq", "izohlamoq", "ko'rsatmoq", "haqiqatan"],
+          correctIndex: 0,
         },
         {
           question: "illustrate",
           options: [
             "haqiqatan",
-            "ko'rsatmoq (rasm orqali)", // 8 - to'g'ri
-            "izohlamoq, tushuntirib bermoq",
-            "muloyimlik bilan",
+            "ko'rsatmoq (rasm orqali)",
+            "izohlamoq",
+            "muloyimlik",
           ],
           correctIndex: 1,
         },
         {
           question: "indeed",
-          options: [
-            "izohlamoq, tushuntirib bermoq",
-            "haqiqatan", // 9 - to'g'ri
-            "muloyimlik bilan",
-            "sabab",
-          ],
+          options: ["muloyimlik", "haqiqatan", "sabab", "izohlamoq"],
           correctIndex: 1,
         },
         {
           question: "interpret",
           options: [
-            "muloyimlik bilan",
-            "izohlamoq, tushuntirib bermoq", // 10 - to'g'ri
             "sabab",
-            "uya, in",
+            "izohlamoq, tushuntirib bermoq",
+            "uya",
+            "muloyimlik",
           ],
           correctIndex: 1,
         },
         {
           question: "kindly",
-          options: [
-            "sabab",
-            "muloyimlik bilan", // 11 - to'g'ri
-            "uya, in",
-            "kelib chiqish",
-          ],
+          options: ["uya", "muloyimlik bilan", "kelib chiqish", "sabab"],
           correctIndex: 1,
         },
         {
           question: "motive",
-          options: [
-            "uya, in",
-            "sabab", // 12 - to'g'ri
-            "kelib chiqish",
-            "to'y marosimi",
-          ],
+          options: ["kelib chiqish", "sabab", "to'y", "uya"],
           correctIndex: 1,
         },
         {
           question: "nest",
-          options: [
-            "kelib chiqish",
-            "uya, in", // 13 - to'g'ri
-            "to'y marosimi",
-            "rad etmoq",
-          ],
-          correctIndex: 1,
+          options: ["uya, in", "to'y", "rad etmoq", "kelib chiqish"],
+          correctIndex: 0,
         },
         {
           question: "origin",
-          options: [
-            "to'y marosimi",
-            "kelib chiqish", // 14 - to'g'ri
-            "rad etmoq",
-            "jimlik, sukunat",
-          ],
-          correctIndex: 1,
+          options: ["rad etmoq", "jimlik", "kelib chiqish", "to'y"],
+          correctIndex: 2,
         },
         {
           question: "reception",
-          options: [
-            "rad etmoq",
-            "to'y marosimi", // 15 - to'g'ri
-            "jimlik, sukunat",
-            "daryocha",
-          ],
-          correctIndex: 1,
+          options: ["jimlik", "daryocha", "to'y marosimi", "rad etmoq"],
+          correctIndex: 2,
         },
         {
           question: "reject",
-          options: [
-            "jimlik, sukunat",
-            "rad etmoq", // 16 - to'g'ri
-            "daryocha",
-            "ovoz, ton",
-          ],
-          correctIndex: 1,
+          options: ["rad etmoq", "ovoz", "daryocha", "jimlik"],
+          correctIndex: 0,
         },
         {
           question: "silence",
-          options: [
-            "daryocha",
-            "jimlik, sukunat", // 17 - to'g'ri
-            "ovoz, ton",
-            "farzandlikka olmoq",
-          ],
-          correctIndex: 1,
+          options: ["ovoz", "farzandlikka", "daryocha", "jimlik, sukunat"],
+          correctIndex: 3,
         },
         {
           question: "stream",
-          options: [
-            "ovoz, ton",
-            "daryocha", // 18 - to'g'ri
-            "farzandlikka olmoq",
-            "sadaqa so'ramoq",
-          ],
-          correctIndex: 1,
+          options: ["farzandlikka", "sadaqa", "ovoz", "daryocha"],
+          correctIndex: 3,
         },
         {
           question: "tone",
-          options: [
-            "ovoz, ton", // 19 - to'g'ri
-            "narigi tarafida",
-            "kiyim",
-            "xitob qilmoq",
-          ],
-          correctIndex: 0,
+          options: ["kiyim", "ovoz, ton", "narigi taraf", "xitob"],
+          correctIndex: 1,
         },
       ],
-
       unit_20: [
         {
           question: "accomplish",
           options: [
-            "bajarmoq, a'do etmoq", // 0 - to'g'ri
-            "yoqtirmoq, to'g'ri deb qabul qilmoq",
             "deyarli to'g'ri",
-            "to'siq, g'ov",
-          ],
-          correctIndex: 0,
-        },
-        {
-          question: "approve",
-          options: [
-            "deyarli to'g'ri",
-            "yoqtirmoq, to'g'ri deb qabul qilmoq", // 1 - to'g'ri
-            "to'siq, g'ov",
-            "sezmoq, bilib qolmoq",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "approximate",
-          options: [
-            "to'siq, g'ov",
-            "deyarli to'g'ri", // 2 - to'g'ri
-            "sezmoq, bilib qolmoq",
-            "burch, vazifa",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "barrier",
-          options: [
-            "sezmoq, bilib qolmoq",
-            "to'siq, g'ov", // 3 - to'g'ri
-            "burch, vazifa",
-            "boshlang'ich",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "detect",
-          options: [
-            "burch, vazifa",
-            "sezmoq, bilib qolmoq", // 4 - to'g'ri
-            "boshlang'ich",
-            "muvaffaqiyatsizlik",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "duty",
-          options: [
-            "boshlang'ich",
-            "burch, vazifa", // 5 - to'g'ri
-            "muvaffaqiyatsizlik",
-            "bosqichma-bosqich",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "elementary",
-          options: [
-            "muvaffaqiyatsizlik",
-            "boshlang'ich", // 6 - to'g'ri
-            "bosqichma-bosqich",
-            "migrant",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "failure",
-          options: [
-            "bosqichma-bosqich",
-            "muvaffaqiyatsizlik", // 7 - to'g'ri
-            "migrant",
-            "ichiga qo'ymoq",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "gradual",
-          options: [
-            "migrant",
-            "bosqichma-bosqich", // 8 - to'g'ri
-            "ichiga qo'ymoq",
-            "on, lahza",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "immigrant",
-          options: [
-            "ichiga qo'ymoq",
-            "migrant", // 9 - to'g'ri
-            "on, lahza",
-            "qashshoqlik",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "insert",
-          options: [
-            "on, lahza",
-            "ichiga qo'ymoq", // 10 - to'g'ri
-            "qashshoqlik",
-            "dek tutmoq",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "instant",
-          options: [
-            "qashshoqlik",
-            "on, lahza", // 11 - to'g'ri
-            "dek tutmoq",
-            "martaba, unvon",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "poverty",
-          options: [
-            "dek tutmoq",
-            "qashshoqlik", // 12 - to'g'ri
-            "martaba, unvon",
-            "hurmat",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "pretend",
-          options: [
-            "martaba, unvon",
-            "dek tutmoq", // 13 - to'g'ri
-            "hurmat",
-            "muzlatgichda saqlamoq",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "rank",
-          options: [
-            "hurmat",
-            "martaba, unvon", // 14 - to'g'ri
-            "muzlatgichda saqlamoq",
-            "ijara haqqi",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "recognition",
-          options: [
-            "muzlatgichda saqlamoq",
-            "hurmat", // 15 - to'g'ri
-            "ijara haqqi",
-            "iste'foga chiqmoq",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "refrigerate",
-          options: [
-            "ijara haqqi",
-            "muzlatgichda saqlamoq", // 16 - to'g'ri
-            "iste'foga chiqmoq",
-            "statistika",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "rent",
-          options: [
-            "iste'foga chiqmoq",
-            "ijara haqqi", // 17 - to'g'ri
-            "statistika",
             "bajarmoq, a'do etmoq",
-          ],
-          correctIndex: 1,
-        },
-        {
-          question: "retire",
-          options: [
-            "statistika",
-            "iste'foga chiqmoq", // 18 - to'g'ri
-            "bajarmoq, a'do etmoq",
+            "to'siq",
             "yoqtirmoq",
           ],
           correctIndex: 1,
         },
         {
-          question: "statistic",
+          question: "approve",
           options: [
-            "statistika", // 19 - to'g'ri
-            "deyarli to'g'ri",
-            "to'siq, g'ov",
+            "yoqtirmoq, qabul qilmoq",
+            "to'siq",
             "sezmoq",
+            "deyarli to'g'ri",
           ],
           correctIndex: 0,
         },
+        {
+          question: "approximate",
+          options: ["sezmoq", "burch", "deyarli to'g'ri", "to'siq"],
+          correctIndex: 2,
+        },
+        {
+          question: "barrier",
+          options: ["boshlang'ich", "to'siq, g'ov", "burch", "sezmoq"],
+          correctIndex: 1,
+        },
+        {
+          question: "detect",
+          options: [
+            "boshlang'ich",
+            "muvaffaqiyat",
+            "burch",
+            "sezmoq, bilib qolmoq",
+          ],
+          correctIndex: 3,
+        },
+        {
+          question: "duty",
+          options: [
+            "muvaffaqiyat",
+            "bosqichma",
+            "burch, vazifa",
+            "boshlang'ich",
+          ],
+          correctIndex: 2,
+        },
+        {
+          question: "elementary",
+          options: ["bosqichma", "migrant", "muvaffaqiyat", "boshlang'ich"],
+          correctIndex: 3,
+        },
+        {
+          question: "failure",
+          options: ["muvaffaqiyatsizlik", "ichiga", "bosqichma", "migrant"],
+          correctIndex: 0,
+        },
+        {
+          question: "gradual",
+          options: ["migrant", "bosqichma-bosqich", "ichiga", "on, lahza"],
+          correctIndex: 1,
+        },
+        {
+          question: "immigrant",
+          options: ["on, lahza", "qashshoqlik", "migrant", "ichiga"],
+          correctIndex: 2,
+        },
+        {
+          question: "insert",
+          options: ["ichiga qo'ymoq", "dek tutmoq", "on, lahza", "qashshoqlik"],
+          correctIndex: 0,
+        },
+        {
+          question: "instant",
+          options: ["qashshoqlik", "martaba", "on, lahza", "dek tutmoq"],
+          correctIndex: 2,
+        },
+        {
+          question: "poverty",
+          options: ["martaba", "hurmat", "dek tutmoq", "qashshoqlik"],
+          correctIndex: 3,
+        },
+        {
+          question: "pretend",
+          options: ["hurmat", "muzlatgich", "dek tutmoq", "martaba"],
+          correctIndex: 2,
+        },
+        {
+          question: "rank",
+          options: ["muzlatgich", "ijara", "martaba, unvon", "hurmat"],
+          correctIndex: 2,
+        },
+        {
+          question: "recognition",
+          options: ["ijara", "iste'fo", "hurmat, tan olish", "muzlatgich"],
+          correctIndex: 2,
+        },
+        {
+          question: "refrigerate",
+          options: ["iste'fo", "muzlatgichda saqlamoq", "statistika", "ijara"],
+          correctIndex: 1,
+        },
+        {
+          question: "rent",
+          options: ["statistika", "bajarmoq", "ijara haqqi", "iste'fo"],
+          correctIndex: 2,
+        },
+        {
+          question: "retire",
+          options: ["bajarmoq", "yoqtirmoq", "statistika", "iste'foga chiqmoq"],
+          correctIndex: 3,
+        },
+        {
+          question: "statistic",
+          options: ["deyarli to'g'ri", "to'siq", "statistika", "sezmoq"],
+          correctIndex: 2,
+        },
       ],
-
       unit_21: [
         {
           question: "astronaut",
           options: [
-            "astronavt", // 0 - to'g'ri
             "uyg'oq",
-            "doyuraklik, botirlik",
             "suv ustida suzmoq",
+            "astronavt",
+            "doyuraklik, botirlik",
           ],
-          correctIndex: 0,
+          correctIndex: 2,
         },
         {
           question: "awake",
           options: [
+            "uyg'oq",
             "doyuraklik, botirlik",
-            "uyg'oq", // 1 - to'g'ri
             "suv ustida suzmoq",
             "bermoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "courage",
           options: [
-            "suv ustida suzmoq",
-            "doyuraklik, botirlik", // 2 - to'g'ri
             "bermoq",
             "gravitatsiya",
+            "suv ustida suzmoq",
+            "doyuraklik, botirlik",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "float",
           options: [
             "bermoq",
-            "suv ustida suzmoq", // 3 - to'g'ri
+            "suv ustida suzmoq",
             "gravitatsiya",
             "qimmabaho tosh",
           ],
@@ -7661,28 +6027,28 @@ const TestsBank = {
         {
           question: "grant",
           options: [
+            "bermoq",
             "gravitatsiya",
-            "bermoq", // 4 - to'g'ri
             "qimmabaho tosh",
             "konchi, shaxtyor",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "gravity",
           options: [
-            "qimmabaho tosh",
-            "gravitatsiya", // 5 - to'g'ri
             "konchi, shaxtyor",
             "mineral",
+            "gravitatsiya",
+            "qimmabaho tosh",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "jewel",
           options: [
             "konchi, shaxtyor",
-            "qimmabaho tosh", // 6 - to'g'ri
+            "qimmabaho tosh",
             "mineral",
             "ishtirok etmoq",
           ],
@@ -7690,61 +6056,41 @@ const TestsBank = {
         },
         {
           question: "miner",
-          options: [
-            "mineral",
-            "konchi, shaxtyor", // 7 - to'g'ri
-            "ishtirok etmoq",
-            "ruxsat",
-          ],
-          correctIndex: 1,
+          options: ["mineral", "ishtirok etmoq", "ruxsat", "konchi, shaxtyor"],
+          correctIndex: 3,
         },
         {
           question: "mineral",
-          options: [
-            "ishtirok etmoq",
-            "mineral", // 8 - to'g'ri
-            "ruxsat",
-            "quymoq",
-          ],
-          correctIndex: 1,
+          options: ["mineral", "ishtirok etmoq", "ruxsat", "quymoq"],
+          correctIndex: 0,
         },
         {
           question: "participate",
-          options: [
-            "ruxsat",
-            "ishtirok etmoq", // 9 - to'g'ri
-            "quymoq",
-            "bor bo'lish, mavjudlik",
-          ],
-          correctIndex: 1,
+          options: ["ruxsat", "quymoq", "bor bo'lish", "ishtirok etmoq"],
+          correctIndex: 3,
         },
         {
           question: "permission",
-          options: [
-            "quymoq",
-            "ruxsat", // 10 - to'g'ri
-            "bor bo'lish, mavjudlik",
-            "xom, pishmagan",
-          ],
-          correctIndex: 1,
+          options: ["ruxsat", "quymoq", "bor bo'lish", "xom, pishmagan"],
+          correctIndex: 0,
         },
         {
           question: "pour",
           options: [
-            "bor bo'lish, mavjudlik",
-            "quymoq", // 11 - to'g'ri
-            "xom, pishmagan",
+            "bor bo'lish",
             "sun'iy yo'ldosh",
+            "quymoq",
+            "xom, pishmagan",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "presence",
           options: [
             "xom, pishmagan",
-            "bor bo'lish, mavjudlik", // 12 - to'g'ri
+            "bor bo'lish, mavjudlik",
             "sun'iy yo'ldosh",
-            "kattalik, ko'lam",
+            "kattalik",
           ],
           correctIndex: 1,
         },
@@ -7752,181 +6098,105 @@ const TestsBank = {
           question: "raw",
           options: [
             "sun'iy yo'ldosh",
-            "xom, pishmagan", // 13 - to'g'ri
-            "kattalik, ko'lam",
-            "bajarmaslik, qilmaslik",
+            "kattalik",
+            "xom, pishmagan",
+            "bajarmaslik",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "satellite",
-          options: [
-            "kattalik, ko'lam",
-            "sun'iy yo'ldosh", // 14 - to'g'ri
-            "bajarmaslik, qilmaslik",
-            "cho'zmoq",
-          ],
+          options: ["kattalik", "sun'iy yo'ldosh", "bajarmaslik", "cho'zmoq"],
           correctIndex: 1,
         },
         {
           question: "scale",
-          options: [
-            "bajarmaslik, qilmaslik",
-            "kattalik, ko'lam", // 15 - to'g'ri
-            "cho'zmoq",
-            "teleskop",
-          ],
-          correctIndex: 1,
+          options: ["kattalik, ko'lam", "bajarmaslik", "cho'zmoq", "teleskop"],
+          correctIndex: 0,
         },
         {
           question: "skip",
           options: [
             "cho'zmoq",
-            "bajarmaslik, qilmaslik", // 16 - to'g'ri
             "teleskop",
+            "bajarmaslik, qilmaslik",
             "yer ostida",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "stretch",
-          options: [
-            "teleskop",
-            "cho'zmoq", // 17 - to'g'ri
-            "yer ostida",
-            "astronavt",
-          ],
-          correctIndex: 1,
+          options: ["cho'zmoq", "teleskop", "yer ostida", "astronavt"],
+          correctIndex: 0,
         },
         {
           question: "telescope",
-          options: [
-            "yer ostida",
-            "teleskop", // 18 - to'g'ri
-            "astronavt",
-            "uyg'oq",
-          ],
-          correctIndex: 1,
+          options: ["yer ostida", "astronavt", "teleskop", "uyg'oq"],
+          correctIndex: 2,
         },
         {
           question: "underground",
-          options: [
-            "yer ostida", // 19 - to'g'ri
-            "doyuraklik, botirlik",
-            "suv ustida suzmoq",
-            "bermoq",
-          ],
-          correctIndex: 0,
+          options: ["doyuraklik", "suv ustida suzmoq", "bermoq", "yer ostida"],
+          correctIndex: 3,
         },
       ],
-
       unit_22: [
         {
           question: "alarm",
-          options: [
-            "signalizatsiya", // 0 - to'g'ri
-            "alohida",
-            "hibisga olmoq",
-            "mukofot, sovrin",
-          ],
-          correctIndex: 0,
-        },
-        {
-          question: "apart",
-          options: [
-            "hibisga olmoq",
-            "alohida", // 1 - to'g'ri
-            "mukofot, sovrin",
-            "zot, nasl",
-          ],
+          options: ["alohida", "signalizatsiya", "hibisga olmoq", "mukofot"],
           correctIndex: 1,
         },
         {
+          question: "apart",
+          options: ["alohida", "hibisga olmoq", "mukofot", "zot, nasl"],
+          correctIndex: 0,
+        },
+        {
           question: "arrest",
-          options: [
-            "mukofot, sovrin",
-            "hibisga olmoq", // 2 - to'g'ri
-            "zot, nasl",
-            "chelak, paqir",
-          ],
+          options: ["zot, nasl", "hibisga olmoq", "mukofot", "chelak"],
           correctIndex: 1,
         },
         {
           question: "award",
-          options: [
-            "zot, nasl",
-            "mukofot, sovrin", // 3 - to'g'ri
-            "chelak, paqir",
-            "musobaqa",
-          ],
-          correctIndex: 1,
+          options: ["zot, nasl", "chelak", "musobaqa", "mukofot, sovrin"],
+          correctIndex: 3,
         },
         {
           question: "breed",
-          options: [
-            "chelak, paqir",
-            "zot, nasl", // 4 - to'g'ri
-            "musobaqa",
-            "hukm qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["chelak", "hukm qilmoq", "zot, nasl", "musobaqa"],
+          correctIndex: 2,
         },
         {
           question: "bucket",
-          options: [
-            "musobaqa",
-            "chelak, paqir", // 5 - to'g'ri
-            "hukm qilmoq",
-            "garaj",
-          ],
-          correctIndex: 1,
+          options: ["chelak, paqir", "musobaqa", "hukm qilmoq", "garaj"],
+          correctIndex: 0,
         },
         {
           question: "contest",
-          options: [
-            "hukm qilmoq",
-            "musobaqa", // 6 - to'g'ri
-            "garaj",
-            "jurnalist",
-          ],
-          correctIndex: 1,
+          options: ["hukm qilmoq", "garaj", "musobaqa", "jurnalist"],
+          correctIndex: 2,
         },
         {
           question: "convict",
-          options: [
-            "garaj",
-            "hukm qilmoq", // 7 - to'g'ri
-            "jurnalist",
-            "kuchuk",
-          ],
-          correctIndex: 1,
+          options: ["garaj", "jurnalist", "hukm qilmoq", "kuchuk"],
+          correctIndex: 2,
         },
         {
           question: "garage",
-          options: [
-            "jurnalist",
-            "garaj", // 8 - to'g'ri
-            "kuchuk",
-            "keyingi bosqichga o'tmoq",
-          ],
-          correctIndex: 1,
+          options: ["jurnalist", "kuchuk", "keyingi bosqich", "garaj"],
+          correctIndex: 3,
         },
         {
           question: "journalist",
-          options: [
-            "kuchuk",
-            "jurnalist", // 9 - to'g'ri
-            "keyingi bosqichga o'tmoq",
-            "ta'mirlamoq, tuzatmoq",
-          ],
-          correctIndex: 1,
+          options: ["jurnalist", "kuchuk", "ta'mirlamoq", "davom ettirmoq"],
+          correctIndex: 0,
         },
         {
           question: "pup",
           options: [
-            "keyingi bosqichga o'tmoq",
-            "kuchuk", // 10 - to'g'ri
-            "ta'mirlamoq, tuzatmoq",
+            "ta'mirlamoq",
+            "kuchuk",
+            "keyingi bosqich",
             "davom ettirmoq",
           ],
           correctIndex: 1,
@@ -7934,10 +6204,10 @@ const TestsBank = {
         {
           question: "qualify",
           options: [
-            "ta'mirlamoq, tuzatmoq",
-            "keyingi bosqichga o'tmoq", // 11 - to'g'ri
-            "davom ettirmoq",
+            "ta'mirlamoq",
+            "keyingi bosqichga o'tmoq",
             "o'g'irlamoq",
+            "sirpanib ketmoq",
           ],
           correctIndex: 1,
         },
@@ -7945,1096 +6215,627 @@ const TestsBank = {
           question: "repair",
           options: [
             "davom ettirmoq",
-            "ta'mirlamoq, tuzatmoq", // 12 - to'g'ri
             "o'g'irlamoq",
+            "ta'mirlamoq, tuzatmoq",
             "sirpanib ketmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "resume",
           options: [
             "o'g'irlamoq",
-            "davom ettirmoq", // 13 - to'g'ri
+            "davom ettirmoq",
             "sirpanib ketmoq",
-            "bir oz, andak",
+            "bir oz",
           ],
           correctIndex: 1,
         },
         {
           question: "rob",
-          options: [
-            "sirpanib ketmoq",
-            "o'g'irlamoq", // 14 - to'g'ri
-            "bir oz, andak",
-            "mustahkam",
-          ],
-          correctIndex: 1,
+          options: ["o'g'irlamoq", "sirpanib ketmoq", "bir oz", "mustahkam"],
+          correctIndex: 0,
         },
         {
           question: "slip",
-          options: [
-            "bir oz, andak",
-            "sirpanib ketmoq", // 15 - to'g'ri
-            "mustahkam",
-            "salfetka",
-          ],
-          correctIndex: 1,
+          options: ["bir oz", "mustahkam", "sirpanib ketmoq", "salfetka"],
+          correctIndex: 2,
         },
         {
           question: "somewhat",
           options: [
             "mustahkam",
-            "bir oz, andak", // 16 - to'g'ri
             "salfetka",
             "ochiq maydoncha",
+            "bir oz, andak",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "stable",
           options: [
+            "mustahkam",
             "salfetka",
-            "mustahkam", // 17 - to'g'ri
             "ochiq maydoncha",
             "signalizatsiya",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "tissue",
-          options: [
-            "ochiq maydoncha",
-            "salfetka", // 18 - to'g'ri
-            "signalizatsiya",
-            "alohida",
-          ],
-          correctIndex: 1,
+          options: ["ochiq maydoncha", "signalizatsiya", "salfetka", "alohida"],
+          correctIndex: 2,
         },
         {
           question: "yard",
-          options: [
-            "ochiq maydoncha", // 19 - to'g'ri
-            "hibisga olmoq",
-            "mukofot, sovrin",
-            "zot, nasl",
-          ],
-          correctIndex: 0,
+          options: ["hibisga olmoq", "ochiq maydoncha", "mukofot", "zot, nasl"],
+          correctIndex: 1,
         },
       ],
-
       unit_23: [
         {
           question: "alike",
-          options: [
-            "o'xshash", // 0 - to'g'ri
-            "achchiqlantirmoq, jonga tegmoq",
-            "arxitektura",
-            "sun'iy, yasama",
-          ],
-          correctIndex: 0,
+          options: ["achchiqlantirmoq", "o'xshash", "arxitektura", "sun'iy"],
+          correctIndex: 1,
         },
         {
           question: "annoy",
           options: [
+            "achchiqlantirmoq, jonga tegmoq",
             "arxitektura",
-            "achchiqlantirmoq, jonga tegmoq", // 1 - to'g'ri
-            "sun'iy, yasama",
+            "sun'iy",
             "zanjir",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "architecture",
-          options: [
-            "sun'iy, yasama",
-            "arxitektura", // 2 - to'g'ri
-            "zanjir",
-            "farqli",
-          ],
-          correctIndex: 1,
+          options: ["sun'iy", "zanjir", "arxitektura", "farqli"],
+          correctIndex: 2,
         },
         {
           question: "artificial",
-          options: [
-            "zanjir",
-            "sun'iy, yasama", // 3 - to'g'ri
-            "farqli",
-            "ajratmoq, farqiga bormoq",
-          ],
-          correctIndex: 1,
+          options: ["zanjir", "farqli", "ajratmoq", "sun'iy, yasama"],
+          correctIndex: 3,
         },
         {
           question: "chain",
-          options: [
-            "farqli",
-            "zanjir", // 4 - to'g'ri
-            "ajratmoq, farqiga bormoq",
-            "chang",
-          ],
+          options: ["farqli", "zanjir", "ajratmoq", "chang"],
           correctIndex: 1,
         },
         {
           question: "distinct",
-          options: [
-            "ajratmoq, farqiga bormoq",
-            "farqli", // 5 - to'g'ri
-            "chang",
-            "xursandchilik",
-          ],
-          correctIndex: 1,
+          options: ["farqli", "ajratmoq", "chang", "xursandchilik"],
+          correctIndex: 0,
         },
         {
           question: "distinguish",
           options: [
             "chang",
-            "ajratmoq, farqiga bormoq", // 6 - to'g'ri
             "xursandchilik",
+            "ajratmoq, farqiga bormoq",
             "tuzalmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "dust",
-          options: [
-            "xursandchilik",
-            "chang", // 7 - to'g'ri
-            "tuzalmoq",
-            "meros qilib olmoq",
-          ],
-          correctIndex: 1,
+          options: ["xursandchilik", "tuzalmoq", "chang", "meros"],
+          correctIndex: 2,
         },
         {
           question: "excitement",
-          options: [
-            "tuzalmoq",
-            "xursandchilik", // 8 - to'g'ri
-            "meros qilib olmoq",
-            "o'zini tutish tarzi",
-          ],
-          correctIndex: 1,
+          options: ["tuzalmoq", "meros", "o'zini tutish", "xursandchilik"],
+          correctIndex: 3,
         },
         {
           question: "heal",
-          options: [
-            "meros qilib olmoq",
-            "tuzalmoq", // 9 - to'g'ri
-            "o'zini tutish tarzi",
-            "ko'paymoq, ortib ketmoq",
-          ],
-          correctIndex: 1,
+          options: ["tuzalmoq", "meros", "o'zini tutish", "ko'paymoq"],
+          correctIndex: 0,
         },
         {
           question: "inherit",
-          options: [
-            "o'zini tutish tarzi",
-            "meros qilib olmoq", // 10 - to'g'ri
-            "ko'paymoq, ortib ketmoq",
-            "tom",
-          ],
-          correctIndex: 1,
+          options: ["o'zini tutish", "ko'paymoq", "meros qilib olmoq", "tom"],
+          correctIndex: 2,
         },
         {
           question: "manner",
-          options: [
-            "ko'paymoq, ortib ketmoq",
-            "o'zini tutish tarzi", // 11 - to'g'ri
-            "tom",
-            "tanqislik",
-          ],
-          correctIndex: 1,
+          options: ["ko'paymoq", "tom", "tanqislik", "o'zini tutish tarzi"],
+          correctIndex: 3,
         },
         {
           question: "mount",
-          options: [
-            "tom",
-            "ko'paymoq, ortib ketmoq", // 12 - to'g'ri
-            "tanqislik",
-            "qattiq",
-          ],
-          correctIndex: 1,
+          options: ["tom", "tanqislik", "ko'paymoq, ortib ketmoq", "qattiq"],
+          correctIndex: 2,
         },
         {
           question: "roof",
-          options: [
-            "tanqislik",
-            "tom", // 13 - to'g'ri
-            "qattiq",
-            "zahira, zapas",
-          ],
+          options: ["tanqislik", "tom", "qattiq", "zahira"],
           correctIndex: 1,
         },
         {
           question: "shortage",
-          options: [
-            "qattiq",
-            "tanqislik", // 14 - to'g'ri
-            "zahira, zapas",
-            "modda",
-          ],
-          correctIndex: 1,
+          options: ["qattiq", "zahira", "modda", "tanqislik"],
+          correctIndex: 3,
         },
         {
           question: "solid",
-          options: [
-            "zahira, zapas",
-            "qattiq", // 15 - to'g'ri
-            "modda",
-            "qabr",
-          ],
+          options: ["zahira", "qattiq", "modda", "qabr"],
           correctIndex: 1,
         },
         {
           question: "stock",
-          options: [
-            "modda",
-            "zahira, zapas", // 16 - to'g'ri
-            "qabr",
-            "jarohat, yara",
-          ],
+          options: ["modda", "zahira, zapas", "qabr", "jarohat"],
           correctIndex: 1,
         },
         {
           question: "substance",
-          options: [
-            "qabr",
-            "modda", // 17 - to'g'ri
-            "jarohat, yara",
-            "o'xshash",
-          ],
-          correctIndex: 1,
+          options: ["qabr", "jarohat", "modda", "o'xshash"],
+          correctIndex: 2,
         },
         {
           question: "tomb",
-          options: [
-            "jarohat, yara",
-            "qabr", // 18 - to'g'ri
-            "o'xshash",
-            "achchiqlantirmoq",
-          ],
-          correctIndex: 1,
+          options: ["jarohat", "o'xshash", "achchiqlantirmoq", "qabr"],
+          correctIndex: 3,
         },
         {
           question: "wound",
-          options: [
-            "jarohat, yara", // 19 - to'g'ri
-            "arxitektura",
-            "sun'iy, yasama",
-            "zanjir",
-          ],
+          options: ["jarohat, yara", "arxitektura", "sun'iy", "zanjir"],
           correctIndex: 0,
         },
       ],
-
       unit_24: [
         {
           question: "bath",
-          options: [
-            "vanna", // 0 - to'g'ri
-            "bukmoq",
-            "chaynamoq",
-            "nogiron",
-          ],
-          correctIndex: 0,
+          options: ["bukmoq", "chaynamoq", "vanna", "nogiron"],
+          correctIndex: 2,
         },
         {
           question: "bend",
-          options: [
-            "chaynamoq",
-            "bukmoq", // 1 - to'g'ri
-            "nogiron",
-            "ajoyib",
-          ],
-          correctIndex: 1,
+          options: ["chaynamoq", "nogiron", "ajoyib", "bukmoq"],
+          correctIndex: 3,
         },
         {
           question: "chew",
-          options: [
-            "nogiron",
-            "chaynamoq", // 2 - to'g'ri
-            "ajoyib",
-            "fantastik asar",
-          ],
-          correctIndex: 1,
+          options: ["nogiron", "ajoyib", "chaynamoq", "fantastik"],
+          correctIndex: 2,
         },
         {
           question: "disabled",
-          options: [
-            "ajoyib",
-            "nogiron", // 3 - to'g'ri
-            "fantastik asar",
-            "bayroq",
-          ],
+          options: ["ajoyib", "nogiron", "fantastik", "bayroq"],
           correctIndex: 1,
         },
         {
           question: "fantastic",
-          options: [
-            "fantastik asar",
-            "ajoyib", // 4 - to'g'ri
-            "bayroq",
-            "tekshirmoq",
-          ],
+          options: ["fantastik asar", "ajoyib", "bayroq", "tekshirmoq"],
           correctIndex: 1,
         },
         {
           question: "fiction",
-          options: [
-            "bayroq",
-            "fantastik asar", // 5 - to'g'ri
-            "tekshirmoq",
-            "jurnal",
-          ],
-          correctIndex: 1,
+          options: ["bayroq", "tekshirmoq", "jurnal", "fantastik asar"],
+          correctIndex: 3,
         },
         {
           question: "flag",
-          options: [
-            "tekshirmoq",
-            "bayroq", // 6 - to'g'ri
-            "jurnal",
-            "suyuqlik",
-          ],
-          correctIndex: 1,
+          options: ["tekshirmoq", "jurnal", "bayroq", "suyuqlik"],
+          correctIndex: 2,
         },
         {
           question: "inspect",
-          options: [
-            "jurnal",
-            "tekshirmoq", // 7 - to'g'ri
-            "suyuqlik",
-            "hayron qolmoq",
-          ],
+          options: ["jurnal", "tekshirmoq", "suyuqlik", "hayron qolmoq"],
           correctIndex: 1,
         },
         {
           question: "journal",
-          options: [
-            "suyuqlik",
-            "jurnal", // 8 - to'g'ri
-            "hayron qolmoq",
-            "ozuqa",
-          ],
-          correctIndex: 1,
+          options: ["suyuqlik", "hayron qolmoq", "jurnal", "ozuqa"],
+          correctIndex: 2,
         },
         {
           question: "liquid",
-          options: [
-            "hayron qolmoq",
-            "suyuqlik", // 9 - to'g'ri
-            "ozuqa",
-            "ustun kelmoq, yengib o'tmoq",
-          ],
+          options: ["hayron qolmoq", "suyuqlik", "ozuqa", "ustun kelmoq"],
           correctIndex: 1,
         },
         {
           question: "marvel",
-          options: [
-            "ozuqa",
-            "hayron qolmoq", // 10 - to'g'ri
-            "ustun kelmoq, yengib o'tmoq",
-            "eslamoq",
-          ],
-          correctIndex: 1,
+          options: ["ozuqa", "ustun kelmoq", "eslamoq", "hayron qolmoq"],
+          correctIndex: 3,
         },
         {
           question: "nutrient",
-          options: [
-            "ustun kelmoq, yengib o'tmoq",
-            "ozuqa", // 11 - to'g'ri
-            "eslamoq",
-            "afsuslanmoq, pushaymon qilmoq",
-          ],
+          options: ["ustun kelmoq", "ozuqa", "eslamoq", "afsuslanmoq"],
           correctIndex: 1,
         },
         {
           question: "overcome",
           options: [
             "eslamoq",
-            "ustun kelmoq, yengib o'tmoq", // 12 - to'g'ri
-            "afsuslanmoq, pushaymon qilmoq",
+            "afsuslanmoq",
+            "ustun kelmoq, yengib o'tmoq",
             "ruh",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "recall",
-          options: [
-            "afsuslanmoq, pushaymon qilmoq",
-            "eslamoq", // 13 - to'g'ri
-            "ruh",
-            "yeterli",
-          ],
-          correctIndex: 1,
+          options: ["afsuslanmoq", "ruh", "yeterli", "eslamoq"],
+          correctIndex: 3,
         },
         {
           question: "regret",
           options: [
             "ruh",
-            "afsuslanmoq, pushaymon qilmoq", // 14 - to'g'ri
             "yeterli",
+            "afsuslanmoq, pushaymon qilmoq",
             "jarrohlik",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "soul",
-          options: [
-            "yeterli",
-            "ruh", // 15 - to'g'ri
-            "jarrohlik",
-            "qiyin",
-          ],
-          correctIndex: 1,
+          options: ["yeterli", "jarrohlik", "ruh", "qiyin"],
+          correctIndex: 2,
         },
         {
           question: "sufficient",
-          options: [
-            "jarrohlik",
-            "yeterli", // 16 - to'g'ri
-            "qiyin",
-            "quvur",
-          ],
+          options: ["jarrohlik", "yeterli", "qiyin", "quvur"],
           correctIndex: 1,
         },
         {
           question: "surgery",
-          options: [
-            "qiyin",
-            "jarrohlik", // 17 - to'g'ri
-            "quvur",
-            "vanna",
-          ],
-          correctIndex: 1,
+          options: ["qiyin", "quvur", "vanna", "jarrohlik"],
+          correctIndex: 3,
         },
         {
           question: "tough",
-          options: [
-            "quvur",
-            "qiyin", // 18 - to'g'ri
-            "vanna",
-            "bukmoq",
-          ],
+          options: ["quvur", "qiyin", "vanna", "bukmoq"],
           correctIndex: 1,
         },
         {
           question: "tube",
-          options: [
-            "quvur", // 19 - to'g'ri
-            "chaynamoq",
-            "nogiron",
-            "ajoyib",
-          ],
+          options: ["quvur", "chaynamoq", "nogiron", "ajoyib"],
           correctIndex: 0,
         },
       ],
-
       unit_25: [
         {
           question: "admit",
-          options: [
-            "tan olmoq", // 0 - to'g'ri
-            "quti, yashik",
-            "kosa",
-            "kulba",
-          ],
-          correctIndex: 0,
+          options: ["quti", "kosa", "tan olmoq", "kulba"],
+          correctIndex: 2,
         },
         {
           question: "bin",
-          options: [
-            "kosa",
-            "quti, yashik", // 1 - to'g'ri
-            "kulba",
-            "naqt pul",
-          ],
-          correctIndex: 1,
+          options: ["kosa", "kulba", "naqt pul", "quti, yashik"],
+          correctIndex: 3,
         },
         {
           question: "bowl",
-          options: [
-            "kulba",
-            "kosa", // 2 - to'g'ri
-            "naqt pul",
-            "jinoyatchi",
-          ],
+          options: ["kulba", "kosa", "naqt pul", "jinoyatchi"],
           correctIndex: 1,
         },
         {
           question: "cabin",
-          options: [
-            "naqt pul",
-            "kulba", // 3 - to'g'ri
-            "jinoyatchi",
-            "o'n ikkita",
-          ],
-          correctIndex: 1,
+          options: ["naqt pul", "jinoyatchi", "o'n ikkita", "kulba"],
+          correctIndex: 3,
         },
         {
           question: "cash",
-          options: [
-            "jinoyatchi",
-            "naqt pul", // 4 - to'g'ri
-            "o'n ikkita",
-            "yoshi ulug'roq",
-          ],
+          options: ["jinoyatchi", "naqt pul", "o'n ikkita", "yoshi ulug'"],
           correctIndex: 1,
         },
         {
           question: "criminal",
-          options: [
-            "o'n ikkita",
-            "jinoyatchi", // 5 - to'g'ri
-            "yoshi ulug'roq",
-            "yuzdagi",
-          ],
-          correctIndex: 1,
+          options: ["o'n ikkita", "yoshi ulug'", "yuzdagi", "jinoyatchi"],
+          correctIndex: 3,
         },
         {
           question: "dozen",
-          options: [
-            "yoshi ulug'roq",
-            "o'n ikkita", // 6 - to'g'ri
-            "yuzdagi",
-            "devor, to'siq",
-          ],
+          options: ["yoshi ulug'", "o'n ikkita", "yuzdagi", "devor"],
           correctIndex: 1,
         },
         {
           question: "elder",
-          options: [
-            "yuzdagi",
-            "yoshi ulug'roq", // 7 - to'g'ri
-            "devor, to'siq",
-            "ilhomlantirmoq",
-          ],
-          correctIndex: 1,
+          options: ["yuzdagi", "devor", "yoshi ulug'roq", "ilhomlantirmoq"],
+          correctIndex: 2,
         },
         {
           question: "facial",
-          options: [
-            "devor, to'siq",
-            "yuzdagi", // 8 - to'g'ri
-            "ilhomlantirmoq",
-            "arzimagan",
-          ],
+          options: ["devor", "yuzdagi", "ilhomlantirmoq", "arzimagan"],
           correctIndex: 1,
         },
         {
           question: "fence",
-          options: [
-            "ilhomlantirmoq",
-            "devor, to'siq", // 9 - to'g'ri
-            "arzimagan",
-            "toza, ozoda",
-          ],
-          correctIndex: 1,
+          options: ["ilhomlantirmoq", "arzimagan", "toza", "devor, to'siq"],
+          correctIndex: 3,
         },
         {
           question: "inspire",
-          options: [
-            "arzimagan",
-            "ilhomlantirmoq", // 10 - to'g'ri
-            "toza, ozoda",
-            "tadbir, voqea",
-          ],
+          options: ["arzimagan", "ilhomlantirmoq", "toza", "tadbir"],
           correctIndex: 1,
         },
         {
           question: "mere",
-          options: [
-            "toza, ozoda",
-            "arzimagan", // 11 - to'g'ri
-            "tadbir, voqea",
-            "jarima",
-          ],
-          correctIndex: 1,
+          options: ["toza", "tadbir", "arzimagan", "jarima"],
+          correctIndex: 2,
         },
         {
           question: "neat",
-          options: [
-            "tadbir, voqea",
-            "toza, ozoda", // 12 - to'g'ri
-            "jarima",
-            "qo'pol, odobsiz",
-          ],
+          options: ["tadbir", "toza, ozoda", "jarima", "qo'pol"],
           correctIndex: 1,
         },
         {
           question: "occasion",
-          options: [
-            "jarima",
-            "tadbir, voqea", // 13 - to'g'ri
-            "qo'pol, odobsiz",
-            "hal qilmoq, bir yoqli qilmoq",
-          ],
+          options: ["jarima", "tadbir, voqea", "qo'pol", "hal qilmoq"],
           correctIndex: 1,
         },
         {
           question: "penalty",
-          options: [
-            "qo'pol, odobsiz",
-            "jarima", // 14 - to'g'ri
-            "hal qilmoq, bir yoqli qilmoq",
-            "transport vositasi",
-          ],
-          correctIndex: 1,
+          options: ["qo'pol", "hal qilmoq", "jarima", "transport"],
+          correctIndex: 2,
         },
         {
           question: "rude",
-          options: [
-            "hal qilmoq, bir yoqli qilmoq",
-            "qo'pol, odobsiz", // 15 - to'g'ri
-            "transport vositasi",
-            "karmon, hamyon",
-          ],
-          correctIndex: 1,
+          options: ["hal qilmoq", "transport", "karmon", "qo'pol, odobsiz"],
+          correctIndex: 3,
         },
         {
           question: "settle",
           options: [
-            "transport vositasi",
-            "hal qilmoq, bir yoqli qilmoq", // 16 - to'g'ri
-            "karmon, hamyon",
-            "dodlamoq, dod solmoq",
+            "transport",
+            "karmon",
+            "hal qilmoq, bir yoqli qilmoq",
+            "dodlamoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "vehicle",
-          options: [
-            "karmon, hamyon",
-            "transport vositasi", // 17 - to'g'ri
-            "dodlamoq, dod solmoq",
-            "tan olmoq",
-          ],
-          correctIndex: 1,
+          options: ["karmon", "dodlamoq", "tan olmoq", "transport vositasi"],
+          correctIndex: 3,
         },
         {
           question: "wallet",
-          options: [
-            "dodlamoq, dod solmoq",
-            "karmon, hamyon", // 18 - to'g'ri
-            "tan olmoq",
-            "quti, yashik",
-          ],
+          options: ["dodlamoq", "karmon, hamyon", "tan olmoq", "quti"],
           correctIndex: 1,
         },
         {
           question: "yell",
-          options: [
-            "dodlamoq, dod solmoq", // 19 - to'g'ri
-            "kosa",
-            "kulba",
-            "naqt pul",
-          ],
+          options: ["dodlamoq, dod solmoq", "kosa", "kulba", "naqt pul"],
           correctIndex: 0,
         },
       ],
-
       unit_26: [
         {
           question: "accuse",
-          options: [
-            "ayblamoq", // 0 - to'g'ri
-            "o'zgartirmoq",
-            "kuldirmoq",
-            "marjon",
-          ],
-          correctIndex: 0,
+          options: ["kuldirmoq", "marjon", "o'zgartirmoq", "ayblamoq"],
+          correctIndex: 3,
         },
         {
           question: "adjust",
-          options: [
-            "kuldirmoq",
-            "o'zgartirmoq", // 1 - to'g'ri
-            "marjon",
-            "paxta",
-          ],
-          correctIndex: 1,
+          options: ["o'zgartirmoq", "kuldirmoq", "paxta", "marjon"],
+          correctIndex: 0,
         },
         {
           question: "amuse",
-          options: [
-            "marjon",
-            "kuldirmoq", // 2 - to'g'ri
-            "paxta",
-            "avariya bo'lmoq, to'qnashmoq",
-          ],
+          options: ["paxta", "kuldirmoq", "marjon", "paluba"],
           correctIndex: 1,
         },
         {
           question: "coral",
-          options: [
-            "paxta",
-            "marjon", // 3 - to'g'ri
-            "avariya bo'lmoq, to'qnashmoq",
-            "paluba",
-          ],
-          correctIndex: 1,
+          options: ["paxta", "paluba", "marjon", "avariya"],
+          correctIndex: 2,
         },
         {
           question: "cotton",
-          options: [
-            "avariya bo'lmoq, to'qnashmoq",
-            "paxta", // 4 - to'g'ri
-            "paluba",
-            "band bo'lmoq",
-          ],
+          options: ["band bo'lmoq", "paxta", "paluba", "marjon"],
           correctIndex: 1,
         },
         {
           question: "crash",
           options: [
+            "avariya bo'lmoq, to'qnashmoq",
             "paluba",
-            "avariya bo'lmoq, to'qnashmoq", // 5 - to'g'ri
             "band bo'lmoq",
-            "mustahkam, qattiq",
+            "mustahkam",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "deck",
-          options: [
-            "band bo'lmoq",
-            "paluba", // 6 - to'g'ri
-            "mustahkam, qattiq",
-            "yonilg'i, yoqilg'i",
-          ],
-          correctIndex: 1,
+          options: ["yonilg'i", "band bo'lmoq", "paluba", "mustahkam"],
+          correctIndex: 2,
         },
         {
           question: "engage",
-          options: [
-            "mustahkam, qattiq",
-            "band bo'lmoq", // 7 - to'g'ri
-            "yonilg'i, yoqilg'i",
-            "hashamati",
-          ],
-          correctIndex: 1,
+          options: ["hashamati", "mustahkam", "band bo'lmoq", "yonilg'i"],
+          correctIndex: 2,
         },
         {
           question: "firm",
           options: [
-            "yonilg'i, yoqilg'i",
-            "mustahkam, qattiq", // 8 - to'g'ri
-            "hashamati",
             "kuchli dovul",
+            "mustahkam, qattiq",
+            "hashamati",
+            "yo'qotish",
           ],
           correctIndex: 1,
         },
         {
           question: "fuel",
-          options: [
-            "hashamati",
-            "yonilg'i, yoqilg'i", // 9 - to'g'ri
-            "kuchli dovul",
-            "yo'qotish, boy berish",
-          ],
-          correctIndex: 1,
+          options: ["hashamati", "kuchli dovul", "yonilg'i, yoqilg'i", "oddiy"],
+          correctIndex: 2,
         },
         {
           question: "grand",
-          options: [
-            "kuchli dovul",
-            "hashamati", // 10 - to'g'ri
-            "yo'qotish, boy berish",
-            "oddiy",
-          ],
-          correctIndex: 1,
+          options: ["hashamati", "kuchli dovul", "oddiy", "yo'qotish"],
+          correctIndex: 0,
         },
         {
           question: "hurricane",
-          options: [
-            "yo'qotish, boy berish",
-            "kuchli dovul", // 11 - to'g'ri
-            "oddiy",
-            "cho'g'irtosh, rif",
-          ],
-          correctIndex: 1,
+          options: ["oddiy", "yo'qotish", "kuchli dovul", "cho'g'irtosh"],
+          correctIndex: 2,
         },
         {
           question: "loss",
           options: [
+            "yo'qotish, boy berish",
             "oddiy",
-            "yo'qotish, boy berish", // 12 - to'g'ri
-            "cho'g'irtosh, rif",
+            "cho'g'irtosh",
             "yopib qo'ymoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "plain",
-          options: [
-            "cho'g'irtosh, rif",
-            "oddiy", // 13 - to'g'ri
-            "yopib qo'ymoq",
-            "qattiqqo'l, ta'labchan",
-          ],
-          correctIndex: 1,
+          options: ["cho'g'irtosh", "yopib qo'ymoq", "oddiy", "qattiqqo'l"],
+          correctIndex: 2,
         },
         {
           question: "reef",
           options: [
+            "cho'g'irtosh, rif",
             "yopib qo'ymoq",
-            "cho'g'irtosh, rif", // 14 - to'g'ri
-            "qattiqqo'l, ta'labchan",
-            "syorfing uchmoq",
+            "syorfing",
+            "qattiqqo'l",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "shut",
-          options: [
-            "qattiqqo'l, ta'labchan",
-            "yopib qo'ymoq", // 15 - to'g'ri
-            "syorfing uchmoq",
-            "vazifa, ish",
-          ],
-          correctIndex: 1,
+          options: ["qattiqqo'l", "vazifa", "syorfing", "yopib qo'ymoq"],
+          correctIndex: 3,
         },
         {
           question: "strict",
-          options: [
-            "syorfing uchmoq",
-            "qattiqqo'l, ta'labchan", // 16 - to'g'ri
-            "vazifa, ish",
-            "hudud, zona",
-          ],
+          options: ["vazifa", "qattiqqo'l, ta'labchan", "hudud", "syorfing"],
           correctIndex: 1,
         },
         {
           question: "surf",
-          options: [
-            "vazifa, ish",
-            "syorfing uchmoq", // 17 - to'g'ri
-            "hudud, zona",
-            "ayblamoq",
-          ],
-          correctIndex: 1,
+          options: ["syorfing uchmoq", "vazifa", "ayblamoq", "hudud"],
+          correctIndex: 0,
         },
         {
           question: "task",
-          options: [
-            "hudud, zona",
-            "vazifa, ish", // 18 - to'g'ri
-            "ayblamoq",
-            "o'zgartirmoq",
-          ],
-          correctIndex: 1,
+          options: ["hudud", "ayblamoq", "vazifa, ish", "o'zgartirmoq"],
+          correctIndex: 2,
         },
         {
           question: "zone",
-          options: [
-            "hudud, zona", // 19 - to'g'ri
-            "kuldirmoq",
-            "marjon",
-            "paxta",
-          ],
-          correctIndex: 0,
+          options: ["kuldirmoq", "hudud, zona", "marjon", "paxta"],
+          correctIndex: 1,
         },
       ],
 
       unit_27: [
         {
           question: "apology",
-          options: [
-            "uzr, kechirim", // 0 - to'g'ri
-            "qo'rqmas",
-            "ushlamoq, tutmoq",
-            "eng muhim",
-          ],
-          correctIndex: 0,
-        },
-        {
-          question: "bold",
-          options: [
-            "ushlamoq, tutmoq",
-            "qo'rqmas", // 1 - to'g'ri
-            "eng muhim",
-            "gertsog",
-          ],
+          options: ["qo'rqmas", "uzr, kechirim", "tutmoq", "vazir"],
           correctIndex: 1,
         },
         {
+          question: "bold",
+          options: ["eng muhim", "gertsog", "qo'rqmas", "tutmoq"],
+          correctIndex: 2,
+        },
+        {
           question: "capture",
-          options: [
-            "eng muhim",
-            "ushlamoq, tutmoq", // 2 - to'g'ri
-            "gertsog",
-            "oshkor qilmoq",
-          ],
+          options: ["oshkor qilmoq", "ushlamoq, tutmoq", "gertsog", "aybdor"],
           correctIndex: 1,
         },
         {
           question: "cardinal",
-          options: [
-            "gertsog",
-            "eng muhim", // 3 - to'g'ri
-            "oshkor qilmoq",
-            "aybdor",
-          ],
-          correctIndex: 1,
+          options: ["eng muhim", "gertsog", "aybdor", "oshkor qilmoq"],
+          correctIndex: 0,
         },
         {
           question: "duke",
-          options: [
-            "oshkor qilmoq",
-            "gertsog", // 4 - to'g'ri
-            "aybdor",
-            "yollamoq",
-          ],
-          correctIndex: 1,
+          options: ["aybdor", "yollamoq", "gertsog", "oshkor qilmoq"],
+          correctIndex: 2,
         },
         {
           question: "expose",
-          options: [
-            "aybdor",
-            "oshkor qilmoq", // 5 - to'g'ri
-            "yollamoq",
-            "aybsiz, beaby",
-          ],
-          correctIndex: 1,
+          options: ["yollamoq", "aybsiz", "oshkor qilmoq", "aybdor"],
+          correctIndex: 2,
         },
         {
           question: "guilty",
-          options: [
-            "yollamoq",
-            "aybdor", // 6 - to'g'ri
-            "aybsiz, beaby",
-            "turma, qamoq",
-          ],
-          correctIndex: 1,
+          options: ["aybdor", "yollamoq", "turma", "aybsiz"],
+          correctIndex: 0,
         },
         {
           question: "hire",
-          options: [
-            "aybsiz, beaby",
-            "yollamoq", // 7 - to'g'ri
-            "turma, qamoq",
-            "vazir",
-          ],
-          correctIndex: 1,
+          options: ["vazir", "aybsiz", "yollamoq", "turma"],
+          correctIndex: 2,
         },
         {
           question: "innocent",
-          options: [
-            "turma, qamoq",
-            "aybsiz, beaby", // 8 - to'g'ri
-            "vazir",
-            "odatiy",
-          ],
+          options: ["odatiy", "aybsiz, beaby", "vazir", "turma"],
           correctIndex: 1,
         },
         {
           question: "jail",
-          options: [
-            "vazir",
-            "turma, qamoq", // 9 - to'g'ri
-            "odatiy",
-            "o'zgarmas, abadiy",
-          ],
-          correctIndex: 1,
+          options: ["vazir", "abadiy", "odatiy", "turma, qamoq"],
+          correctIndex: 3,
         },
         {
           question: "minister",
-          options: [
-            "odatiy",
-            "vazir", // 10 - to'g'ri
-            "o'zgarmas, abadiy",
-            "ehtiyot qilmoq, saqlamoq",
-          ],
-          correctIndex: 1,
+          options: ["odatiy", "ehtiyot qilmoq", "vazir", "abadiy"],
+          correctIndex: 2,
         },
         {
           question: "ordinary",
-          options: [
-            "o'zgarmas, abadiy",
-            "odatiy", // 11 - to'g'ri
-            "ehtiyot qilmoq, saqlamoq",
-            "talaffuz qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["odatiy", "talaffuz qilmoq", "abadiy", "saqlamoq"],
+          correctIndex: 0,
         },
         {
           question: "permanent",
           options: [
-            "ehtiyot qilmoq, saqlamoq",
-            "o'zgarmas, abadiy", // 12 - to'g'ri
+            "saqlamoq",
             "talaffuz qilmoq",
+            "o'zgarmas, abadiy",
             "o'xshamoq",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "preserve",
           options: [
-            "talaffuz qilmoq",
-            "ehtiyot qilmoq, saqlamoq", // 13 - to'g'ri
             "o'xshamoq",
-            "simptom, alomat",
+            "ehtiyot qilmoq, saqlamoq",
+            "alomat",
+            "talaffuz qilmoq",
           ],
           correctIndex: 1,
         },
         {
           question: "pronounce",
-          options: [
-            "o'xshamoq",
-            "talaffuz qilmoq", // 14 - to'g'ri
-            "simptom, alomat",
-            "tamaki",
-          ],
-          correctIndex: 1,
+          options: ["tamaki", "alomat", "o'xshamoq", "talaffuz qilmoq"],
+          correctIndex: 3,
         },
         {
           question: "resemble",
-          options: [
-            "simptom, alomat",
-            "o'xshamoq", // 15 - to'g'ri
-            "tamaki",
-            "egizaklar",
-          ],
-          correctIndex: 1,
+          options: ["egizaklar", "tamaki", "o'xshamoq", "alomat"],
+          correctIndex: 2,
         },
         {
           question: "symptom",
-          options: [
-            "tamaki",
-            "simptom, alomat", // 16 - to'g'ri
-            "egizaklar",
-            "jogugar",
-          ],
-          correctIndex: 1,
+          options: ["simptom, alomat", "jogugar", "egizaklar", "tamaki"],
+          correctIndex: 0,
         },
         {
           question: "tobacco",
-          options: [
-            "egizaklar",
-            "tamaki", // 17 - to'g'ri
-            "jogugar",
-            "uzr, kechirim",
-          ],
+          options: ["jogugar", "tamaki", "uzr", "egizaklar"],
           correctIndex: 1,
         },
         {
           question: "twin",
-          options: [
-            "jogugar",
-            "egizaklar", // 18 - to'g'ri
-            "uzr, kechirim",
-            "qo'rqmas",
-          ],
-          correctIndex: 1,
+          options: ["egizaklar", "jogugar", "qo'rqmas", "uzr"],
+          correctIndex: 0,
         },
         {
           question: "witch",
-          options: [
-            "jogugar", // 19 - to'g'ri
-            "ushlamoq, tutmoq",
-            "eng muhim",
-            "gertsog",
-          ],
-          correctIndex: 0,
+          options: ["gertsog", "tutmoq", "jogugar", "muhim"],
+          correctIndex: 2,
         },
       ],
 
@@ -9042,608 +6843,343 @@ const TestsBank = {
         {
           question: "accompany",
           options: [
-            "sherik bo'lmoq, hamroh bo'lmoq", // 0 - to'g'ri
-            "yalang'och",
-            "shox",
             "nafas",
+            "shox",
+            "yalang'och",
+            "sherik bo'lmoq, hamroh bo'lmoq",
           ],
-          correctIndex: 0,
+          correctIndex: 3,
         },
         {
           question: "bare",
-          options: [
-            "shox",
-            "yalang'och", // 1 - to'g'ri
-            "nafas",
-            "ko'prik",
-          ],
+          options: ["ko'prik", "yalang'och", "shox", "nafas"],
           correctIndex: 1,
         },
         {
           question: "branch",
-          options: [
-            "nafas",
-            "shox", // 2 - to'g'ri
-            "ko'prik",
-            "otmoq, uloqtirmoq",
-          ],
+          options: ["otmoq", "shox", "ko'prik", "nafas"],
           correctIndex: 1,
         },
         {
           question: "breath",
-          options: [
-            "ko'prik",
-            "nafas", // 3 - to'g'ri
-            "otmoq, uloqtirmoq",
-            "jur'at etmoq",
-          ],
+          options: ["ko'prik", "nafas", "jur'at etmoq", "otmoq"],
           correctIndex: 1,
         },
         {
           question: "bridge",
-          options: [
-            "otmoq, uloqtirmoq",
-            "ko'prik", // 4 - to'g'ri
-            "jur'at etmoq",
-            "elektron",
-          ],
-          correctIndex: 1,
+          options: ["jur'at etmoq", "elektron", "ko'prik", "otmoq"],
+          correctIndex: 2,
         },
         {
           question: "cast",
           options: [
-            "jur'at etmoq",
-            "otmoq, uloqtirmoq", // 5 - to'g'ri
-            "elektron",
             "mehmonxona",
+            "jur'at etmoq",
+            "elektron",
+            "otmoq, uloqtirmoq",
           ],
-          correctIndex: 1,
+          correctIndex: 3,
         },
         {
           question: "dare",
-          options: [
-            "elektron",
-            "jur'at etmoq", // 6 - to'g'ri
-            "mehmonxona",
-            "to'r",
-          ],
-          correctIndex: 1,
+          options: ["jur'at etmoq", "elektron", "mehmonxona", "to'r"],
+          correctIndex: 0,
         },
         {
           question: "electronic",
-          options: [
-            "mehmonxona",
-            "elektron", // 7 - to'g'ri
-            "to'r",
-            "falsafa",
-          ],
-          correctIndex: 1,
+          options: ["falsafa", "to'r", "elektron", "mehmonxona"],
+          correctIndex: 2,
         },
         {
           question: "inn",
-          options: [
-            "to'r",
-            "mehmonxona", // 8 - to'g'ri
-            "falsafa",
-            "qozon",
-          ],
-          correctIndex: 1,
+          options: ["to'r", "qozon", "mehmonxona", "falsafa"],
+          correctIndex: 2,
         },
         {
           question: "net",
-          options: [
-            "falsafa",
-            "to'r", // 9 - to'g'ri
-            "qozon",
-            "urug'",
-          ],
-          correctIndex: 1,
+          options: ["to'r", "urug'", "qozon", "falsafa"],
+          correctIndex: 0,
         },
         {
           question: "philosophy",
-          options: [
-            "qozon",
-            "falsafa", // 10 - to'g'ri
-            "urug'",
-            "o'tkir, keskir",
-          ],
+          options: ["urug'", "falsafa", "o'tkir", "qozon"],
           correctIndex: 1,
         },
         {
           question: "pot",
-          options: [
-            "urug'",
-            "qozon", // 11 - to'g'ri
-            "o'tkir, keskir",
-            "tur, nav",
-          ],
+          options: ["nav", "qozon", "urug'", "o'tkir"],
           correctIndex: 1,
         },
         {
           question: "seed",
-          options: [
-            "o'tkir, keskir",
-            "urug'", // 12 - to'g'ri
-            "tur, nav",
-            "ayirmoq",
-          ],
-          correctIndex: 1,
+          options: ["urug'", "nav", "ayirmoq", "o'tkir"],
+          correctIndex: 0,
         },
         {
           question: "sharp",
-          options: [
-            "tur, nav",
-            "o'tkir, keskir", // 13 - to'g'ri
-            "ayirmoq",
-            "tarang, qattiq",
-          ],
-          correctIndex: 1,
+          options: ["ayirmoq", "tarang", "o'tkir, keskir", "nav"],
+          correctIndex: 2,
         },
         {
           question: "sort",
-          options: [
-            "ayirmoq",
-            "tur, nav", // 14 - to'g'ri
-            "tarang, qattiq",
-            "virtual, haqiqiqya o'xshash",
-          ],
+          options: ["ayirmoq", "tur, nav", "virtual", "tarang"],
           correctIndex: 1,
         },
         {
           question: "subtract",
-          options: [
-            "tarang, qattiq",
-            "ayirmoq", // 15 - to'g'ri
-            "virtual, haqiqiqya o'xshash",
-            "vaznga ega bo'lmoq",
-          ],
-          correctIndex: 1,
+          options: ["virtual", "vazn", "ayirmoq", "tarang"],
+          correctIndex: 2,
         },
         {
           question: "tight",
-          options: [
-            "virtual, haqiqiqya o'xshash",
-            "tarang, qattiq", // 16 - to'g'ri
-            "vaznga ega bo'lmoq",
-            "pichirlamoq, pichirlab gapirmoq",
-          ],
+          options: ["pichirlamoq", "tarang, qattiq", "virtual", "vazn"],
           correctIndex: 1,
         },
         {
           question: "virtual",
           options: [
-            "vaznga ega bo'lmoq",
-            "virtual, haqiqiqya o'xshash", // 17 - to'g'ri
-            "pichirlamoq, pichirlab gapirmoq",
-            "sherik bo'lmoq, hamroh bo'lmoq",
+            "virtual, haqiqiqya o'xshash",
+            "hamroh",
+            "vazn",
+            "pichirlamoq",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "weigh",
           options: [
-            "pichirlamoq, pichirlab gapirmoq",
-            "vaznga ega bo'lmoq", // 18 - to'g'ri
-            "sherik bo'lmoq, hamroh bo'lmoq",
             "yalang'och",
+            "pichirlamoq",
+            "vaznga ega bo'lmoq",
+            "hamroh",
           ],
-          correctIndex: 1,
+          correctIndex: 2,
         },
         {
           question: "whisper",
           options: [
-            "pichirlamoq, pichirlab gapirmoq", // 19 - to'g'ri
             "shox",
-            "nafas",
+            "pichirlamoq, pichirlab gapirmoq",
             "ko'prik",
+            "nafas",
           ],
-          correctIndex: 0,
+          correctIndex: 1,
         },
       ],
 
       unit_29: [
         {
           question: "abstract",
-          options: [
-            "mavhum", // 0 - to'g'ri
-            "yillik",
-            "gil",
-            "gazlama",
-          ],
+          options: ["mavhum", "yillik", "gil", "gazlama"],
           correctIndex: 0,
         },
         {
           question: "annual",
-          options: [
-            "gil",
-            "yillik", // 1 - to'g'ri
-            "gazlama",
-            "parda",
-          ],
-          correctIndex: 1,
+          options: ["parda", "gazlama", "yillik", "gil"],
+          correctIndex: 2,
         },
         {
           question: "clay",
-          options: [
-            "gazlama",
-            "gil", // 2 - to'g'ri
-            "parda",
-            "sazovor bo'lmoq",
-          ],
+          options: ["gazlama", "gil", "parda", "pat"],
           correctIndex: 1,
         },
         {
           question: "cloth",
-          options: [
-            "parda",
-            "gazlama", // 3 - to'g'ri
-            "sazovor bo'lmoq",
-            "pat",
-          ],
+          options: ["sazovor", "gazlama", "parda", "pat"],
           correctIndex: 1,
         },
         {
           question: "curtain",
-          options: [
-            "sazovor bo'lmoq",
-            "parda", // 4 - to'g'ri
-            "pat",
-            "unumdor, hosildor",
-          ],
+          options: ["hosildor", "parda", "pat", "sazovor"],
           correctIndex: 1,
         },
         {
           question: "deserve",
-          options: [
-            "pat",
-            "sazovor bo'lmoq", // 5 - to'g'ri
-            "unumdor, hosildor",
-            "suv toshqini",
-          ],
-          correctIndex: 1,
+          options: ["sazovor bo'lmoq", "toshqin", "hosildor", "pat"],
+          correctIndex: 0,
         },
         {
           question: "feather",
-          options: [
-            "unumdor, hosildor",
-            "pat", // 6 - to'g'ri
-            "suv toshqini",
-            "mebel",
-          ],
+          options: ["mebel", "pat", "toshqin", "hosildor"],
           correctIndex: 1,
         },
         {
           question: "fertile",
-          options: [
-            "suv toshqini",
-            "unumdor, hosildor", // 7 - to'g'ri
-            "mebel",
-            "qabr",
-          ],
-          correctIndex: 1,
+          options: ["qabr", "mebel", "unumdor, hosildor", "toshqin"],
+          correctIndex: 2,
         },
         {
           question: "flood",
-          options: [
-            "mebel",
-            "suv toshqini", // 8 - to'g'ri
-            "qabr",
-            "ideal, be kamiko'st",
-          ],
-          correctIndex: 1,
+          options: ["mebel", "qabr", "suv toshqini", "ideal"],
+          correctIndex: 2,
         },
         {
           question: "furniture",
-          options: [
-            "qabr",
-            "mebel", // 9 - to'g'ri
-            "ideal, be kamiko'st",
-            "o'qimishlilik, ziyolilik",
-          ],
-          correctIndex: 1,
+          options: ["ziyolilik", "ideal", "mebel", "qabr"],
+          correctIndex: 2,
         },
         {
           question: "grave",
-          options: [
-            "ideal, be kamiko'st",
-            "qabr", // 10 - to'g'ri
-            "o'qimishlilik, ziyolilik",
-            "hozirda, hozirgi paytda",
-          ],
+          options: ["ideal", "qabr", "ziyolilik", "hozirda"],
           correctIndex: 1,
         },
         {
           question: "ideal",
           options: [
-            "o'qimishlilik, ziyolilik",
-            "ideal, be kamiko'st", // 11 - to'g'ri
-            "hozirda, hozirgi paytda",
             "qo'lga kiritmoq",
+            "ideal, be kamiko'st",
+            "hozirda",
+            "ziyolilik",
           ],
           correctIndex: 1,
         },
         {
           question: "intelligence",
-          options: [
-            "hozirda, hozirgi paytda",
-            "o'qimishlilik, ziyolilik", // 12 - to'g'ri
-            "qo'lga kiritmoq",
-            "diniy",
-          ],
-          correctIndex: 1,
+          options: ["diniy", "hozirda", "o'qimishlilik, ziyolilik", "romantik"],
+          correctIndex: 2,
         },
         {
           question: "nowadays",
           options: [
-            "qo'lga kiritmoq",
-            "hozirda, hozirgi paytda", // 13 - to'g'ri
+            "hozirda, hozirgi paytda",
             "diniy",
-            "romantik, ishqiy",
+            "qo'lga kiritmoq",
+            "romantik",
           ],
-          correctIndex: 1,
+          correctIndex: 0,
         },
         {
           question: "obtain",
-          options: [
-            "diniy",
-            "qo'lga kiritmoq", // 14 - to'g'ri
-            "romantik, ishqiy",
-            "chig'anoq",
-          ],
-          correctIndex: 1,
+          options: ["diniy", "chig'anoq", "qo'lga kiritmoq", "romantik"],
+          correctIndex: 2,
         },
         {
           question: "religious",
-          options: [
-            "romantik, ishqiy",
-            "diniy", // 15 - to'g'ri
-            "chig'anoq",
-            "qirg'oq, sohil",
-          ],
-          correctIndex: 1,
+          options: ["sohil", "romantik", "chig'anoq", "diniy"],
+          correctIndex: 3,
         },
         {
           question: "romantic",
-          options: [
-            "chig'anoq",
-            "romantik, ishqiy", // 16 - to'g'ri
-            "qirg'oq, sohil",
-            "g'ildirak",
-          ],
-          correctIndex: 1,
+          options: ["g'ildirak", "sohil", "romantik, ishqiy", "chig'anoq"],
+          correctIndex: 2,
         },
         {
           question: "shell",
-          options: [
-            "qirg'oq, sohil",
-            "chig'anoq", // 17 - to'g'ri
-            "g'ildirak",
-            "mavhum",
-          ],
-          correctIndex: 1,
+          options: ["chig'anoq", "g'ildirak", "sohil", "mavhum"],
+          correctIndex: 0,
         },
         {
           question: "shore",
-          options: [
-            "g'ildirak",
-            "qirg'oq, sohil", // 18 - to'g'ri
-            "mavhum",
-            "yillik",
-          ],
-          correctIndex: 1,
+          options: ["mavhum", "g'ildirak", "yillik", "qirg'oq, sohil"],
+          correctIndex: 3,
         },
         {
           question: "wheel",
-          options: [
-            "g'ildirak", // 19 - to'g'ri
-            "gil",
-            "gazlama",
-            "parda",
-          ],
-          correctIndex: 0,
+          options: ["gazlama", "gil", "g'ildirak", "parda"],
+          correctIndex: 2,
         },
       ],
 
       unit_30: [
         {
           question: "appeal",
-          options: [
-            "qiziqtirmoq, jalb qilmoq", // 0 - to'g'ri
-            "taxmin qilmoq",
-            "qarzga olmoq",
-            "mijoz",
-          ],
-          correctIndex: 0,
+          options: ["taxmin", "qiziqtirmoq, jalb qilmoq", "qarz", "mijoz"],
+          correctIndex: 1,
         },
         {
           question: "assume",
-          options: [
-            "qarzga olmoq",
-            "taxmin qilmoq", // 1 - to'g'ri
-            "mijoz",
-            "shahar markazi",
-          ],
-          correctIndex: 1,
+          options: ["taxmin qilmoq", "qarz", "mijoz", "markaz"],
+          correctIndex: 0,
         },
         {
           question: "borrow",
-          options: [
-            "mijoz",
-            "qarzga olmoq", // 2 - to'g'ri
-            "shahar markazi",
-            "zerikarli",
-          ],
-          correctIndex: 1,
+          options: ["zerikarli", "markaz", "qarzga olmoq", "mijoz"],
+          correctIndex: 2,
         },
         {
           question: "client",
-          options: [
-            "shahar markazi",
-            "mijoz", // 3 - to'g'ri
-            "zerikarli",
-            "xijolat qilmoq, uyaltirmoq",
-          ],
+          options: ["markaz", "mijoz", "xijolat", "zerikarli"],
           correctIndex: 1,
         },
         {
           question: "downtown",
-          options: [
-            "zerikarli",
-            "shahar markazi", // 4 - to'g'ri
-            "xijolat qilmoq, uyaltirmoq",
-            "yo'l haqi",
-          ],
-          correctIndex: 1,
+          options: ["shahar markazi", "zerikarli", "haqi", "xijolat"],
+          correctIndex: 0,
         },
         {
           question: "dull",
-          options: [
-            "xijolat qilmoq, uyaltirmoq",
-            "zerikarli", // 5 - to'g'ri
-            "yo'l haqi",
-            "oldingi, sobiq",
-          ],
-          correctIndex: 1,
+          options: ["xijolat", "haqi", "sobiq", "zerikarli"],
+          correctIndex: 3,
         },
         {
           question: "embarrass",
-          options: [
-            "yo'l haqi",
-            "xijolat qilmoq, uyaltirmoq", // 6 - to'g'ri
-            "oldingi, sobiq",
-            "formula",
-          ],
-          correctIndex: 1,
+          options: ["haqi", "sobiq", "xijolat qilmoq, uyaltirmoq", "formula"],
+          correctIndex: 2,
         },
         {
           question: "fare",
-          options: [
-            "oldingi, sobiq",
-            "yo'l haqi", // 7 - to'g'ri
-            "formula",
-            "asos solmoq",
-          ],
+          options: ["sobiq", "yo'l haqi", "formula", "asos"],
           correctIndex: 1,
         },
         {
           question: "former",
-          options: [
-            "formula",
-            "oldingi, sobiq", // 8 - to'g'ri
-            "asos solmoq",
-            "pul sarf qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["formula", "asos", "oldingi, sobiq", "sarf"],
+          correctIndex: 2,
         },
         {
           question: "formula",
-          options: [
-            "asos solmoq",
-            "formula", // 9 - to'g'ri
-            "pul sarf qilmoq",
-            "qarz berish",
-          ],
-          correctIndex: 1,
+          options: ["asos", "pul sarf", "formula", "qarz"],
+          correctIndex: 2,
         },
         {
           question: "found",
-          options: [
-            "pul sarf qilmoq",
-            "asos solmoq", // 10 - to'g'ri
-            "qarz berish",
-            "foydali",
-          ],
-          correctIndex: 1,
+          options: ["pul sarf", "foydali", "qarz", "asos solmoq"],
+          correctIndex: 3,
         },
         {
           question: "invest",
-          options: [
-            "qarz berish",
-            "pul sarf qilmoq", // 11 - to'g'ri
-            "foydali",
-            "25 sentlik tanga",
-          ],
+          options: ["qarz", "pul sarf qilmoq", "tanga", "foydali"],
           correctIndex: 1,
         },
         {
           question: "loan",
-          options: [
-            "foydali",
-            "qarz berish", // 12 - to'g'ri
-            "25 sentlik tanga",
-            "maosh",
-          ],
+          options: ["foydali", "qarz berish", "tanga", "maosh"],
           correctIndex: 1,
         },
         {
           question: "practical",
-          options: [
-            "25 sentlik tanga",
-            "foydali", // 13 - to'g'ri
-            "maosh",
-            "stipendiya, grant",
-          ],
-          correctIndex: 1,
+          options: ["maosh", "tanga", "foydali", "grant"],
+          correctIndex: 2,
         },
         {
           question: "quarter",
-          options: [
-            "maosh",
-            "25 sentlik tanga", // 14 - to'g'ri
-            "stipendiya, grant",
-            "vaqtinchalik",
-          ],
-          correctIndex: 1,
+          options: ["25 sentlik tanga", "maosh", "grant", "vaqtinchalik"],
+          correctIndex: 0,
         },
         {
           question: "salary",
-          options: [
-            "stipendiya, grant",
-            "maosh", // 15 - to'g'ri
-            "vaqtinchalik",
-            "xazina",
-          ],
-          correctIndex: 1,
+          options: ["grant", "vaqtinchalik", "maosh", "xazina"],
+          correctIndex: 2,
         },
         {
           question: "scholarship",
-          options: [
-            "vaqtinchalik",
-            "stipendiya, grant", // 16 - to'g'ri
-            "xazina",
-            "undamoq",
-          ],
-          correctIndex: 1,
+          options: ["vaqtinchalik", "xazina", "stipendiya, grant", "undamoq"],
+          correctIndex: 2,
         },
         {
           question: "temporary",
-          options: [
-            "xazina",
-            "vaqtinchalik", // 17 - to'g'ri
-            "undamoq",
-            "qiziqtirmoq, jalb qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["undamoq", "xazina", "vaqtinchalik", "jalb"],
+          correctIndex: 2,
         },
         {
           question: "treasure",
-          options: [
-            "undamoq",
-            "xazina", // 18 - to'g'ri
-            "qiziqtirmoq, jalb qilmoq",
-            "taxmin qilmoq",
-          ],
-          correctIndex: 1,
+          options: ["undamoq", "taxmin", "jalb", "xazina"],
+          correctIndex: 3,
         },
         {
           question: "urge",
-          options: [
-            "undamoq", // 19 - to'g'ri
-            "qarzga olmoq",
-            "mijoz",
-            "shahar markazi",
-          ],
-          correctIndex: 0,
+          options: ["markaz", "qarz", "undamoq", "mijoz"],
+          correctIndex: 2,
         },
       ],
     },
